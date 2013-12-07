@@ -8,6 +8,7 @@ SimpleBioC is a simple parser / builder for BioC data format. BioC is a simple X
  * Use plain ruby objects for simplicity
  * Build a BioC document from an object instance
  
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,6 +23,7 @@ Or install it yourself as:
 
     $ gem install simple_bioc
 
+
 ## Usages
 
 Include library
@@ -33,7 +35,7 @@ Parse with a file name (path)
 
     collection = SimpleBioC::from_xml(filename)
   
-Traverse & Manipulate Data. Data structure are almost the same as the DTD. Please refer [library documents]() & [the BioC DTD](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html).
+Traverse & Manipulate Data. Data structure are almost the same as the DTD. Please refer [library documents](https://github.com/dongseop/simple_bioc/blob/master/html/index.html) and [the BioC DTD](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html).
 
     puts collection.documents[2].passages[0].text
   
@@ -41,6 +43,7 @@ Build XML text from data
 
     puts SimpleBioC::to_xml(collection)
   
+
 ## Sample
 
 More samples can be found in Samples directory
