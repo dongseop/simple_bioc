@@ -91,7 +91,7 @@
 
 <div id="documentation" class="description">
 
-<h1 id="label-SimpleBioc">SimpleBioc<span><a href="#label-SimpleBioc">&para;</a> <a href="#documentation">&uarr;</a></span></h1>
+<h1 id="label-SimpleBioC"><a href="SimpleBioC.html">SimpleBioC</a><span><a href="#label-SimpleBioC">&para;</a> <a href="#documentation">&uarr;</a></span></h1>
 
 <p><a href="SimpleBioC.html">SimpleBioC</a> is a simple parser / builder for
 BioC data format. BioC is a simple XML format to share text documents and
@@ -135,7 +135,11 @@ BioC DTD</p>
 <pre>collection = SimpleBioC::from_xml(filename)</pre>
 
 <p>Traverse &amp; Manipulate Data. Data structure are almost the same as the
-DTD. Please refer <a href="http://">library documents</a>.</p>
+DTD. Please refer <a
+href="http://rubydoc.info/gems/simple_bioc/0.0.2/frames">library
+documents</a> and <a
+href="http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html">the
+BioC DTD</a>.</p>
 
 <pre>puts collection.documents[2].passages[0].text</pre>
 

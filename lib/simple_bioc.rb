@@ -1,3 +1,4 @@
+# @author Dongseop Kwon
 require "simple_bioc/version"
 require "simple_bioc/bioc_reader"
 require "simple_bioc/bioc_writer"

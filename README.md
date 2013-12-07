@@ -1,4 +1,4 @@
-# SimpleBioc
+# SimpleBioC
 
 SimpleBioC is a simple parser / builder for BioC data format. BioC is a simple XML format to share text documents and annotations. You can find more information about BioC from the official BioC web site ([http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/))
 
@@ -35,7 +35,7 @@ Parse with a file name (path)
 
     collection = SimpleBioC::from_xml(filename)
   
-Traverse & Manipulate Data. Data structure are almost the same as the DTD. Please refer [library documents](https://github.com/dongseop/simple_bioc/blob/master/html/index.html) and [the BioC DTD](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html).
+Traverse & Manipulate Data. Data structure are almost the same as the DTD. Please refer [library documents](http://rubydoc.info/gems/simple_bioc/0.0.2/frames) and [the BioC DTD](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html).
 
     puts collection.documents[2].passages[0].text
   

@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = SimpleBioC::VERSION
   spec.authors       = ["Dongseop Kwon"]
   spec.email         = ["dongseop@gmail.com"]
-  spec.description   = "Simple BioC parser/builder for ruby. BioC is a 'A Minimalist Approach to Interoperability for Biomedical Text Processing' (http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCHome.html)"
+  spec.description   = "SimpleBioC is a simple parser / builder for BioC data format. BioC is a simple XML format to share text documents and annotations. You can find more information about BioC from the official BioC web site (http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/)"
   spec.summary       = "Simple BioC parser/builder for ruby"
   spec.homepage      = "https://github.com/dongseop/simple_bioc"
   spec.license       = "MIT"
