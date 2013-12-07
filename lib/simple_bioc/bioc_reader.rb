@@ -14,7 +14,7 @@ module BioCReader
       if xml.nil?
         fail 'Wrong format'
       end
-      collection = Collection.new
+      collection = SimpleBioC::Collection.new
       read_collection(xml, collection)
     end
 
@@ -36,7 +36,7 @@ module BioCReader
   end
 
   def read_recursive(xml, obj, name)
-    target_class = Module.const_get(name.capitalize)
+    target_class = SimpleBioC.const_get(name.capitalize)
     xml.xpath(name).each do |node|
       instance = target_class.new(obj)
       send(:"read_#{name}", node, instance)

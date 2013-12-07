@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>README - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body class="file">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+<div id="table-of-contents">
+  <nav class="section">
+    <h3 class="section-header">Table of Contents</h3>
+    <ul>
+      <li><a href="#label-SimpleBioc">SimpleBioc</a>
+      <li><a href="#label-Feature%3A">Feature:</a>
+      <li><a href="#label-Installation">Installation</a>
+      <li><a href="#label-Usages">Usages</a>
+      <li><a href="#label-Sample">Sample</a>
+      <li><a href="#label-Contributing">Contributing</a>
+      <li><a href="#label-LICENSE">LICENSE</a>
+    </ul>
+  </nav>
+</div>
+
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_md.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./BioCReader.html">BioCReader</a>
+  
+    <li><a href="./BioCWriter.html">BioCWriter</a>
+  
+    <li><a href="./SimpleBioC.html">SimpleBioC</a>
+  
+    <li><a href="./SimpleBioC/Annotation.html">SimpleBioC::Annotation</a>
+  
+    <li><a href="./SimpleBioC/Collection.html">SimpleBioC::Collection</a>
+  
+    <li><a href="./SimpleBioC/Document.html">SimpleBioC::Document</a>
+  
+    <li><a href="./SimpleBioC/Location.html">SimpleBioC::Location</a>
+  
+    <li><a href="./SimpleBioC/Node.html">SimpleBioC::Node</a>
+  
+    <li><a href="./SimpleBioC/NodeBase.html">SimpleBioC::NodeBase</a>
+  
+    <li><a href="./SimpleBioC/Passage.html">SimpleBioC::Passage</a>
+  
+    <li><a href="./SimpleBioC/Relation.html">SimpleBioC::Relation</a>
+  
+    <li><a href="./SimpleBioC/Sentence.html">SimpleBioC::Sentence</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation" class="description">
+  
+<h1 id="label-SimpleBioc">SimpleBioc<span><a href="#label-SimpleBioc">&para;</a> <a href="#documentation">&uarr;</a></span></h1>
+
+<p><a href="SimpleBioC.html">SimpleBioC</a> is a simple parser / builder for
+BioC data format. BioC is a simple XML format to share text documents and
+annotations. You can find more information about BioC from the official
+BioC web site (<a
+href="http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/">www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/</a>)</p>
+
+<h2 id="label-Feature%3A">Feature:<span><a href="#label-Feature%3A">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+<ul><li>
+<p>Parse &amp; convert a BioC document to an object instance compatible to
+BioC DTD</p>
+</li><li>
+<p>Use plain ruby objects for simplicity</p>
+</li><li>
+<p>Build a BioC document from an object instance</p>
+</li></ul>
+
+<h2 id="label-Installation">Installation<span><a href="#label-Installation">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<p>Add this line to your application&#39;s Gemfile:</p>
+
+<pre>gem &#39;simple_bioc&#39;</pre>
+
+<p>And then execute:</p>
+
+<pre>$ bundle</pre>
+
+<p>Or install it yourself as:</p>
+
+<pre>$ gem install simple_bioc</pre>
+
+<h2 id="label-Usages">Usages<span><a href="#label-Usages">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<p>Include library</p>
+
+<pre class="ruby"><span class="ruby-identifier">require</span> <span class="ruby-string">&#39;simple_bioc&#39;</span>
+</pre>
+
+<p>Parse with a file name (path)</p>
+
+<pre>collection = SimpleBioC::from_xml(filename)</pre>
+
+<p>Traverse &amp; Manipulate Data. Data structure are almost the same as the
+DTD. Please refer <a href="http://">library documents</a>.</p>
+
+<pre>puts collection.documents[2].passages[0].text</pre>
+
+<p>Build XML text from data</p>
+
+<pre>puts SimpleBioC::to_xml(collection)</pre>
+
+<h2 id="label-Sample">Sample<span><a href="#label-Sample">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<p>More samples can be found in Samples directory</p>
+
+<pre class="ruby"><span class="ruby-identifier">require</span> <span class="ruby-string">&#39;simple_bioc&#39;</span>
+
+<span class="ruby-comment"># Sample1: parse, traverse, manipulate, and build BioC data</span>
+<span class="ruby-identifier">require</span> <span class="ruby-string">&#39;simple_bioc&#39;</span>
+
+<span class="ruby-comment"># parse BioC file</span>
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-string">&quot;../xml/everything.xml&quot;</span>)
+
+<span class="ruby-comment"># the returned object contains all the information in the BioC file</span>
+<span class="ruby-comment"># traverse &amp; read information</span>
+<span class="ruby-identifier">collection</span>.<span class="ruby-identifier">documents</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">document</span><span class="ruby-operator">|</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-identifier">document</span>
+  <span class="ruby-identifier">document</span>.<span class="ruby-identifier">passages</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">passage</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-identifier">passage</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-comment"># manipulate </span>
+<span class="ruby-identifier">doc</span> = <span class="ruby-constant">SimpleBioC</span><span class="ruby-operator">::</span><span class="ruby-constant">Document</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">collection</span>)
+<span class="ruby-identifier">doc</span>.<span class="ruby-identifier">id</span> = <span class="ruby-string">&quot;23071747&quot;</span>
+<span class="ruby-identifier">doc</span>.<span class="ruby-identifier">infons</span>[<span class="ruby-string">&quot;journal&quot;</span>] = <span class="ruby-string">&quot;PLoS One&quot;</span>
+<span class="ruby-identifier">collection</span>.<span class="ruby-identifier">documents</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">doc</span>
+
+<span class="ruby-identifier">p</span> = <span class="ruby-constant">SimpleBioC</span><span class="ruby-operator">::</span><span class="ruby-constant">Passage</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">doc</span>)
+<span class="ruby-identifier">p</span>.<span class="ruby-identifier">offset</span> = <span class="ruby-value">0</span>
+<span class="ruby-identifier">p</span>.<span class="ruby-identifier">text</span> = <span class="ruby-string">&quot;TRIP database 2.0: a manually curated information hub for accessing TRP channel interaction network.&quot;</span>
+<span class="ruby-identifier">p</span>.<span class="ruby-identifier">infons</span>[<span class="ruby-string">&quot;type&quot;</span>] = <span class="ruby-string">&quot;title&quot;</span>
+<span class="ruby-identifier">doc</span>.<span class="ruby-identifier">passages</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">p</span>
+
+
+<span class="ruby-comment"># build BioC document from data</span>
+<span class="ruby-identifier">xml</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>)
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">xml</span>
+</pre>
+
+<h2 id="label-Contributing">Contributing<span><a href="#label-Contributing">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+<ol><li>
+<p>Fork it</p>
+</li><li>
+<p>Create your feature branch (<code>git checkout -b my-new-feature</code>)</p>
+</li><li>
+<p>Commit your changes (<code>git commit -am &#39;Add some
+feature&#39;</code>)</p>
+</li><li>
+<p>Push to the branch (<code>git push origin my-new-feature</code>)</p>
+</li><li>
+<p>Create new Pull Request</p>
+</li></ol>
+
+<h2 id="label-LICENSE">LICENSE<span><a href="#label-LICENSE">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<p>Copyright © 2013, Dongseop Kwon</p>
+
+<p>Released under the MIT License.</p>
+
+</div>
+
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

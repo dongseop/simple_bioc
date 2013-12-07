@@ -1,0 +1,15 @@
+Fri, 06 Dec 2013 22:05:40 -0800
+README.md	Fri, 06 Dec 2013 21:17:11 -0800
+lib/simple_bioc.rb	Fri, 06 Dec 2013 20:53:53 -0800
+lib/simple_bioc/annotation.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/bioc_reader.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/bioc_writer.rb	Wed, 04 Dec 2013 02:22:25 -0800
+lib/simple_bioc/collection.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/document.rb	Fri, 06 Dec 2013 21:18:25 -0800
+lib/simple_bioc/location.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/node.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/node_base.rb	Fri, 06 Dec 2013 22:05:33 -0800
+lib/simple_bioc/passage.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/relation.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/sentence.rb	Fri, 06 Dec 2013 20:52:11 -0800
+lib/simple_bioc/version.rb	Fri, 06 Dec 2013 20:52:11 -0800

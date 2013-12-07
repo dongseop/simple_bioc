@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>module BioCWriter - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="module">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/simple_bioc/bioc_writer.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-i-write">#write</a>
+    
+    <li ><a href="#method-i-write_annotation">#write_annotation</a>
+    
+    <li ><a href="#method-i-write_collection">#write_collection</a>
+    
+    <li ><a href="#method-i-write_document">#write_document</a>
+    
+    <li ><a href="#method-i-write_infon">#write_infon</a>
+    
+    <li ><a href="#method-i-write_location">#write_location</a>
+    
+    <li ><a href="#method-i-write_node">#write_node</a>
+    
+    <li ><a href="#method-i-write_passage">#write_passage</a>
+    
+    <li ><a href="#method-i-write_relation">#write_relation</a>
+    
+    <li ><a href="#method-i-write_sentence">#write_sentence</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_md.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./BioCReader.html">BioCReader</a>
+  
+    <li><a href="./BioCWriter.html">BioCWriter</a>
+  
+    <li><a href="./SimpleBioC.html">SimpleBioC</a>
+  
+    <li><a href="./SimpleBioC/Annotation.html">SimpleBioC::Annotation</a>
+  
+    <li><a href="./SimpleBioC/Collection.html">SimpleBioC::Collection</a>
+  
+    <li><a href="./SimpleBioC/Document.html">SimpleBioC::Document</a>
+  
+    <li><a href="./SimpleBioC/Location.html">SimpleBioC::Location</a>
+  
+    <li><a href="./SimpleBioC/Node.html">SimpleBioC::Node</a>
+  
+    <li><a href="./SimpleBioC/NodeBase.html">SimpleBioC::NodeBase</a>
+  
+    <li><a href="./SimpleBioC/Passage.html">SimpleBioC::Passage</a>
+  
+    <li><a href="./SimpleBioC/Relation.html">SimpleBioC::Relation</a>
+  
+    <li><a href="./SimpleBioC/Sentence.html">SimpleBioC::Sentence</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="module">module BioCWriter</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-write" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write</span><span
+            class="method-args">(collection)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>) 
+  <span class="ruby-identifier">builder</span> = <span class="ruby-constant">Nokogiri</span><span class="ruby-operator">::</span><span class="ruby-constant">XML</span><span class="ruby-operator">::</span><span class="ruby-constant">Builder</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:encoding</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;UTF-8&#39;</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">xml</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">write_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">builder</span>.<span class="ruby-identifier">to_xml</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write-method -->
+
+    
+      <div id="method-i-write_annotation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_annotation</span><span
+            class="method-args">(xml, annotation)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_annotation-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 61</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_annotation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>) 
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">id</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">attribute</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">attribute</span> = {<span class="ruby-identifier">id</span><span class="ruby-operator">:</span> <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">id</span>}
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">annotation</span>(<span class="ruby-identifier">attribute</span>) {
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>)
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">text_</span> <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">text</span>
+    <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">locations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">l</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_location</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">l</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_annotation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_annotation-method -->
+
+    
+      <div id="method-i-write_collection" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_collection</span><span
+            class="method-args">(xml, collection)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_collection-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 21</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">collection</span> {
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">source</span> <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">source</span>
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">date</span> <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">date</span>
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">key</span> <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">key</span>
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+    <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">documents</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">d</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_document</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">d</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_collection-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_collection-method -->
+
+    
+      <div id="method-i-write_document" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_document</span><span
+            class="method-args">(xml, document)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_document-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 31</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_document</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">document</span> {
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">id_</span> <span class="ruby-identifier">document</span>.<span class="ruby-identifier">id</span>
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>)
+    <span class="ruby-identifier">document</span>.<span class="ruby-identifier">passages</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">p</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_passage</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">p</span>)}
+    <span class="ruby-identifier">document</span>.<span class="ruby-identifier">relations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">r</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">r</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_document-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_document-method -->
+
+    
+      <div id="method-i-write_infon" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_infon</span><span
+            class="method-args">(xml, obj)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_infon-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">infons</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">k</span>, <span class="ruby-identifier">v</span><span class="ruby-operator">|</span> 
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">infon</span>(<span class="ruby-value">:key</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">k</span>) {
+      <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">text</span> <span class="ruby-identifier">v</span>
+    }
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_infon-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_infon-method -->
+
+    
+      <div id="method-i-write_location" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_location</span><span
+            class="method-args">(xml, location)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_location-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 86</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_location</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">location</span>) 
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">location</span>(<span class="ruby-value">:offset</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">location</span>.<span class="ruby-identifier">offset</span>, <span class="ruby-value">:length</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">location</span>.<span class="ruby-identifier">length</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_location-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_location-method -->
+
+    
+      <div id="method-i-write_node" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_node</span><span
+            class="method-args">(xml, node)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_node-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 90</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_node</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">node</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">node_</span>(<span class="ruby-value">:refid</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">node</span>.<span class="ruby-identifier">refid</span>, <span class="ruby-value">:role</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">node</span>.<span class="ruby-identifier">role</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_node-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_node-method -->
+
+    
+      <div id="method-i-write_passage" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_passage</span><span
+            class="method-args">(xml, passage)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_passage-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_passage</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">passage</span> {
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">offset</span> <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">offset</span>
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">text_</span> <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">text</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">text</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">sentences</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_sentence</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">s</span>)}
+    <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">annotations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_annotation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">a</span>)}
+    <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">relations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">r</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">r</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_passage-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_passage-method -->
+
+    
+      <div id="method-i-write_relation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_relation</span><span
+            class="method-args">(xml, relation)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_relation-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 74</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>) 
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">relation</span>.<span class="ruby-identifier">id</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">attribute</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">attribute</span> = {<span class="ruby-identifier">id</span><span class="ruby-operator">:</span> <span class="ruby-identifier">relation</span>.<span class="ruby-identifier">id</span>}
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">relation</span>(<span class="ruby-identifier">attribute</span>) {
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>)
+    <span class="ruby-identifier">relation</span>.<span class="ruby-identifier">nodes</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">n</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_node</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">n</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_relation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_relation-method -->
+
+    
+      <div id="method-i-write_sentence" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">write_sentence</span><span
+            class="method-args">(xml, sentence)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="write_sentence-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 51</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write_sentence</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">sentence</span> {
+    <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">offset</span> <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">offset</span>
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">text_</span> <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">text</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">text</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">annotations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_annotation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">a</span>)}
+    <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">relations</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">r</span><span class="ruby-operator">|</span> <span class="ruby-identifier">write_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">r</span>)}
+  }
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- write_sentence-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- write_sentence-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

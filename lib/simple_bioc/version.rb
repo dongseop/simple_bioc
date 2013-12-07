@@ -1,3 +1,3 @@
-module SimpleBioc
-  VERSION = "0.0.1"
+module SimpleBioC
+  VERSION = "0.0.2"
 end

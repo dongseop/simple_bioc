@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>module BioCReader - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="module">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/simple_bioc/bioc_reader.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-i-read">#read</a>
+    
+    <li ><a href="#method-i-read_annotation">#read_annotation</a>
+    
+    <li ><a href="#method-i-read_collection">#read_collection</a>
+    
+    <li ><a href="#method-i-read_document">#read_document</a>
+    
+    <li ><a href="#method-i-read_infon">#read_infon</a>
+    
+    <li ><a href="#method-i-read_int">#read_int</a>
+    
+    <li ><a href="#method-i-read_location">#read_location</a>
+    
+    <li ><a href="#method-i-read_node">#read_node</a>
+    
+    <li ><a href="#method-i-read_passage">#read_passage</a>
+    
+    <li ><a href="#method-i-read_recursive">#read_recursive</a>
+    
+    <li ><a href="#method-i-read_relation">#read_relation</a>
+    
+    <li ><a href="#method-i-read_sentence">#read_sentence</a>
+    
+    <li ><a href="#method-i-read_text">#read_text</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./README_md.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./BioCReader.html">BioCReader</a>
+  
+    <li><a href="./BioCWriter.html">BioCWriter</a>
+  
+    <li><a href="./SimpleBioC.html">SimpleBioC</a>
+  
+    <li><a href="./SimpleBioC/Annotation.html">SimpleBioC::Annotation</a>
+  
+    <li><a href="./SimpleBioC/Collection.html">SimpleBioC::Collection</a>
+  
+    <li><a href="./SimpleBioC/Document.html">SimpleBioC::Document</a>
+  
+    <li><a href="./SimpleBioC/Location.html">SimpleBioC::Location</a>
+  
+    <li><a href="./SimpleBioC/Node.html">SimpleBioC::Node</a>
+  
+    <li><a href="./SimpleBioC/NodeBase.html">SimpleBioC::NodeBase</a>
+  
+    <li><a href="./SimpleBioC/Passage.html">SimpleBioC::Passage</a>
+  
+    <li><a href="./SimpleBioC/Relation.html">SimpleBioC::Relation</a>
+  
+    <li><a href="./SimpleBioC/Sentence.html">SimpleBioC::Sentence</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="module">module BioCReader</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-read" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read</span><span
+            class="method-args">(path)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 7</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read</span>(<span class="ruby-identifier">path</span>) 
+  <span class="ruby-identifier">collection</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">path</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">file</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">xml_doc</span>  = <span class="ruby-constant">Nokogiri</span><span class="ruby-operator">::</span><span class="ruby-constant">XML</span>(<span class="ruby-identifier">file</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">config</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">config</span>.<span class="ruby-identifier">noent</span>.<span class="ruby-identifier">strict</span>.<span class="ruby-identifier">noblanks</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">xml</span> = <span class="ruby-identifier">xml_doc</span>.<span class="ruby-identifier">at_xpath</span>(<span class="ruby-string">&quot;//collection&quot;</span>)
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">nil?</span>
+      <span class="ruby-identifier">fail</span> <span class="ruby-string">&#39;Wrong format&#39;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span><span class="ruby-operator">::</span><span class="ruby-constant">Collection</span>.<span class="ruby-identifier">new</span>
+    <span class="ruby-identifier">read_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">collection</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read-method -->
+
+    
+      <div id="method-i-read_annotation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_annotation</span><span
+            class="method-args">(xml, annotation)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_annotation-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 80</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_annotation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>) 
+  <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">id</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;id&quot;</span>]
+  <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">text</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;text&quot;</span>)
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>, <span class="ruby-string">&quot;location&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_annotation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_annotation-method -->
+
+    
+      <div id="method-i-read_collection" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_collection</span><span
+            class="method-args">(xml, collection)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_collection-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 47</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+  <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">source</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;source&quot;</span>)
+  <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">date</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;date&quot;</span>)
+  <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">key</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;key&quot;</span>)
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>, <span class="ruby-string">&quot;document&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_collection-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_collection-method -->
+
+    
+      <div id="method-i-read_document" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_document</span><span
+            class="method-args">(xml, document)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_document-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 55</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_document</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>)
+  <span class="ruby-identifier">document</span>.<span class="ruby-identifier">id</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;id&quot;</span>)
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>, <span class="ruby-string">&quot;passage&quot;</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>, <span class="ruby-string">&quot;relation&quot;</span>)
+  <span class="ruby-identifier">document</span>.<span class="ruby-identifier">adjust_ref</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_document-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_document-method -->
+
+    
+      <div id="method-i-read_infon" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_infon</span><span
+            class="method-args">(xml, obj)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_infon-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 34</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">xpath</span>(<span class="ruby-string">&quot;infon&quot;</span>).<span class="ruby-identifier">each</span>{ <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">infons</span>[<span class="ruby-identifier">i</span>[<span class="ruby-string">&quot;key&quot;</span>]] = <span class="ruby-identifier">i</span>.<span class="ruby-identifier">content</span>}
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_infon-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_infon-method -->
+
+    
+      <div id="method-i-read_int" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_int</span><span
+            class="method-args">(xml, name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_int-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 29</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_int</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">val</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">name</span>) 
+  <span class="ruby-identifier">val</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">val</span>.<span class="ruby-identifier">to_i</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_int-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_int-method -->
+
+    
+      <div id="method-i-read_location" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_location</span><span
+            class="method-args">(xml, location)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_location-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 93</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_location</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">location</span>) 
+  <span class="ruby-identifier">location</span>.<span class="ruby-identifier">offset</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;offset&quot;</span>]
+  <span class="ruby-identifier">location</span>.<span class="ruby-identifier">length</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;length&quot;</span>]
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_location-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_location-method -->
+
+    
+      <div id="method-i-read_node" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_node</span><span
+            class="method-args">(xml, node)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_node-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 98</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_node</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">node</span>)
+  <span class="ruby-identifier">node</span>.<span class="ruby-identifier">refid</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;refid&quot;</span>]
+  <span class="ruby-identifier">node</span>.<span class="ruby-identifier">role</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;role&quot;</span>]
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_node-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_node-method -->
+
+    
+      <div id="method-i-read_passage" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_passage</span><span
+            class="method-args">(xml, passage)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_passage-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 63</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_passage</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
+  <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">text</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;text&quot;</span>)
+  <span class="ruby-identifier">passage</span>.<span class="ruby-identifier">offset</span> = <span class="ruby-identifier">read_int</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;offset&quot;</span>)
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>, <span class="ruby-string">&quot;sentence&quot;</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>, <span class="ruby-string">&quot;annotation&quot;</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>, <span class="ruby-string">&quot;relation&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_passage-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_passage-method -->
+
+    
+      <div id="method-i-read_recursive" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_recursive</span><span
+            class="method-args">(xml, obj, name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_recursive-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 38</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">obj</span>, <span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">target_class</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">const_get</span>(<span class="ruby-identifier">name</span>.<span class="ruby-identifier">capitalize</span>)
+  <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">xpath</span>(<span class="ruby-identifier">name</span>).<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">node</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">instance</span> = <span class="ruby-identifier">target_class</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">obj</span>)
+    <span class="ruby-identifier">send</span>(<span class="ruby-value">:&quot;read_#{name}&quot;</span>, <span class="ruby-identifier">node</span>, <span class="ruby-identifier">instance</span>)
+    <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">instance_variable_get</span>(<span class="ruby-value">:&quot;@#{name}s&quot;</span>)  <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">instance</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_recursive-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_recursive-method -->
+
+    
+      <div id="method-i-read_relation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_relation</span><span
+            class="method-args">(xml, relation)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_relation-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 87</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>) 
+  <span class="ruby-identifier">relation</span>.<span class="ruby-identifier">id</span> = <span class="ruby-identifier">xml</span>[<span class="ruby-string">&quot;id&quot;</span>]
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>, <span class="ruby-string">&quot;node&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_relation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_relation-method -->
+
+    
+      <div id="method-i-read_sentence" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_sentence</span><span
+            class="method-args">(xml, sentence)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_sentence-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 72</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_sentence</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)
+  <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">text</span> = <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;text&quot;</span>)
+  <span class="ruby-identifier">sentence</span>.<span class="ruby-identifier">offset</span> = <span class="ruby-identifier">read_int</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-string">&quot;offset&quot;</span>)
+  <span class="ruby-identifier">read_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>, <span class="ruby-string">&quot;annotation&quot;</span>)
+  <span class="ruby-identifier">read_recursive</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>, <span class="ruby-string">&quot;relation&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_sentence-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_sentence-method -->
+
+    
+      <div id="method-i-read_text" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">read_text</span><span
+            class="method-args">(xml, name)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="read_text-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_reader.rb, line 24</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">read_text</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">node</span> = <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">at_xpath</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">node</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">node</span>.<span class="ruby-identifier">content</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- read_text-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- read_text-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

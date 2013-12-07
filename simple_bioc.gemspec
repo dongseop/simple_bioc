@@ -5,7 +5,7 @@ require 'simple_bioc/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "simple_bioc"
-  spec.version       = SimpleBioc::VERSION
+  spec.version       = SimpleBioC::VERSION
   spec.authors       = ["Dongseop Kwon"]
   spec.email         = ["dongseop@gmail.com"]
   spec.description   = "Simple BioC parser/builder for ruby. BioC is a 'A Minimalist Approach to Interoperability for Biomedical Text Processing' (http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCHome.html)"
