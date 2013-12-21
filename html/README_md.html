@@ -51,7 +51,10 @@
       <li><a href="#label-SimpleBioC">SimpleBioC</a>
       <li><a href="#label-Feature%3A">Feature:</a>
       <li><a href="#label-Installation">Installation</a>
-      <li><a href="#label-Usages">Usages</a>
+      <li><a href="#label-Simple+Usages">Simple Usages</a>
+      <li><a href="#label-Options">Options</a>
+      <li><a href="#label-Specify+set+of+%3Cdocument%3Es+to+parse">Specify set of &lt;document&gt;s to parse</a>
+      <li><a href="#label-No+whitespace+in+output">No whitespace in output</a>
       <li><a href="#label-Sample">Sample</a>
       <li><a href="#label-Contributing">Contributing</a>
       <li><a href="#label-LICENSE">LICENSE</a>
@@ -140,7 +143,7 @@ BioC DTD</p>
 
 <pre>$ gem install simple_bioc</pre>
 
-<h2 id="label-Usages">Usages<span><a href="#label-Usages">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+<h2 id="label-Simple+Usages">Simple Usages<span><a href="#label-Simple+Usages">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
 
 <p>Include library</p>
 
@@ -163,6 +166,25 @@ BioC DTD</a>.</p>
 <p>Build XML text from data</p>
 
 <pre>puts SimpleBioC::to_xml(collection)</pre>
+
+<h2 id="label-Options">Options<span><a href="#label-Options">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
+
+<h3 id="label-Specify+set+of+%3Cdocument%3Es+to+parse">Specify set of &lt;document&gt;s to parse<span><a href="#label-Specify+set+of+%3Cdocument%3Es+to+parse">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<p>You can parse only a set of document elements in a large xml document
+instead of parsing all the document elements. It may decrease the
+processing time. For example, the following code will return a collection
+with two documents (“1234”, “4567”).</p>
+
+<pre>collection = SimpleBioc::from_xml(filename, {documents: [&quot;1234&quot;, &quot;4567&quot;]})</pre>
+
+<h3 id="label-No+whitespace+in+output">No whitespace in output<span><a href="#label-No+whitespace+in+output">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<p>By default, outputs of SimpleBioC::to_xml() will be formatted with
+whitespace. If you do not want this whitespace, you should pass
+&#39;save_with&#39; option with 0 to the to_xml() function.</p>
+
+<pre>puts SimpleBioC::to_xml(collection, {save_with:0})</pre>
 
 <h2 id="label-Sample">Sample<span><a href="#label-Sample">&para;</a> <a href="#documentation">&uarr;</a></span></h2>
 

@@ -177,7 +177,7 @@
         
         <div class="method-heading">
           <span class="method-name">from_xml</span><span
-            class="method-args">(file_path)</span>
+            class="method-args">(file_path, options = {})</span>
           
           <span class="method-click-advice">click to toggle source</span>
           
@@ -188,14 +188,33 @@
           
           <p>parse a BioC XML file in the given path and convert it into a collection
 instance</p>
+
+<h4 id="method-i-from_xml-label-Arguments">Arguments<span><a href="#method-i-from_xml-label-Arguments">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>file_path</code> - file path for parse</p>
+</li><li>
+<p><code>options</code> - (optional) additional options</p>
+</li></ul>
+
+<h4 id="method-i-from_xml-label-Options">Options<span><a href="#method-i-from_xml-label-Options">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>documents</code> - specify IDs of documents to parse. The result will
+include only the specified documents</p>
+</li></ul>
+
+<h4 id="method-i-from_xml-label-Examples">Examples<span><a href="#method-i-from_xml-label-Examples">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+
+<pre>collection = SimpleBioC.from_xml(&quot;./xml/everything.xml&quot;)
+collection = SimpleBioC.from_xml(&quot;./xml/lemma.xml&quot;, {documents:[21785578, 21488974]})</pre>
           
           
 
           
           <div class="method-source-code" id="from_xml-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 11</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">file_path</span>)
-  <span class="ruby-constant">BioCReader</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">file_path</span>)
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">file_path</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">to_s</span>} <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
+  <span class="ruby-constant">BioCReader</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">file_path</span>, <span class="ruby-identifier">options</span>)
 <span class="ruby-keyword">end</span></pre>
           </div><!-- from_xml-source -->
           
@@ -211,7 +230,7 @@ instance</p>
         
         <div class="method-heading">
           <span class="method-name">to_xml</span><span
-            class="method-args">(collection)</span>
+            class="method-args">(collection, options = {})</span>
           
           <span class="method-click-advice">click to toggle source</span>
           
@@ -220,15 +239,35 @@ instance</p>
 
         <div class="method-description">
           
-          <p>convert a collection instance to a BioC XML text</p>
+          <p>convert a collection instance to a BioC XML text. Output will return as
+string</p>
+
+<h4 id="method-i-to_xml-label-Arguments">Arguments<span><a href="#method-i-to_xml-label-Arguments">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>collection</code> - <a
+href="SimpleBioC/Collection.html">Collection</a> instance to process</p>
+</li><li>
+<p><code>options</code> - (optional) additional options</p>
+</li></ul>
+
+<h4 id="method-i-to_xml-label-Options">Options<span><a href="#method-i-to_xml-label-Options">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<ul><li>
+<p><code>save_with</code> - SaveOption for Nokorigi. If you set this 0, output
+has no format (no indentation, no whitespace)</p>
+</li></ul>
+
+<h4 id="method-i-to_xml-label-Examples">Examples<span><a href="#method-i-to_xml-label-Examples">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+
+<pre>output = SimpleBioC.to_xml(collection)
+output = SimpleBioC.to_xml(collection, {save_with: 0})</pre>
           
           
 
           
           <div class="method-source-code" id="to_xml-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 16</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>)
-  <span class="ruby-constant">BioCWriter</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>)
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 39</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-constant">BioCWriter</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>, <span class="ruby-identifier">options</span>)
 <span class="ruby-keyword">end</span></pre>
           </div><!-- to_xml-source -->
           

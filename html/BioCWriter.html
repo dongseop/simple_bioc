@@ -167,7 +167,7 @@
         
         <div class="method-heading">
           <span class="method-name">write</span><span
-            class="method-args">(collection)</span>
+            class="method-args">(collection, options = {})</span>
           
           <span class="method-click-advice">click to toggle source</span>
           
@@ -183,11 +183,13 @@
           
           <div class="method-source-code" id="write-source">
             <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 6</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>) 
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">options</span>[<span class="ruby-value">:save_with</span>] = <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:save_with</span>].<span class="ruby-identifier">nil?</span>
   <span class="ruby-identifier">builder</span> = <span class="ruby-constant">Nokogiri</span><span class="ruby-operator">::</span><span class="ruby-constant">XML</span><span class="ruby-operator">::</span><span class="ruby-constant">Builder</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">:encoding</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&#39;UTF-8&#39;</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">xml</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">doc</span>.<span class="ruby-identifier">create_internal_subset</span>( <span class="ruby-string">&#39;collection&#39;</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-string">&#39;BioC.dtd&#39;</span> )
     <span class="ruby-identifier">write_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
   <span class="ruby-keyword">end</span>
-  <span class="ruby-identifier">builder</span>.<span class="ruby-identifier">to_xml</span>
+  <span class="ruby-identifier">builder</span>.<span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">options</span>)
 <span class="ruby-keyword">end</span></pre>
           </div><!-- write-source -->
           
@@ -218,7 +220,7 @@
 
           
           <div class="method-source-code" id="write_annotation-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 61</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 63</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_annotation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">annotation</span>) 
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">annotation</span>.<span class="ruby-identifier">id</span>.<span class="ruby-identifier">nil?</span>
     <span class="ruby-identifier">attribute</span> = <span class="ruby-keyword">nil</span>
@@ -260,7 +262,7 @@
 
           
           <div class="method-source-code" id="write_collection-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 21</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 23</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_collection</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">collection</span>)
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">collection</span> {
     <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">source</span> <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">source</span>
@@ -299,7 +301,7 @@
 
           
           <div class="method-source-code" id="write_document-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 31</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 33</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_document</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">document</span>)
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">document</span> {
     <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">id_</span> <span class="ruby-identifier">document</span>.<span class="ruby-identifier">id</span>
@@ -337,7 +339,7 @@
 
           
           <div class="method-source-code" id="write_infon-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 13</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 15</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">obj</span>)
   <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">infons</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">k</span>, <span class="ruby-identifier">v</span><span class="ruby-operator">|</span> 
     <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">infon</span>(<span class="ruby-value">:key</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">k</span>) {
@@ -374,7 +376,7 @@
 
           
           <div class="method-source-code" id="write_location-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 86</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 88</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_location</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">location</span>) 
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">location</span>(<span class="ruby-value">:offset</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">location</span>.<span class="ruby-identifier">offset</span>, <span class="ruby-value">:length</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">location</span>.<span class="ruby-identifier">length</span>)
 <span class="ruby-keyword">end</span></pre>
@@ -407,7 +409,7 @@
 
           
           <div class="method-source-code" id="write_node-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 90</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 92</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_node</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">node</span>)
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">node_</span>(<span class="ruby-value">:refid</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">node</span>.<span class="ruby-identifier">refid</span>, <span class="ruby-value">:role</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">node</span>.<span class="ruby-identifier">role</span>)
 <span class="ruby-keyword">end</span></pre>
@@ -440,7 +442,7 @@
 
           
           <div class="method-source-code" id="write_passage-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 40</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 42</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_passage</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">passage</span> {
     <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">passage</span>)
@@ -480,7 +482,7 @@
 
           
           <div class="method-source-code" id="write_relation-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 74</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 76</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_relation</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">relation</span>) 
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">relation</span>.<span class="ruby-identifier">id</span>.<span class="ruby-identifier">nil?</span>
     <span class="ruby-identifier">attribute</span> = <span class="ruby-keyword">nil</span>
@@ -521,7 +523,7 @@
 
           
           <div class="method-source-code" id="write_sentence-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 51</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc/bioc_writer.rb, line 53</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">write_sentence</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)
   <span class="ruby-identifier">xml</span>.<span class="ruby-identifier">sentence</span> {
     <span class="ruby-identifier">write_infon</span>(<span class="ruby-identifier">xml</span>, <span class="ruby-identifier">sentence</span>)

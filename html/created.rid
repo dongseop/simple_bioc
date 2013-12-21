@@ -1,9 +1,9 @@
-Sat, 07 Dec 2013 00:04:40 -0800
-README.md	Sat, 07 Dec 2013 00:03:48 -0800
-lib/simple_bioc.rb	Fri, 06 Dec 2013 22:34:39 -0800
+Sat, 21 Dec 2013 09:10:44 -0800
+README.md	Sat, 21 Dec 2013 09:10:35 -0800
+lib/simple_bioc.rb	Sat, 21 Dec 2013 08:58:11 -0800
 lib/simple_bioc/annotation.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/bioc_reader.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/bioc_writer.rb	Wed, 04 Dec 2013 02:22:25 -0800
+lib/simple_bioc/bioc_reader.rb	Sat, 21 Dec 2013 08:39:36 -0800
+lib/simple_bioc/bioc_writer.rb	Sat, 21 Dec 2013 08:09:06 -0800
 lib/simple_bioc/collection.rb	Fri, 06 Dec 2013 20:52:11 -0800
 lib/simple_bioc/document.rb	Fri, 06 Dec 2013 21:18:25 -0800
 lib/simple_bioc/location.rb	Fri, 06 Dec 2013 20:52:11 -0800

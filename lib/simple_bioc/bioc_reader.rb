@@ -4,7 +4,7 @@ Dir[File.dirname(__FILE__) + '/*.rb'].each {|file| require file }
 module BioCReader
   module_function
 
-  def read(path) 
+  def read(path, options) 
     collection = nil
     File.open(path) do |file|
       xml_doc  = Nokogiri::XML(file) do |config|
@@ -15,7 +15,7 @@ module BioCReader
         fail 'Wrong format'
       end
       collection = SimpleBioC::Collection.new
-      read_collection(xml, collection)
+      read_collection(xml, collection, options)
     end
 
     collection
@@ -35,68 +35,78 @@ module BioCReader
     xml.xpath("infon").each{ |i| obj.infons[i["key"]] = i.content}
   end
 
-  def read_recursive(xml, obj, name)
+  def read_recursive(xml, obj, name, options = {})
     target_class = SimpleBioC.const_get(name.capitalize)
     xml.xpath(name).each do |node|
       instance = target_class.new(obj)
-      send(:"read_#{name}", node, instance)
-      obj.instance_variable_get(:"@#{name}s")  << instance
+      ret = send(:"read_#{name}", node, instance, options)
+      obj.instance_variable_get(:"@#{name}s")  << instance if ret
     end
   end
 
-  def read_collection(xml, collection)
+  def read_collection(xml, collection, options = {})
     collection.source = read_text(xml, "source")
     collection.date = read_text(xml, "date")
     collection.key = read_text(xml, "key")
     read_infon(xml, collection)
-    read_recursive(xml, collection, "document")
+    read_recursive(xml, collection, "document", options)
   end  
 
-  def read_document(xml, document)
+  def read_document(xml, document, options = {})
     document.id = read_text(xml, "id")
+    if options[:documents].kind_of?(Array) && !options[:documents].include?(document.id)
+      return false
+    end
     read_infon(xml, document)
     read_recursive(xml, document, "passage")
     read_recursive(xml, document, "relation")
     document.adjust_ref
+    true
   end
 
-  def read_passage(xml, passage)
+  def read_passage(xml, passage, options = {})
     passage.text = read_text(xml, "text")
     passage.offset = read_int(xml, "offset")
     read_infon(xml, passage)
     read_recursive(xml, passage, "sentence")
     read_recursive(xml, passage, "annotation")
     read_recursive(xml, passage, "relation")
+    true
   end
 
-  def read_sentence(xml, sentence)
+  def read_sentence(xml, sentence, options = {})
     sentence.text = read_text(xml, "text")
     sentence.offset = read_int(xml, "offset")
     read_infon(xml, sentence)
     read_recursive(xml, sentence, "annotation")
     read_recursive(xml, sentence, "relation")
+    true
   end
 
-  def read_annotation(xml, annotation) 
+  def read_annotation(xml, annotation, options = {}) 
     annotation.id = xml["id"]
     annotation.text = read_text(xml, "text")
     read_infon(xml, annotation)
     read_recursive(xml, annotation, "location")
+    true
   end
 
-  def read_relation(xml, relation) 
+  def read_relation(xml, relation, options = {}) 
     relation.id = xml["id"]
     read_infon(xml, relation)
     read_recursive(xml, relation, "node")
+    true
   end
 
-  def read_location(xml, location) 
+  def read_location(xml, location, options = {}) 
     location.offset = xml["offset"]
     location.length = xml["length"]
+    true
   end
 
-  def read_node(xml, node)
+  def read_node(xml, node, options = {})
     node.refid = xml["refid"]
     node.role = xml["role"]
+    true
   end
 end

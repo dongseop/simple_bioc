@@ -24,7 +24,7 @@ Or install it yourself as:
     $ gem install simple_bioc
 
 
-## Usages
+## Simple Usages
 
 Include library
 
@@ -43,6 +43,20 @@ Build XML text from data
 
     puts SimpleBioC::to_xml(collection)
   
+## Options
+
+### Specify set of &lt;document&gt;s to parse
+
+You can parse only a set of document elements in a large xml document instead of parsing all the document elements. It may decrease the processing time. For example, the following code will return a collection with two documents ("1234", "4567").
+    
+    collection = SimpleBioc::from_xml(filename, {documents: ["1234", "4567"]})
+
+### No whitespace in output
+
+By default, outputs of SimpleBioC::to_xml() will be formatted with whitespace. If you do not want this whitespace, you should pass 'save_with' option with 0 to the to_xml() function.
+
+    puts SimpleBioC::to_xml(collection, {save_with:0})
+
 
 ## Sample
 

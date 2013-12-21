@@ -3,11 +3,13 @@ Dir[File.dirname(__FILE__) + '/*.rb'].each {|file| require file }
 
 module BioCWriter
   module_function
-  def write(collection) 
+  def write(collection, options = {})
+    options[:save_with] = 1 if options[:save_with].nil?
     builder = Nokogiri::XML::Builder.new(:encoding => 'UTF-8') do |xml|
+      xml.doc.create_internal_subset( 'collection', nil, 'BioC.dtd' )
       write_collection(xml, collection)
     end
-    builder.to_xml
+    builder.to_xml(options)
   end
 
   def write_infon(xml, obj)
