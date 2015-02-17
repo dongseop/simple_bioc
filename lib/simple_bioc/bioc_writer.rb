@@ -44,8 +44,8 @@ module BioCWriter
       write_infon(xml, passage)
       xml.offset passage.offset
       xml.text_ passage.text unless passage.text.nil?
-      passage.sentences.each{|s| write_sentence(xml, s)}
       passage.annotations.each{|a| write_annotation(xml, a)}
+      passage.sentences.each{|s| write_sentence(xml, s)}
       passage.relations.each{|r| write_relation(xml, r)}
     }
   end
@@ -68,8 +68,8 @@ module BioCWriter
     end
     xml.annotation(attribute) {
       write_infon(xml, annotation)
-      xml.text_ annotation.text
       annotation.locations.each{|l| write_location(xml, l)}
+      xml.text_ annotation.text
     }
   end
 
