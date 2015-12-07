@@ -17,12 +17,12 @@ module BioCMerger
     doc_d = dest_collection.documents[0]
     doc_s = src_collection.documents[0]
 
-    copy_infons(dest_collection, src_collection, warnings)
+    copy_infons(dest_collection, src_collection)
     dest_collection.source = src_collection.source if dest_collection.source.nil? || dest_collection.source.empty?
     dest_collection.date = src_collection.date if dest_collection.date.nil? || dest_collection.date.empty?
     dest_collection.key = src_collection.key if dest_collection.key.nil? || dest_collection.key.empty?
 
-    copy_infons(doc_d, doc_s, warnings)
+    copy_infons(doc_d, doc_s)
     copy_relations(doc_d, doc_d, doc_s, id_map)
 
     if doc_d.passages.size != doc_s.passages.size
@@ -130,6 +130,7 @@ module BioCMerger
       node.role = relation.role
       new_r.nodes << node
     end
+    copy_infons(new_r, relation)
     new_r.original = relation
     dest.relations << new_r
   end
@@ -145,6 +146,7 @@ module BioCMerger
       new_l.length = l.length 
       new_a.locations << new_l
     end
+    copy_infons(new_a, annotation)
     dest.annotations << new_a
   end
 
@@ -173,12 +175,12 @@ module BioCMerger
     return text.nil? || text.empty?
   end
 
-  def copy_infons(dest, src, warnings)
+  def copy_infons(dest, src)
     src.infons.each do |k, v|
       if dest.infons[k].nil?
         dest.infons[k] = v
       elsif dest.infons[k] != v
-        warnings << "Failed to copy <#{k}:#{v}>. the key is already exist in infons."
+        
       end
     end
   end
