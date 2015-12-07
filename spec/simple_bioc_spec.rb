@@ -28,4 +28,21 @@ describe "Simple function" do
     output = SimpleBioC.to_xml(collection, {save_with: 0})
     expect(output).to include('<location offset="1" length="2"/><text>annotation text</text>')
   end
+
+  it "should read bioc from file" do    
+    f = File.open("./xml/everything.xml")
+    collection = SimpleBioC.from_xml_file(f)
+    f.close
+    output = SimpleBioC.to_xml(collection)
+    expect(output).to include('<!DOCTYPE collection SYSTEM "BioC.dtd">')
+  end
+
+  it "should read bioc from string" do    
+    f = File.open("./xml/everything.xml")
+    contents = f.read
+    collection = SimpleBioC.from_xml_file(contents)
+    f.close
+    output = SimpleBioC.to_xml(collection)
+    expect(output).to include('<!DOCTYPE collection SYSTEM "BioC.dtd">')
+  end
 end

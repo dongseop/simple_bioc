@@ -1,7 +1,7 @@
 require 'simple_bioc/node_base'
 module SimpleBioC
   class Relation < NodeBase
-    attr_accessor :nodes
+    attr_accessor :nodes, :original
 
     def initialize(parent)
       super(parent)

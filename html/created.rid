@@ -1,15 +1,16 @@
-Sat, 21 Dec 2013 09:10:44 -0800
-README.md	Sat, 21 Dec 2013 09:10:35 -0800
-lib/simple_bioc.rb	Sat, 21 Dec 2013 08:58:11 -0800
-lib/simple_bioc/annotation.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/bioc_reader.rb	Sat, 21 Dec 2013 08:39:36 -0800
-lib/simple_bioc/bioc_writer.rb	Sat, 21 Dec 2013 08:09:06 -0800
-lib/simple_bioc/collection.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/document.rb	Fri, 06 Dec 2013 21:18:25 -0800
-lib/simple_bioc/location.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/node.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/node_base.rb	Fri, 06 Dec 2013 22:06:00 -0800
-lib/simple_bioc/passage.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/relation.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/sentence.rb	Fri, 06 Dec 2013 20:52:11 -0800
-lib/simple_bioc/version.rb	Fri, 06 Dec 2013 22:06:07 -0800
+Mon, 07 Dec 2015 16:11:08 +0900
+README.md	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc.rb	Sun, 06 Dec 2015 21:48:37 +0900
+lib/simple_bioc/annotation.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/bioc_merger.rb	Mon, 07 Dec 2015 15:53:30 +0900
+lib/simple_bioc/bioc_reader.rb	Sun, 06 Dec 2015 21:47:53 +0900
+lib/simple_bioc/bioc_writer.rb	Tue, 23 Jun 2015 05:02:37 +0900
+lib/simple_bioc/collection.rb	Sun, 06 Dec 2015 22:01:55 +0900
+lib/simple_bioc/document.rb	Mon, 07 Dec 2015 07:32:29 +0900
+lib/simple_bioc/location.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/node.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/node_base.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/passage.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/relation.rb	Mon, 07 Dec 2015 13:54:45 +0900
+lib/simple_bioc/sentence.rb	Thu, 11 Jun 2015 16:42:00 +0900
+lib/simple_bioc/version.rb	Tue, 23 Jun 2015 03:50:17 +0900

@@ -7,16 +7,24 @@ module BioCReader
   def read(path, options) 
     collection = nil
     File.open(path) do |file|
-      xml_doc  = Nokogiri::XML(file) do |config|
-        config.noent.strict.noblanks
-      end
-      xml = xml_doc.at_xpath("//collection")
-      if xml.nil?
-        fail 'Wrong format'
-      end
-      collection = SimpleBioC::Collection.new
-      read_collection(xml, collection, options)
+      collection = read_from_file_or_string(file, options)
     end
+
+    collection
+  end
+
+  def read_from_file_or_string(file_or_string, options)
+    collection = nil
+
+    xml_doc  = Nokogiri::XML(file_or_string) do |config|
+      config.noent.strict.noblanks
+    end
+    xml = xml_doc.at_xpath("//collection")
+    if xml.nil?
+      fail 'Wrong format'
+    end
+    collection = SimpleBioC::Collection.new
+    read_collection(xml, collection, options)
 
     collection
   end

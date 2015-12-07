@@ -2,70 +2,55 @@
 
 <html>
 <head>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta charset="UTF-8">
 
 <title>module SimpleBioC - RDoc Documentation</title>
-
-<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
 
 <script type="text/javascript">
   var rdoc_rel_prefix = "./";
 </script>
 
-<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
-<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/darkfish.js"></script>
+
+<link href="./css/fonts.css" rel="stylesheet">
+<link href="./css/rdoc.css" rel="stylesheet">
 
 
-<body id="top" class="module">
-<nav id="metadata">
-  <nav id="home-section" class="section">
-  <h3 class="section-header">
-    <a href="./index.html">Home</a>
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
     <a href="./table_of_contents.html#classes">Classes</a>
     <a href="./table_of_contents.html#methods">Methods</a>
-  </h3>
-</nav>
+  </div>
+</div>
 
-
-  <nav id="search-section" class="section project-section" class="initially-hidden">
+    <div id="search-section" role="search" class="project-section initially-hidden">
   <form action="#" method="get" accept-charset="utf-8">
-    <h3 class="section-header">
-      <input type="text" name="search" placeholder="Search" id="search-field"
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
              title="Type to search, Up and Down to navigate, Enter to load">
-    </h3>
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
   </form>
+</div>
 
-  <ul id="search-results" class="initially-hidden"></ul>
-</nav>
-
+  </div>
 
   
-
-  <div id="file-metadata">
-    <nav id="file-list-section" class="section">
-  <h3 class="section-header">Defined In</h3>
-  <ul>
-    <li>lib/simple_bioc.rb
-    <li>lib/simple_bioc/annotation.rb
-    <li>lib/simple_bioc/bioc_reader.rb
-    <li>lib/simple_bioc/collection.rb
-    <li>lib/simple_bioc/document.rb
-    <li>lib/simple_bioc/location.rb
-    <li>lib/simple_bioc/node.rb
-    <li>lib/simple_bioc/node_base.rb
-    <li>lib/simple_bioc/passage.rb
-    <li>lib/simple_bioc/relation.rb
-    <li>lib/simple_bioc/sentence.rb
-    <li>lib/simple_bioc/version.rb
-  </ul>
-</nav>
-
-    
-  </div>
 
   <div id="class-metadata">
     
@@ -73,74 +58,37 @@
     
     
     <!-- Method Quickref -->
-<nav id="method-list-section" class="section">
-  <h3 class="section-header">Methods</h3>
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
 
-  <ul class="link-list">
+  <ul class="link-list" role="directory">
     
     <li ><a href="#method-i-from_xml">#from_xml</a>
+    
+    <li ><a href="#method-i-from_xml_file">#from_xml_file</a>
+    
+    <li ><a href="#method-i-from_xml_string">#from_xml_string</a>
+    
+    <li ><a href="#method-i-merge">#merge</a>
     
     <li ><a href="#method-i-to_xml">#to_xml</a>
     
   </ul>
-</nav>
-
-  </div>
-
-  <div id="project-metadata">
-    <nav id="fileindex-section" class="section project-section">
-  <h3 class="section-header">Pages</h3>
-
-  <ul>
-  
-    <li class="file"><a href="./README_md.html">README</a>
-  
-  </ul>
-</nav>
-
-    <nav id="classindex-section" class="section project-section">
-  <h3 class="section-header">Class and Module Index</h3>
-
-  <ul class="link-list">
-  
-    <li><a href="./BioCReader.html">BioCReader</a>
-  
-    <li><a href="./BioCWriter.html">BioCWriter</a>
-  
-    <li><a href="./SimpleBioC.html">SimpleBioC</a>
-  
-    <li><a href="./SimpleBioC/Annotation.html">SimpleBioC::Annotation</a>
-  
-    <li><a href="./SimpleBioC/Collection.html">SimpleBioC::Collection</a>
-  
-    <li><a href="./SimpleBioC/Document.html">SimpleBioC::Document</a>
-  
-    <li><a href="./SimpleBioC/Location.html">SimpleBioC::Location</a>
-  
-    <li><a href="./SimpleBioC/Node.html">SimpleBioC::Node</a>
-  
-    <li><a href="./SimpleBioC/NodeBase.html">SimpleBioC::NodeBase</a>
-  
-    <li><a href="./SimpleBioC/Passage.html">SimpleBioC::Passage</a>
-  
-    <li><a href="./SimpleBioC/Relation.html">SimpleBioC::Relation</a>
-  
-    <li><a href="./SimpleBioC/Sentence.html">SimpleBioC::Sentence</a>
-  
-  </ul>
-</nav>
+</div>
 
   </div>
 </nav>
 
-<div id="documentation">
-  <h1 class="module">module SimpleBioC</h1>
+<main role="main" aria-labelledby="module-SimpleBioC">
+  <h1 id="module-SimpleBioC" class="module">
+    module SimpleBioC
+  </h1>
 
-  <div id="description" class="description">
+  <section class="description">
     
 <p><a href="SimpleBioC.html">SimpleBioC</a> main library</p>
 
-  </div><!-- description -->
+  </section>
 
   
   
@@ -151,14 +99,15 @@
     
 
     
-    <!-- Constants -->
-    <section id="constants-list" class="section">
-      <h3 class="section-header">Constants</h3>
+    <section class="constants-list">
+      <header>
+        <h3>Constants</h3>
+      </header>
       <dl>
       
         <dt id="VERSION">VERSION
         
-        <dd class="description">
+        <dd>
         
       
       </dl>
@@ -167,10 +116,11 @@
 
     
 
-    <!-- Methods -->
     
-     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
-      <h3 class="section-header">Public Instance Methods</h3>
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
 
     
       <div id="method-i-from_xml" class="method-detail ">
@@ -189,23 +139,24 @@
           <p>parse a BioC XML file in the given path and convert it into a collection
 instance</p>
 
-<h4 id="method-i-from_xml-label-Arguments">Arguments<span><a href="#method-i-from_xml-label-Arguments">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-from_xml-label-Arguments">Arguments<span><a href="#method-i-from_xml-label-Arguments">&para;</a> <a href="#top">&uarr;</a></span></h4>
 <ul><li>
 <p><code>file_path</code> - file path for parse</p>
 </li><li>
 <p><code>options</code> - (optional) additional options</p>
 </li></ul>
 
-<h4 id="method-i-from_xml-label-Options">Options<span><a href="#method-i-from_xml-label-Options">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-from_xml-label-Options">Options<span><a href="#method-i-from_xml-label-Options">&para;</a> <a href="#top">&uarr;</a></span></h4>
 <ul><li>
 <p><code>documents</code> - specify IDs of documents to parse. The result will
 include only the specified documents</p>
 </li></ul>
 
-<h4 id="method-i-from_xml-label-Examples">Examples<span><a href="#method-i-from_xml-label-Examples">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-from_xml-label-Examples">Examples<span><a href="#method-i-from_xml-label-Examples">&para;</a> <a href="#top">&uarr;</a></span></h4>
 
-<pre>collection = SimpleBioC.from_xml(&quot;./xml/everything.xml&quot;)
-collection = SimpleBioC.from_xml(&quot;./xml/lemma.xml&quot;, {documents:[21785578, 21488974]})</pre>
+<pre class="ruby"><span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-string">&quot;./xml/everything.xml&quot;</span>)
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-string">&quot;./xml/lemma.xml&quot;</span>, {<span class="ruby-identifier">documents</span>:[<span class="ruby-value">21785578</span>, <span class="ruby-value">21488974</span>]})
+</pre>
           
           
 
@@ -216,14 +167,155 @@ collection = SimpleBioC.from_xml(&quot;./xml/lemma.xml&quot;, {documents:[217855
   <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">to_s</span>} <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
   <span class="ruby-constant">BioCReader</span>.<span class="ruby-identifier">read</span>(<span class="ruby-identifier">file_path</span>, <span class="ruby-identifier">options</span>)
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- from_xml-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- from_xml-method -->
+      </div>
+
+    
+      <div id="method-i-from_xml_file" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_xml_file</span><span
+            class="method-args">(file, options = {})</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>parse a BioC XML file and convert it into a collection instance</p>
+
+<h4 id="method-i-from_xml_file-label-Arguments">Arguments<span><a href="#method-i-from_xml_file-label-Arguments">&para;</a> <a href="#top">&uarr;</a></span></h4>
+<ul><li>
+<p><code>file_path</code> - file object for parse</p>
+</li><li>
+<p><code>options</code> - (optional) additional options</p>
+</li></ul>
+
+<h4 id="method-i-from_xml_file-label-Options">Options<span><a href="#method-i-from_xml_file-label-Options">&para;</a> <a href="#top">&uarr;</a></span></h4>
+<ul><li>
+<p><code>documents</code> - specify IDs of documents to parse. The result will
+include only the specified documents</p>
+</li></ul>
+
+<h4 id="method-i-from_xml_file-label-Examples">Examples<span><a href="#method-i-from_xml_file-label-Examples">&para;</a> <a href="#top">&uarr;</a></span></h4>
+
+<pre class="ruby"><span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">path</span>)
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">file</span>)
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">file</span>, {<span class="ruby-identifier">documents</span>:[<span class="ruby-value">21785578</span>, <span class="ruby-value">21488974</span>]})
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="from_xml_file-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">from_xml_file</span>(<span class="ruby-identifier">file</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">to_s</span>} <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
+  <span class="ruby-constant">BioCReader</span>.<span class="ruby-identifier">read_from_file_or_string</span>(<span class="ruby-identifier">file</span>, <span class="ruby-identifier">options</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-from_xml_string" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">from_xml_string</span><span
+            class="method-args">(string, options = {})</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>parse a BioC XML string and convert it into a collection instance</p>
+
+<h4 id="method-i-from_xml_string-label-Arguments">Arguments<span><a href="#method-i-from_xml_string-label-Arguments">&para;</a> <a href="#top">&uarr;</a></span></h4>
+<ul><li>
+<p><code>string</code> - xml string (text) for parse</p>
+</li><li>
+<p><code>options</code> - (optional) additional options</p>
+</li></ul>
+
+<h4 id="method-i-from_xml_string-label-Options">Options<span><a href="#method-i-from_xml_string-label-Options">&para;</a> <a href="#top">&uarr;</a></span></h4>
+<ul><li>
+<p><code>documents</code> - specify IDs of documents to parse. The result will
+include only the specified documents</p>
+</li></ul>
+
+<h4 id="method-i-from_xml_string-label-Examples">Examples<span><a href="#method-i-from_xml_string-label-Examples">&para;</a> <a href="#top">&uarr;</a></span></h4>
+
+<pre class="ruby"><span class="ruby-identifier">content</span> = <span class="ruby-string">&quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt; ...&quot;</span>
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">content</span>)
+<span class="ruby-identifier">collection</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">from_xml</span>(<span class="ruby-identifier">content</span>, {<span class="ruby-identifier">documents</span>:[<span class="ruby-value">21785578</span>, <span class="ruby-value">21488974</span>]})
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="from_xml_string-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 62</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">from_xml_string</span>(<span class="ruby-identifier">string</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">to_s</span>} <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:documents</span>].<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Array</span>)
+  <span class="ruby-constant">BioCReader</span>.<span class="ruby-identifier">read_from_file_or_string</span>(<span class="ruby-identifier">string</span>, <span class="ruby-identifier">options</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-merge" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">merge</span><span
+            class="method-args">(dest_bioc, src_bioc)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="merge-source">
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">merge</span>(<span class="ruby-identifier">dest_bioc</span>, <span class="ruby-identifier">src_bioc</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-constant">BioCMerger</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">dest_bioc</span>, <span class="ruby-identifier">src_bioc</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
 
     
       <div id="method-i-to_xml" class="method-detail ">
@@ -242,7 +334,7 @@ collection = SimpleBioC.from_xml(&quot;./xml/lemma.xml&quot;, {documents:[217855
           <p>convert a collection instance to a BioC XML text. Output will return as
 string</p>
 
-<h4 id="method-i-to_xml-label-Arguments">Arguments<span><a href="#method-i-to_xml-label-Arguments">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-to_xml-label-Arguments">Arguments<span><a href="#method-i-to_xml-label-Arguments">&para;</a> <a href="#top">&uarr;</a></span></h4>
 <ul><li>
 <p><code>collection</code> - <a
 href="SimpleBioC/Collection.html">Collection</a> instance to process</p>
@@ -250,45 +342,45 @@ href="SimpleBioC/Collection.html">Collection</a> instance to process</p>
 <p><code>options</code> - (optional) additional options</p>
 </li></ul>
 
-<h4 id="method-i-to_xml-label-Options">Options<span><a href="#method-i-to_xml-label-Options">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-to_xml-label-Options">Options<span><a href="#method-i-to_xml-label-Options">&para;</a> <a href="#top">&uarr;</a></span></h4>
 <ul><li>
 <p><code>save_with</code> - SaveOption for Nokorigi. If you set this 0, output
 has no format (no indentation, no whitespace)</p>
 </li></ul>
 
-<h4 id="method-i-to_xml-label-Examples">Examples<span><a href="#method-i-to_xml-label-Examples">&para;</a> <a href="#documentation">&uarr;</a></span></h4>
+<h4 id="method-i-to_xml-label-Examples">Examples<span><a href="#method-i-to_xml-label-Examples">&para;</a> <a href="#top">&uarr;</a></span></h4>
 
-<pre>output = SimpleBioC.to_xml(collection)
-output = SimpleBioC.to_xml(collection, {save_with: 0})</pre>
+<pre class="ruby"><span class="ruby-identifier">output</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>)
+<span class="ruby-identifier">output</span> = <span class="ruby-constant">SimpleBioC</span>.<span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>, {<span class="ruby-identifier">save_with</span><span class="ruby-operator">:</span> <span class="ruby-value">0</span>})
+</pre>
           
           
 
           
           <div class="method-source-code" id="to_xml-source">
-            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 39</span>
+            <pre><span class="ruby-comment"># File lib/simple_bioc.rb, line 84</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">to_xml</span>(<span class="ruby-identifier">collection</span>, <span class="ruby-identifier">options</span> = {})
   <span class="ruby-constant">BioCWriter</span>.<span class="ruby-identifier">write</span>(<span class="ruby-identifier">collection</span>, <span class="ruby-identifier">options</span>)
 <span class="ruby-keyword">end</span></pre>
-          </div><!-- to_xml-source -->
+          </div>
           
         </div>
 
         
 
         
-      </div><!-- to_xml-method -->
+      </div>
 
     
-    </section><!-- public-instance-method-details -->
+    </section>
   
-  </section><!-- 5Buntitled-5D -->
+  </section>
+</main>
 
-</div><!-- documentation -->
 
-
-<footer id="validator-badges">
-  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
-  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
-  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
 </footer>
 
