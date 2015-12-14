@@ -45,7 +45,7 @@ module BioCMerger
       if p_d.sentences.size == p_s.sentences.size
         p_d.sentences.each_with_index do |s_d, index|
           s_s = p_s.sentences[index]
-          copy_infons(s_d, s_s, warnings)
+          copy_infons(s_d, s_s)
           copy_text(s_d, s_s)
           copy_relations(doc_d, s_d, s_s, id_map)
           copy_annotations(doc_d, s_d, s_s, id_map)
@@ -132,8 +132,8 @@ module BioCMerger
     new_r.id = choose_id(doc, relation.id, id_map)
     relation.nodes.each do |n|
       node = SimpleBioC::Node.new(new_r)
-      node.refid = relation.refid
-      node.role = relation.role
+      node.refid = n.refid
+      node.role = n.role
       new_r.nodes << node
     end
     copy_infons(new_r, relation)
@@ -157,7 +157,7 @@ module BioCMerger
   end
 
   def choose_id(doc, id, id_map) 
-    new_id = id
+    new_id = id || "id"
     node = doc.find_node(new_id)
 
     until node.nil? do
@@ -193,6 +193,7 @@ module BioCMerger
 
   def find_all_locations(obj, text)
     positions = []
+    return positions if obj.nil? || obj.text.nil?
     pos = obj.text.index(text)
     until pos.nil? 
       positions << (pos + obj.offset)

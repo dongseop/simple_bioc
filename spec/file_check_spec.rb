@@ -41,15 +41,13 @@ describe "File Check" do
     col5 = SimpleBioC.from_xml("./xml/merge/output.xml")
   end 
 
-  it "should merge documents successfully with abbr" do
-    col1 = SimpleBioC.from_xml("./xml/merge/9864355.xml")
-    col2 = SimpleBioC.from_xml("./xml/abbr.xml")
-
-    SimpleBioC.merge(col1, col2)
-    output = SimpleBioC.to_xml(col1)
-    File.write("./xml/merge/output.xml", output)
-    puts "merge12"
-    col5 = SimpleBioC.from_xml("./xml/merge/output.xml")
-  end 
-
+  it "should load XML files successfully" do
+    Dir["./xml/*.xml"].each do |file_path|
+      puts "self-merge #{file_path}"
+      collection1 = SimpleBioC.from_xml(file_path)
+      collection2 = SimpleBioC.from_xml(file_path)
+      SimpleBioC.merge(collection1, collection2)
+      output = SimpleBioC.to_xml(collection1)
+    end
+  end
 end
