@@ -31,15 +31,17 @@ module BioCMerger
 
     doc_d.passages.each_with_index do |p_d, index|
       p_s = doc_s.passages[index]
-      if blank?(p_d.text) && blank?(p_s.text) && p_d.sentences.size != p_s.sentences.size
+      if p_d.nil? || p_s.nil?
+        warnings << 'The number of sentences in pages should be the same'
+      elsif blank?(p_d.text) && blank?(p_s.text) && p_d.sentences.size != p_s.sentences.size
         warnings << 'The number of sentences in pages should be the same'
       end
     end
 
     doc_d.passages.each_with_index do |p_d, index|
       p_s = doc_s.passages[index]
+      next if p_d.nil? || p_s.nil?
       copy_relations(doc_d, p_d, p_s, id_map)
-
       if p_d.sentences.size == p_s.sentences.size
         p_d.sentences.each_with_index do |s_d, index|
           s_s = p_s.sentences[index]
@@ -81,6 +83,7 @@ module BioCMerger
   end
 
   def adjust_annotation_offset(obj)
+    return if obj.nil?
     obj.annotations.each do |a|
       positions = find_all_locations(obj, a.text)
       a.locations.each do |l|
@@ -100,6 +103,7 @@ module BioCMerger
   end
 
   def adjust_relation_refid(obj, id_map) 
+    return if obj.nil?
     obj.relations.each do |r|
       next if r.original.nil?
       r.nodes.each do |n|
@@ -111,12 +115,14 @@ module BioCMerger
   end
 
   def copy_relations(doc, dest, src, id_map)
+    return if src.nil?
     src.relations.each do |r|
       copy_relation(doc, dest, r, id_map)
     end
   end
 
   def copy_annotations(doc, dest, src, id_map)
+    return if src.nil?
     src.annotations.each do |a|
       copy_annotation(doc, dest, a, id_map)
     end

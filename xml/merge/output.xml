@@ -35,11 +35,6 @@
         <location offset="25" length="5"/>
         <text>Ndc1p</text>
       </annotation>
-      <annotation id="G1">
-        <infon key="type">Gene</infon>
-        <location offset="25" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">abstract</infon>
@@ -145,107 +140,6 @@
         <location offset="1154" length="189"/>
         <text>Finally, we have found that a deletion of  POM152, which encodes an abundant but nonessential  nucleoporin, suppresses the SPB duplication defect associated with a mutation in the NDC1 gene</text>
       </annotation>
-      <annotation id="G2">
-        <infon key="type">Gene</infon>
-        <location offset="234" length="35"/>
-        <text>Saccharomyces  cerevisiae NDC1 gene</text>
-      </annotation>
-      <annotation id="G3">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="428" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G4">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="606" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G5">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="734" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G6">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="837" length="6"/>
-        <text>Nup49p</text>
-      </annotation>
-      <annotation id="G7">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="878" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G8">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="936" length="6"/>
-        <text>Spc42p</text>
-      </annotation>
-      <annotation id="G9">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="982" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G10">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="1197" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G11">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="1334" length="9"/>
-        <text>NDC1 gene</text>
-      </annotation>
-      <annotation id="G12">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="1359" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="TEAM_277_0">
-        <infon key="type">Gene</infon>
-        <location offset="260" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_1">
-        <infon key="type">Gene</infon>
-        <location offset="428" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_2">
-        <infon key="type">Gene</infon>
-        <location offset="1197" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_3">
-        <infon key="type">Gene</infon>
-        <location offset="1334" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="0">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0416</infon>
-        <location offset="684" length="160"/>
-        <text>Indirect immunofluorescence microscopy shows that Ndc1p displays punctate, nuclear peripheral localization that colocalizes with a known NPC  component, Nup49p.</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -331,37 +225,6 @@
         <location offset="2825" length="5"/>
         <text>yeast</text>
       </annotation>
-      <annotation id="G13">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="2390" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G14">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="2522" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G15">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="2800" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="TEAM_277_4">
-        <infon key="type">Gene</infon>
-        <location offset="2522" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_5">
-        <infon key="type">Gene</infon>
-        <location offset="2626" length="6"/>
-        <text>POM152</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -414,42 +277,6 @@
         <location offset="4612" length="5"/>
         <text>Ndc1p</text>
       </annotation>
-      <annotation id="G16">
-        <infon key="score">0.58</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="3613" length="9"/>
-        <text>NDC1 gene</text>
-      </annotation>
-      <annotation id="G17">
-        <infon key="type">Gene</infon>
-        <location offset="3748" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G18">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4470" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G19">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4612" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="TEAM_277_6">
-        <infon key="type">Gene</infon>
-        <location offset="3613" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_7">
-        <infon key="type">Gene</infon>
-        <location offset="4470" length="4"/>
-        <text>NDC1</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -468,32 +295,6 @@
       </annotation>
       <annotation id="C175">
         <infon key="NCBI Gene">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4848" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G20">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4730" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G21">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4848" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G22">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">100009194</infon>
-        <infon key="type">Gene</infon>
-        <location offset="4878" length="3"/>
-        <text>SPB</text>
-      </annotation>
-      <annotation id="TEAM_277_8">
         <infon key="type">Gene</infon>
         <location offset="4848" length="6"/>
         <text>POM152</text>
@@ -771,270 +572,6 @@
         <location offset="5460" length="213"/>
         <text>The ndc1-1, pom152  null strain [HC5-31c(1166); Table I] was constructed by replacing the entire POM152 open reading frame, plus an additional 163 bp after the stop  codon, with the HIS3 gene (Baudin et al., 1993)</text>
       </annotation>
-      <annotation id="G23">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5204" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G24">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5314" length="4"/>
-        <text>ProA</text>
-      </annotation>
-      <annotation id="G25">
-        <infon key="type">Gene</infon>
-        <location offset="5464" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G26">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5472" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="G27">
-        <infon key="score">0.75</infon>
-        <infon key="GeneID">2539698</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5642" length="9"/>
-        <text>HIS3 gene</text>
-      </annotation>
-      <annotation id="G28">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5704" length="9"/>
-        <text>NUP49-GFP</text>
-      </annotation>
-      <annotation id="G29">
-        <infon key="type">Gene</infon>
-        <location offset="5847" length="7"/>
-        <text>nup49-1</text>
-      </annotation>
-      <annotation id="G30">
-        <infon key="type">Gene</infon>
-        <location offset="5865" length="14"/>
-        <text>nup49DeltaGFLG</text>
-      </annotation>
-      <annotation id="G31">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="5927" length="9"/>
-        <text>NUP49-GFP</text>
-      </annotation>
-      <annotation id="G32">
-        <infon key="type">Gene</infon>
-        <location offset="5946" length="18"/>
-        <text>nup133 null allele</text>
-      </annotation>
-      <annotation id="G33">
-        <infon key="type">Gene</infon>
-        <location offset="6101" length="11"/>
-        <text>nup133Delta</text>
-      </annotation>
-      <annotation id="G34">
-        <infon key="score">0.75</infon>
-        <infon key="GeneID">2539698</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6114" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="G35">
-        <infon key="type">Gene</infon>
-        <location offset="6120" length="7"/>
-        <text>nup49-1</text>
-      </annotation>
-      <annotation id="G36">
-        <infon key="type">Gene</infon>
-        <location offset="6139" length="14"/>
-        <text>nup49DeltaGFLG</text>
-      </annotation>
-      <annotation id="G37">
-        <infon key="type">Gene</infon>
-        <location offset="6197" length="10"/>
-        <text>NIC96-ProA</text>
-      </annotation>
-      <annotation id="G38">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6329" length="9"/>
-        <text>SPC42-GFP</text>
-      </annotation>
-      <annotation id="G39">
-        <infon key="type">Gene</infon>
-        <location offset="6355" length="12"/>
-        <text>HC23-11d/16a</text>
-      </annotation>
-      <annotation id="G40">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">54411</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6364" length="3"/>
-        <text>16a</text>
-      </annotation>
-      <annotation id="G41">
-        <infon key="type">Gene</infon>
-        <location offset="6497" length="10"/>
-        <text>spc42Delta</text>
-      </annotation>
-      <annotation id="G42">
-        <infon key="score">0.59</infon>
-        <infon key="GeneID">668253</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6509" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="G43">
-        <infon key="score">0.59</infon>
-        <infon key="GeneID">100342170</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6519" length="4"/>
-        <text>TRP1</text>
-      </annotation>
-      <annotation id="G44">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6525" length="9"/>
-        <text>SPC42-GFP</text>
-      </annotation>
-      <annotation id="G45">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6649" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G46">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6667" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G47">
-        <infon key="type">Gene</infon>
-        <location offset="6723" length="9"/>
-        <text>ndc1Delta</text>
-      </annotation>
-      <annotation id="G48">
-        <infon key="type">Gene</infon>
-        <location offset="6734" length="16"/>
-        <text>HIS3 null allele</text>
-      </annotation>
-      <annotation id="G49">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">2539698</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6823" length="9"/>
-        <text>HIS3 gene</text>
-      </annotation>
-      <annotation id="G50">
-        <infon key="type">Gene</infon>
-        <location offset="6860" length="9"/>
-        <text>ndc1Delta</text>
-      </annotation>
-      <annotation id="G51">
-        <infon key="type">Gene</infon>
-        <location offset="6872" length="17"/>
-        <text>KANMX null allele</text>
-      </annotation>
-      <annotation id="G52">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="6987" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G53">
-        <infon key="type">Gene</infon>
-        <location offset="7034" length="10"/>
-        <text>KANMX gene</text>
-      </annotation>
-      <annotation id="TEAM_277_9">
-        <infon key="type">Gene</infon>
-        <location offset="5204" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_10">
-        <infon key="type">Gene</infon>
-        <location offset="5280" length="32"/>
-        <text>IgG binding domains of protein A</text>
-      </annotation>
-      <annotation id="TEAM_277_11">
-        <infon key="type">Gene</infon>
-        <location offset="5557" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_12">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="5642" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_13">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="6114" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_14">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">13745</infon>
-        <location offset="6129" length="4"/>
-        <text>URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_15">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">9980</infon>
-        <location offset="6509" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="TEAM_277_16">
-        <infon key="type">Gene</infon>
-        <location offset="6519" length="4"/>
-        <text>TRP1</text>
-      </annotation>
-      <annotation id="TEAM_277_17">
-        <infon key="type">Gene</infon>
-        <location offset="6649" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_18">
-        <infon key="type">Gene</infon>
-        <location offset="6667" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_19">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="6734" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_20">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="6823" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_21">
-        <infon key="type">Gene</infon>
-        <location offset="6987" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_22">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">271781</infon>
-        <location offset="7034" length="5"/>
-        <text>KANMX</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -1260,106 +797,6 @@
         <location offset="8478" length="314"/>
         <text>The pRS315-NDC1-green fluorescent protein (GFP) plasmid was  constructed by subcloning a PCR fragment containing GFP amplified  from the pyEGFP3 plasmid (Cormack et al., 1997) with XbaI restriction  sites into an AvrII linker introduced at the end of NDC1 cloned into the  pRS315 vector (Sikorski and Hieter, 1989)</text>
       </annotation>
-      <annotation id="G54">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="7961" length="13"/>
-        <text>NDC1 fragment</text>
-      </annotation>
-      <annotation id="G55">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">55811</infon>
-        <infon key="type">Gene</infon>
-        <location offset="8006" length="10"/>
-        <text>SacI sites</text>
-      </annotation>
-      <annotation id="G56">
-        <infon key="type">Gene</infon>
-        <location offset="8171" length="4"/>
-        <text>URA3</text>
-      </annotation>
-      <annotation id="G57">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">33986</infon>
-        <infon key="type">Gene</infon>
-        <location offset="8180" length="4"/>
-        <text>ADE3</text>
-      </annotation>
-      <annotation id="G58">
-        <infon key="type">Gene</infon>
-        <location offset="8346" length="11"/>
-        <text>BglII sites</text>
-      </annotation>
-      <annotation id="G59">
-        <infon key="type">Gene</infon>
-        <location offset="8386" length="10"/>
-        <text>BamHI site</text>
-      </annotation>
-      <annotation id="G60">
-        <infon key="type">Gene</infon>
-        <location offset="8435" length="13"/>
-        <text>GAL1 promoter</text>
-      </annotation>
-      <annotation id="G61">
-        <infon key="type">Gene</infon>
-        <location offset="8482" length="37"/>
-        <text>pRS315-NDC1-green fluorescent protein</text>
-      </annotation>
-      <annotation id="G62">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">7011691</infon>
-        <infon key="type">Gene</infon>
-        <location offset="8521" length="3"/>
-        <text>GFP</text>
-      </annotation>
-      <annotation id="G63">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">7011691</infon>
-        <infon key="type">Gene</infon>
-        <location offset="8591" length="3"/>
-        <text>GFP</text>
-      </annotation>
-      <annotation id="G64">
-        <infon key="type">Gene</infon>
-        <location offset="8659" length="23"/>
-        <text>XbaI restriction  sites</text>
-      </annotation>
-      <annotation id="G65">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="8729" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_23">
-        <infon key="type">Gene</infon>
-        <location offset="7961" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_24">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">13745</infon>
-        <location offset="8171" length="4"/>
-        <text>URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_25">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">11840</infon>
-        <location offset="8435" length="4"/>
-        <text>GAL1</text>
-      </annotation>
-      <annotation id="TEAM_277_26">
-        <infon key="type">Gene</infon>
-        <location offset="8729" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_27">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">12205</infon>
-        <location offset="8751" length="6"/>
-        <text>pRS315</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_2</infon>
@@ -1405,58 +842,6 @@
         <infon key="type">Gene</infon>
         <location offset="9666" length="6"/>
         <text>Nup57p</text>
-      </annotation>
-      <annotation id="G66">
-        <infon key="type">Gene</infon>
-        <location offset="8895" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G67">
-        <infon key="type">Gene</infon>
-        <location offset="8921" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G68">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="9315" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G69">
-        <infon key="type">Gene</infon>
-        <location offset="9422" length="9"/>
-        <text>mAb 118C3</text>
-      </annotation>
-      <annotation id="G70">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">851957</infon>
-        <infon key="type">Gene</infon>
-        <location offset="9511" length="7"/>
-        <text>Spc110p</text>
-      </annotation>
-      <annotation id="G71">
-        <infon key="type">Gene</infon>
-        <location offset="9648" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G72">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853016</infon>
-        <infon key="type">Gene</infon>
-        <location offset="9666" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
-      <annotation id="TEAM_277_28">
-        <infon key="type">Gene</infon>
-        <location offset="9422" length="9"/>
-        <text>mAb 118C3</text>
-      </annotation>
-      <annotation id="TEAM_277_29">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">683083</infon>
-        <location offset="9705" length="7"/>
-        <text>mAb 414</text>
       </annotation>
     </passage>
     <passage>
@@ -1508,12 +893,6 @@
         <infon key="type">Chemical</infon>
         <location offset="10180" length="8"/>
         <text>Tween 20</text>
-      </annotation>
-      <annotation id="1">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0416</infon>
-        <location offset="9849" length="341"/>
-        <text>Buffer solutions used for immunofluorescence (IF) microscopy include  PBSA (10 mg/ml NaCl, 0.2 mg/ml KCl, 1.43 mg/ml KH2PO4), solution A  (1.2 M sorbitol, 100 mM KPO4, pH 7.5), spheroplasting solution (solution  A containing 4.83 mug/ml Zymolyase 100T, 0.1 M beta-mercaptoethanol), and  blocker (PBSA containing 10 mg/ml BSA, 0.1% Tween 20).</text>
       </annotation>
     </passage>
     <passage>
@@ -1592,40 +971,11 @@
         <location offset="11171" length="6"/>
         <text>rabbit</text>
       </annotation>
-      <annotation id="G73">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="10262" length="4"/>
-        <text>ProA</text>
-      </annotation>
-      <annotation id="G74">
-        <infon key="type">Gene</infon>
-        <location offset="11140" length="43"/>
-        <text>Texas red-conjugated goat anti-rabbit  IgGs</text>
-      </annotation>
-      <annotation id="TEAM_277_30">
-        <infon key="type">Gene</infon>
-        <location offset="10239" length="19"/>
-        <text>IgG binding domains</text>
-      </annotation>
-      <annotation id="TEAM_277_31">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">237249</infon>
-        <location offset="10262" length="4"/>
-        <text>ProA</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
       <offset>11465</offset>
       <text>Standard fluorescence microscopy was carried out using a Zeiss fluorescence microscope equipped with an Empix CCD camera. Images were  captured using MetaMorph imaging software (Universal Imaging, West  Chester, PA). Deconvolution microscopy was carried out using a Leica  DMRXA/RF4/V automated universal microscope equipped with a Cooke  SensiCam high performance digital camera. Images were acquired and deconvolved using the Slidebook software package (Intelligent Imaging Innovations, Denver, CO).</text>
-      <annotation id="2">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0416</infon>
-        <location offset="11465" length="121"/>
-        <text>Standard fluorescence microscopy was carried out using a Zeiss fluorescence microscope equipped with an Empix CCD camera.</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -1821,16 +1171,6 @@
         <location offset="14274" length="5"/>
         <text>yeast</text>
       </annotation>
-      <annotation id="G75">
-        <infon key="type">Gene</infon>
-        <location offset="13631" length="12"/>
-        <text>HC10-42a/42d</text>
-      </annotation>
-      <annotation id="G76">
-        <infon key="type">Gene</infon>
-        <location offset="13640" length="3"/>
-        <text>42d</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_1</infon>
@@ -1843,13 +1183,6 @@
       <text>Ndc1p Localizes to NPCs</text>
       <annotation id="C247">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="14332" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G77">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
         <infon key="type">Gene</infon>
         <location offset="14332" length="5"/>
         <text>Ndc1p</text>
@@ -1893,20 +1226,6 @@
         <infon key="NCBI Gene">854977</infon>
         <infon key="type">Gene</infon>
         <location offset="14908" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G78">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="14709" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G79">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="14875" length="5"/>
         <text>Ndc1p</text>
       </annotation>
     </passage>
@@ -1968,95 +1287,6 @@
         <location offset="15644" length="4"/>
         <text>NDC1</text>
       </annotation>
-      <annotation id="G80">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="14961" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G81">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15034" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G82">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15109" length="4"/>
-        <text>ProA</text>
-      </annotation>
-      <annotation id="G83">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15158" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G84">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15224" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G85">
-        <infon key="type">Gene</infon>
-        <location offset="15264" length="13"/>
-        <text>NDC1 promoter</text>
-      </annotation>
-      <annotation id="G86">
-        <infon key="type">Gene</infon>
-        <location offset="15398" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G87">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15644" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G88">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">100327265</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15685" length="5"/>
-        <text>c-myc</text>
-      </annotation>
-      <annotation id="TEAM_277_32">
-        <infon key="type">Gene</infon>
-        <location offset="15034" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_33">
-        <infon key="type">Gene</infon>
-        <location offset="15085" length="28"/>
-        <text>IgG binding domains of  ProA</text>
-      </annotation>
-      <annotation id="TEAM_277_34">
-        <infon key="type">Gene</infon>
-        <location offset="15158" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_35">
-        <infon key="type">Gene</infon>
-        <location offset="15224" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_36">
-        <infon key="type">Gene</infon>
-        <location offset="15264" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_37">
-        <infon key="type">Gene</infon>
-        <location offset="15644" length="4"/>
-        <text>NDC1</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2085,85 +1315,6 @@
         <infon key="type">Gene</infon>
         <location offset="16349" length="6"/>
         <text>nup133</text>
-      </annotation>
-      <annotation id="G89">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15815" length="6"/>
-        <text>Nup49p</text>
-      </annotation>
-      <annotation id="G90">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="15907" length="5"/>
-        <text>NUP49</text>
-      </annotation>
-      <annotation id="G91">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16080" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G92">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16187" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G93">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16211" length="12"/>
-        <text>ProA epitope</text>
-      </annotation>
-      <annotation id="G94">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16227" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G95">
-        <infon key="score">0.58</infon>
-        <infon key="GeneID">406852</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16349" length="6"/>
-        <text>nup133</text>
-      </annotation>
-      <annotation id="G96">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16520" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G97">
-        <infon key="type">Gene</infon>
-        <location offset="16582" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G98">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16759" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_38">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="15907" length="5"/>
-        <text>NUP49</text>
-      </annotation>
-      <annotation id="TEAM_277_39">
-        <infon key="type">Gene</infon>
-        <location offset="16520" length="10"/>
-        <text>Nup49p-GFP</text>
       </annotation>
     </passage>
     <passage>
@@ -2217,56 +1368,6 @@
         <location offset="17555" length="7"/>
         <text>Pom152p</text>
       </annotation>
-      <annotation id="G99">
-        <infon key="type">Gene</infon>
-        <location offset="16899" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G100">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="16980" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G101">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="17237" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G102">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853016</infon>
-        <infon key="type">Gene</infon>
-        <location offset="17493" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
-      <annotation id="G103">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="17555" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G104">
-        <infon key="type">Gene</infon>
-        <location offset="17884" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="TEAM_277_40">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">203327</infon>
-        <location offset="16868" length="3"/>
-        <text>NEs</text>
-      </annotation>
-      <annotation id="TEAM_277_41">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="17493" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_2</infon>
@@ -2277,19 +1378,6 @@
         <infon key="type">Gene</infon>
         <location offset="17937" length="5"/>
         <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G105">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="17937" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="TEAM_277_42">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10277</infon>
-        <location offset="17961" length="4"/>
-        <text>SPBs</text>
       </annotation>
     </passage>
     <passage>
@@ -2313,40 +1401,6 @@
         <infon key="type">PPImention</infon>
         <location offset="17966" length="108"/>
         <text>Because NDC1 function is required for proper SPB duplication, we tested whether Ndc1p also localizes to SPBs</text>
-      </annotation>
-      <annotation id="G106">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="17974" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G107">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="18046" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G108">
-        <infon key="type">Gene</infon>
-        <location offset="18378" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G109">
-        <infon key="type">Gene</infon>
-        <location offset="18399" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G110">
-        <infon key="type">Gene</infon>
-        <location offset="18467" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="TEAM_277_43">
-        <infon key="type">Gene</infon>
-        <location offset="17974" length="4"/>
-        <text>NDC1</text>
       </annotation>
     </passage>
     <passage>
@@ -2411,69 +1465,6 @@
         <location offset="19558" length="6"/>
         <text>Nic96p</text>
       </annotation>
-      <annotation id="G111">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="18895" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G112">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="19144" length="9"/>
-        <text>SPC42-GFP</text>
-      </annotation>
-      <annotation id="G113">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="19177" length="5"/>
-        <text>SPC42</text>
-      </annotation>
-      <annotation id="G114">
-        <infon key="type">Gene</infon>
-        <location offset="19309" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G115">
-        <infon key="type">Gene</infon>
-        <location offset="19340" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G116">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="19446" length="9"/>
-        <text>SPC42-GFP</text>
-      </annotation>
-      <annotation id="G117">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="19558" length="6"/>
-        <text>Nic96p</text>
-      </annotation>
-      <annotation id="TEAM_277_44">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10855</infon>
-        <location offset="19177" length="5"/>
-        <text>SPC42</text>
-      </annotation>
-      <annotation id="TEAM_277_45">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10277</infon>
-        <location offset="19691" length="4"/>
-        <text>SPBs</text>
-      </annotation>
-      <annotation id="3">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0416</infon>
-        <location offset="18781" length="311"/>
-        <text>Therefore, we used whole cell indirect IF deconvolution  microscopy to test whether any of the distinct spots of  Ndc1p staining colocalize with signal from a known SPB  component. This high-resolution fluorescence microscopy  technique could potentially resolve SPB- and NPC-associated signals in the yeast NE.</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2503,82 +1494,11 @@
         <location offset="20196" length="123"/>
         <text>Both Ndc1p and Nic96p contained the  ProA epitope tag, allowing us to use the same antibodies  to detect their localization</text>
       </annotation>
-      <annotation id="G118">
-        <infon key="type">Gene</infon>
-        <location offset="19947" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G119">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="19989" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
-      <annotation id="G120">
-        <infon key="type">Gene</infon>
-        <location offset="20071" length="11"/>
-        <text>Nic96p-ProA</text>
-      </annotation>
-      <annotation id="G121">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20128" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
-      <annotation id="G122">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20201" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G123">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20211" length="6"/>
-        <text>Nic96p</text>
-      </annotation>
-      <annotation id="G124">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20233" length="12"/>
-        <text>ProA epitope</text>
-      </annotation>
-      <annotation id="G125">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20356" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
       <offset>20480</offset>
       <text>As described earlier, when examining the colocalization  of Ndc1p-ProA with Nup49p-GFP in a NPC clustering  mutant strain, we occasionally observed either one or two  distinct spots of Ndc1p-ProA staining that did not overlap  with Nup49p-GFP signal (Fig. 3 C). It is likely that these  additional spots of Ndc1p-ProA staining correspond to  SPB localization. Previous work demonstrated that the  SPB often localizes within NPC clusters (Heath et al.,  1995), explaining why we observed extra spots of Ndc1p-ProA staining only occasionally.</text>
-      <annotation id="G126">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20556" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G127">
-        <infon key="type">Gene</infon>
-        <location offset="20665" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G128">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="20712" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2590,74 +1510,11 @@
         <location offset="21431" length="5"/>
         <text>yeast</text>
       </annotation>
-      <annotation id="G129">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="21062" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G130">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="21165" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G131">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="21239" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G132">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="21583" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G133">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="21975" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_46">
-        <infon key="type">Gene</infon>
-        <location offset="21239" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_47">
-        <infon key="type">Gene</infon>
-        <location offset="21583" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_2</infon>
       <offset>22047</offset>
       <text>Immunoelectron Microscopy Demonstrates that Ndc1p-GFP Localizes to the Membrane-associated  Regions of NPCs and SPBs</text>
-      <annotation id="G134">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="22091" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_48">
-        <infon key="type">Gene</infon>
-        <location offset="22091" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_49">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10277</infon>
-        <location offset="22159" length="4"/>
-        <text>SPBs</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2687,42 +1544,11 @@
         <location offset="22489" length="3"/>
         <text>GFP</text>
       </annotation>
-      <annotation id="G135">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="22250" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G136">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="22374" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G137">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="22597" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G138">
-        <infon key="type">Gene</infon>
-        <location offset="22903" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_2</infon>
       <offset>23036</offset>
       <text>ndc1-1 Strains Do Not Exhibit Defects in NPC Functions</text>
-      <annotation id="G139">
-        <infon key="type">Gene</infon>
-        <location offset="23036" length="14"/>
-        <text>ndc1-1 Strains</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2748,55 +1574,6 @@
       </annotation>
       <annotation id="C289">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23613" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G140">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23102" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G141">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23197" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G142">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23277" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G143">
-        <infon key="type">Gene</infon>
-        <location offset="23421" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G144">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23613" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G145">
-        <infon key="type">Gene</infon>
-        <location offset="23764" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="TEAM_277_50">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10277</infon>
-        <location offset="23111" length="4"/>
-        <text>SPBs</text>
-      </annotation>
-      <annotation id="TEAM_277_51">
         <infon key="type">Gene</infon>
         <location offset="23613" length="4"/>
         <text>NDC1</text>
@@ -2847,97 +1624,6 @@
         <location offset="25042" length="6"/>
         <text>Nic96p</text>
       </annotation>
-      <annotation id="G146">
-        <infon key="type">Gene</infon>
-        <location offset="23854" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G147">
-        <infon key="type">Gene</infon>
-        <location offset="23902" length="13"/>
-        <text>histone  H2B1</text>
-      </annotation>
-      <annotation id="G148">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">7011691</infon>
-        <infon key="type">Gene</infon>
-        <location offset="23964" length="3"/>
-        <text>GFP</text>
-      </annotation>
-      <annotation id="G149">
-        <infon key="type">Gene</infon>
-        <location offset="24057" length="9"/>
-        <text>H2B1p-GFP</text>
-      </annotation>
-      <annotation id="G150">
-        <infon key="type">Gene</infon>
-        <location offset="24371" length="27"/>
-        <text>yeast ribosomal protein L29</text>
-      </annotation>
-      <annotation id="G151">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">12091</infon>
-        <infon key="type">Gene</infon>
-        <location offset="24408" length="18"/>
-        <text>beta-galactosidase</text>
-      </annotation>
-      <annotation id="G152">
-        <infon key="type">Gene</infon>
-        <location offset="24477" length="14"/>
-        <text>GAL10 promoter</text>
-      </annotation>
-      <annotation id="G153">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">12091</infon>
-        <infon key="type">Gene</infon>
-        <location offset="24592" length="18"/>
-        <text>beta-galactosidase</text>
-      </annotation>
-      <annotation id="G154">
-        <infon key="type">Gene</infon>
-        <location offset="24642" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G155">
-        <infon key="type">Gene</infon>
-        <location offset="24760" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G156">
-        <infon key="type">Gene</infon>
-        <location offset="25021" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G157">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="25042" length="6"/>
-        <text>Nic96p</text>
-      </annotation>
-      <annotation id="TEAM_277_52">
-        <infon key="type">Gene</infon>
-        <location offset="24057" length="9"/>
-        <text>H2B1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_53">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">1081679</infon>
-        <location offset="24408" length="18"/>
-        <text>beta-galactosidase</text>
-      </annotation>
-      <annotation id="TEAM_277_54">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">119197</infon>
-        <location offset="24477" length="14"/>
-        <text>GAL10 promoter</text>
-      </annotation>
-      <annotation id="TEAM_277_55">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">1081679</infon>
-        <location offset="24592" length="18"/>
-        <text>beta-galactosidase</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -2983,73 +1669,6 @@
         <location offset="25808" length="5"/>
         <text>yeast</text>
       </annotation>
-      <annotation id="G158">
-        <infon key="type">Gene</infon>
-        <location offset="25330" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G159">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="25393" length="6"/>
-        <text>Nic96p</text>
-      </annotation>
-      <annotation id="G160">
-        <infon key="type">Gene</infon>
-        <location offset="25422" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G161">
-        <infon key="type">Gene</infon>
-        <location offset="25450" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G162">
-        <infon key="type">Gene</infon>
-        <location offset="25513" length="10"/>
-        <text>NIC96-ProA</text>
-      </annotation>
-      <annotation id="G163">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="25597" length="4"/>
-        <text>ProA</text>
-      </annotation>
-      <annotation id="G164">
-        <infon key="type">Gene</infon>
-        <location offset="25638" length="11"/>
-        <text>Nic96p-ProA</text>
-      </annotation>
-      <annotation id="G165">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="25734" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="G166">
-        <infon key="type">Gene</infon>
-        <location offset="25881" length="10"/>
-        <text>NIC96-ProA</text>
-      </annotation>
-      <annotation id="G167">
-        <infon key="type">Gene</infon>
-        <location offset="25923" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G168">
-        <infon key="type">Gene</infon>
-        <location offset="26151" length="11"/>
-        <text>Nic96p-ProA</text>
-      </annotation>
-      <annotation id="TEAM_277_56">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">224119</infon>
-        <location offset="25734" length="5"/>
-        <text>NIC96</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -3067,54 +1686,11 @@
         <location offset="27258" length="5"/>
         <text>Wx340</text>
       </annotation>
-      <annotation id="G169">
-        <infon key="type">Gene</infon>
-        <location offset="26939" length="15"/>
-        <text>tub2-403 allele</text>
-      </annotation>
-      <annotation id="G170">
-        <infon key="score">0.58</infon>
-        <infon key="GeneID">37888</infon>
-        <infon key="type">Gene</infon>
-        <location offset="26987" length="12"/>
-        <text>beta-tubulin</text>
-      </annotation>
-      <annotation id="G171">
-        <infon key="type">Gene</infon>
-        <location offset="27053" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G172">
-        <infon key="type">Gene</infon>
-        <location offset="27128" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G173">
-        <infon key="type">Gene</infon>
-        <location offset="27235" length="15"/>
-        <text>tub2-403 allele</text>
-      </annotation>
-      <annotation id="TEAM_277_57">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">130530</infon>
-        <location offset="26987" length="12"/>
-        <text>beta-tubulin</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
       <offset>27344</offset>
       <text>Samples were prepared as previously described (Winey  et al., 1997) to directly count the number of NPCs in three  nuclei from each strain after a shift to the nonpermissive  temperature. Nuclei from the tub2-403 cells contained 162,  179, and 232 NPCs, and nuclei from the ndc1-1, tub2-403  double mutant cells contained 180, 193, and 209 NPCs.  The maximum number of NPCs observed in wild-type  cells occurs in early mitosis, with an average of 142 +- 16.4  NPCs (Winey et al., 1997). Our analysis demonstrated that  both strains contained more NPCs than observed in wild-type cells at any point in the cell cycle, indicating that NPC  assembly continues to occur when these cells are arrested.</text>
-      <annotation id="G174">
-        <infon key="type">Gene</infon>
-        <location offset="27618" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G175">
-        <infon key="type">Gene</infon>
-        <location offset="27626" length="8"/>
-        <text>tub2-403</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_2</infon>
@@ -3127,16 +1703,6 @@
       </annotation>
       <annotation id="C299">
         <infon key="NCBI Gene">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28055" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G176">
-        <infon key="type">Gene</infon>
-        <location offset="28077" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="TEAM_277_58">
         <infon key="type">Gene</infon>
         <location offset="28055" length="6"/>
         <text>POM152</text>
@@ -3213,64 +1779,6 @@
         <location offset="28108" length="115"/>
         <text>To define a potential functional role for Ndc1p in NPCs,  we examined genetic interactions between NDC1 and  POM152</text>
       </annotation>
-      <annotation id="G177">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28150" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G178">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28207" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G179">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28217" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G180">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28400" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G181">
-        <infon key="type">Gene</infon>
-        <location offset="28539" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G182">
-        <infon key="type">Gene</infon>
-        <location offset="28555" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="TEAM_277_59">
-        <infon key="type">Gene</infon>
-        <location offset="28207" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_60">
-        <infon key="type">Gene</infon>
-        <location offset="28217" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_61">
-        <infon key="type">Gene</infon>
-        <location offset="28260" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_62">
-        <infon key="type">Gene</infon>
-        <location offset="28400" length="6"/>
-        <text>POM152</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -3337,85 +1845,6 @@
         <location offset="29270" length="4"/>
         <text>ndc1</text>
       </annotation>
-      <annotation id="G183">
-        <infon key="type">Gene</infon>
-        <location offset="28687" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G184">
-        <infon key="type">Gene</infon>
-        <location offset="28721" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G185">
-        <infon key="type">Gene</infon>
-        <location offset="28754" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G186">
-        <infon key="type">Gene</infon>
-        <location offset="28785" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G187">
-        <infon key="type">Gene</infon>
-        <location offset="28887" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G188">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="28958" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G189">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="29004" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G190">
-        <infon key="type">Gene</infon>
-        <location offset="29064" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G191">
-        <infon key="type">Gene</infon>
-        <location offset="29174" length="13"/>
-        <text>ndc1-1 allele</text>
-      </annotation>
-      <annotation id="G192">
-        <infon key="type">Gene</infon>
-        <location offset="29201" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G193">
-        <infon key="type">Gene</infon>
-        <location offset="29270" length="16"/>
-        <text>ndc1 null allele</text>
-      </annotation>
-      <annotation id="TEAM_277_63">
-        <infon key="type">Gene</infon>
-        <location offset="28785" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="TEAM_277_64">
-        <infon key="type">Gene</infon>
-        <location offset="28958" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_65">
-        <infon key="type">Gene</infon>
-        <location offset="29004" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_66">
-        <infon key="type">Gene</infon>
-        <location offset="29270" length="4"/>
-        <text>ndc1</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -3460,82 +1889,6 @@
         <location offset="30295" length="6"/>
         <text>pom152</text>
       </annotation>
-      <annotation id="G194">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="29308" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G195">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="29507" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G196">
-        <infon key="type">Gene</infon>
-        <location offset="29530" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G197">
-        <infon key="type">Gene</infon>
-        <location offset="29784" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G198">
-        <infon key="type">Gene</infon>
-        <location offset="29939" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G199">
-        <infon key="type">Gene</infon>
-        <location offset="30123" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G200">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="30131" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="G201">
-        <infon key="type">Gene</infon>
-        <location offset="30186" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G202">
-        <infon key="type">Gene</infon>
-        <location offset="30295" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G203">
-        <infon key="type">Gene</infon>
-        <location offset="30329" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="TEAM_277_67">
-        <infon key="type">Gene</infon>
-        <location offset="29308" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_68">
-        <infon key="type">Gene</infon>
-        <location offset="29507" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_69">
-        <infon key="type">Gene</infon>
-        <location offset="30107" length="9"/>
-        <text>Fig. 6  B</text>
-      </annotation>
-      <annotation id="TEAM_277_70">
-        <infon key="type">Gene</infon>
-        <location offset="30262" length="8"/>
-        <text>Fig. 6 B</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title_1</infon>
@@ -3575,27 +1928,6 @@
         <location offset="30952" length="5"/>
         <text>Ndc1p</text>
       </annotation>
-      <annotation id="G204">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="30737" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G205">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="30832" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G206">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="30952" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -3615,27 +1947,6 @@
       </annotation>
       <annotation id="C322">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="31642" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G207">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="31038" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G208">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="31420" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G209">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
         <infon key="type">Gene</infon>
         <location offset="31642" length="5"/>
         <text>Ndc1p</text>
@@ -3669,43 +1980,6 @@
         <location offset="32511" length="5"/>
         <text>Ndc1p</text>
       </annotation>
-      <annotation id="G210">
-        <infon key="type">Gene</infon>
-        <location offset="31855" length="10"/>
-        <text>Ndc1p- GFP</text>
-      </annotation>
-      <annotation id="G211">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="31962" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G212">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32151" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G213">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32511" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="TEAM_277_71">
-        <infon key="type">Gene</infon>
-        <location offset="31962" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="4">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0040</infon>
-        <location offset="31755" length="84"/>
-        <text>However, SPBs and NPCs are most clearly distinguished  by using electron microscopy.</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -3719,54 +1993,6 @@
       </annotation>
       <annotation id="C328">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32855" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G214">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">2542161</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32613" length="11"/>
-        <text>cut11+ gene</text>
-      </annotation>
-      <annotation id="G215">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32661" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G216">
-        <infon key="type">Gene</infon>
-        <location offset="32799" length="6"/>
-        <text>Cut11p</text>
-      </annotation>
-      <annotation id="G217">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">2542161</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32844" length="6"/>
-        <text>cut11+</text>
-      </annotation>
-      <annotation id="G218">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32855" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G219">
-        <infon key="type">Gene</infon>
-        <location offset="32944" length="6"/>
-        <text>Cut11p</text>
-      </annotation>
-      <annotation id="TEAM_277_72">
-        <infon key="type">Gene</infon>
-        <location offset="32661" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_73">
         <infon key="type">Gene</infon>
         <location offset="32855" length="4"/>
         <text>NDC1</text>
@@ -3807,77 +2033,6 @@
       </annotation>
       <annotation id="C333">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="33879" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G220">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="32999" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G221">
-        <infon key="type">Gene</infon>
-        <location offset="33338" length="13"/>
-        <text>ndc1-1 allele</text>
-      </annotation>
-      <annotation id="G222">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="33424" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G223">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="33478" length="9"/>
-        <text>NDC1 gene</text>
-      </annotation>
-      <annotation id="G224">
-        <infon key="type">Gene</infon>
-        <location offset="33510" length="13"/>
-        <text>ndc1-1 allele</text>
-      </annotation>
-      <annotation id="G225">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="33855" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="G226">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="33879" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_74">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10277</infon>
-        <location offset="33012" length="3"/>
-        <text>SPB</text>
-      </annotation>
-      <annotation id="TEAM_277_75">
-        <infon key="type">Gene</infon>
-        <location offset="33424" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_76">
-        <infon key="type">Gene</infon>
-        <location offset="33478" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_77">
-        <infon key="type">Gene</infon>
-        <location offset="33855" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_78">
         <infon key="type">Gene</infon>
         <location offset="33879" length="4"/>
         <text>NDC1</text>
@@ -4010,127 +2165,6 @@
         <location offset="34820" length="187"/>
         <text>Additionally, synthetic lethal interactions have been identified between mutant alleles of  NIC96, NUP188, and POM152 (Aitchison et al., 1995b;  Nehrbass et al., 1996; Zabel et al., 1996)</text>
       </annotation>
-      <annotation id="G227">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34100" length="10"/>
-        <text>NIC96 gene</text>
-      </annotation>
-      <annotation id="G228">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34379" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="G229">
-        <infon key="score">0.58</infon>
-        <infon key="GeneID">380283</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34393" length="5"/>
-        <text>NUP93</text>
-      </annotation>
-      <annotation id="G230">
-        <infon key="type">Gene</infon>
-        <location offset="34464" length="6"/>
-        <text>Nup93p</text>
-      </annotation>
-      <annotation id="G231">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34590" length="6"/>
-        <text>Nic96p</text>
-      </annotation>
-      <annotation id="G232">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853409</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34692" length="5"/>
-        <text>Nsp1p</text>
-      </annotation>
-      <annotation id="G233">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34699" length="6"/>
-        <text>Nup49p</text>
-      </annotation>
-      <annotation id="G234">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853016</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34711" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
-      <annotation id="G235">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">850552</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34912" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="G236">
-        <infon key="score">0.58</infon>
-        <infon key="GeneID">100135081</infon>
-        <infon key="type">Gene</infon>
-        <location offset="34919" length="6"/>
-        <text>NUP188</text>
-      </annotation>
-      <annotation id="TEAM_277_79">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">224119</infon>
-        <location offset="34100" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="TEAM_277_80">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">224119</infon>
-        <location offset="34379" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="TEAM_277_81">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="34393" length="5"/>
-        <text>NUP93</text>
-      </annotation>
-      <annotation id="TEAM_277_82">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="34464" length="6"/>
-        <text>Nup93p</text>
-      </annotation>
-      <annotation id="TEAM_277_83">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">461059</infon>
-        <location offset="34692" length="5"/>
-        <text>Nsp1p</text>
-      </annotation>
-      <annotation id="TEAM_277_84">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="34699" length="6"/>
-        <text>Nup49p</text>
-      </annotation>
-      <annotation id="TEAM_277_85">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">224119</infon>
-        <location offset="34912" length="5"/>
-        <text>NIC96</text>
-      </annotation>
-      <annotation id="TEAM_277_86">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="34919" length="6"/>
-        <text>NUP188</text>
-      </annotation>
-      <annotation id="TEAM_277_87">
-        <infon key="type">Gene</infon>
-        <location offset="34931" length="6"/>
-        <text>POM152</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -4175,52 +2209,6 @@
         <infon key="type">PPImention</infon>
         <location offset="35495" length="172"/>
         <text>Because a function for Ndc1p at  NPCs has not been determined, we do not know if the suppression of ndc1-1 by the pom152 null allele has any functional consequence for NPCs</text>
-      </annotation>
-      <annotation id="G237">
-        <infon key="type">Gene</infon>
-        <location offset="35084" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G238">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="35243" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G239">
-        <infon key="type">Gene</infon>
-        <location offset="35318" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G240">
-        <infon key="type">Gene</infon>
-        <location offset="35388" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G241">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="35518" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G242">
-        <infon key="type">Gene</infon>
-        <location offset="35595" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G243">
-        <infon key="type">Gene</infon>
-        <location offset="35609" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G244">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">443043</infon>
-        <infon key="type">Gene</infon>
-        <location offset="35730" length="4"/>
-        <text>SPBs</text>
       </annotation>
     </passage>
     <passage>
@@ -4311,79 +2299,6 @@
         <location offset="35824" length="178"/>
         <text>The mechanism by which the pom152 null allele suppresses the ndc1-1 SPB duplication defect is not known,  but it appears as if wild-type POM152 is antagonistic in  ndc1-1 strains</text>
       </annotation>
-      <annotation id="G245">
-        <infon key="type">Gene</infon>
-        <location offset="35851" length="18"/>
-        <text>pom152 null allele</text>
-      </annotation>
-      <annotation id="G246">
-        <infon key="type">Gene</infon>
-        <location offset="35885" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G247">
-        <infon key="type">Gene</infon>
-        <location offset="35988" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G248">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="36083" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G249">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="36172" length="11"/>
-        <text>POM152 gene</text>
-      </annotation>
-      <annotation id="G250">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="36225" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G251">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="36328" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_88">
-        <infon key="type">Gene</infon>
-        <location offset="35851" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="TEAM_277_89">
-        <infon key="type">Gene</infon>
-        <location offset="35961" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_90">
-        <infon key="type">Gene</infon>
-        <location offset="36172" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_91">
-        <infon key="type">Gene</infon>
-        <location offset="36225" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_92">
-        <infon key="type">Gene</infon>
-        <location offset="36328" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_93">
-        <infon key="type">Gene</infon>
-        <location offset="36464" length="6"/>
-        <text>POM152</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -4431,73 +2346,6 @@
         <location offset="37023" length="229"/>
         <text>It is possible that Ndc1p and Pom152p may directly interact at  NPCs, because immunoelectron microscopy shows that  these two proteins localize to similar regions of the NPC  (Wozniak et al., 1994), and both are membrane proteins</text>
       </annotation>
-      <annotation id="G252">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="36514" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G253">
-        <infon key="type">Gene</infon>
-        <location offset="36623" length="7"/>
-        <text>Ndc1-1p</text>
-      </annotation>
-      <annotation id="G254">
-        <infon key="type">Gene</infon>
-        <location offset="36814" length="13"/>
-        <text>ndc1-1 allele</text>
-      </annotation>
-      <annotation id="G255">
-        <infon key="type">Gene</infon>
-        <location offset="36841" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G256">
-        <infon key="type">Gene</infon>
-        <location offset="36890" length="7"/>
-        <text>Ndc1-1p</text>
-      </annotation>
-      <annotation id="G257">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37043" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G258">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37053" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G259">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37267" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G260">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37329" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G261">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37512" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G262">
-        <infon key="type">Gene</infon>
-        <location offset="37533" length="7"/>
-        <text>Ndc1-1p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -4505,13 +2353,6 @@
       <text>Experiments presented here reveal a link between two  NE-embedded organelles that are functionally quite different. Little is known about how NPCs and SPBs are correctly assembled into the NE, but these processes are  expected to be complex, requiring the organelles to be oriented correctly and possibly to be dependent on the function and/or assembly of each other. The localization of  Ndc1p to both of these organelles suggests a common  mechanism for the assembly of NPCs and SPBs into the NE.</text>
       <annotation id="C367">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="37971" length="5"/>
-        <text>Ndc1p</text>
-      </annotation>
-      <annotation id="G263">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
         <infon key="type">Gene</infon>
         <location offset="37971" length="5"/>
         <text>Ndc1p</text>
@@ -5110,497 +2951,6 @@
         <location offset="38513" length="4"/>
         <text>S65T</text>
       </annotation>
-      <annotation id="G264">
-        <infon key="type">Gene</infon>
-        <location offset="38142" length="325"/>
-        <text>ProA5-4d/4a  MATa/MATalpha NDC1-ProA-HIS3-URA3/NDC1-ProA-HIS3-URA3 ura3-52/ura3-52 his3Delta200/his3Delta200 trp1-1/trp1-1     leu2-3,112/leu2-3,112 lys2-801/lys2-801  ProA5-4d  MATaNDC1-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  HC26-15a/1a  MATa/MATalpha NDC1-ProA-HIS3-URA3/NDC1-ProA-HIS3-URA3 nup49-1</text>
-      </annotation>
-      <annotation id="G265">
-        <infon key="type">Gene</infon>
-        <location offset="38151" length="8"/>
-        <text>4a  MATa</text>
-      </annotation>
-      <annotation id="G266">
-        <infon key="type">Gene</infon>
-        <location offset="38160" length="28"/>
-        <text>MATalpha NDC1-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="G267">
-        <infon key="type">Gene</infon>
-        <location offset="38189" length="27"/>
-        <text>NDC1-ProA-HIS3-URA3 ura3-52</text>
-      </annotation>
-      <annotation id="G268">
-        <infon key="type">Gene</infon>
-        <location offset="38217" length="20"/>
-        <text>ura3-52 his3Delta200</text>
-      </annotation>
-      <annotation id="G269">
-        <infon key="type">Gene</infon>
-        <location offset="38238" length="19"/>
-        <text>his3Delta200 trp1-1</text>
-      </annotation>
-      <annotation id="G270">
-        <infon key="type">Gene</infon>
-        <location offset="38258" length="21"/>
-        <text>trp1-1     leu2-3,112</text>
-      </annotation>
-      <annotation id="G271">
-        <infon key="type">Gene</infon>
-        <location offset="38280" length="19"/>
-        <text>leu2-3,112 lys2-801</text>
-      </annotation>
-      <annotation id="G272">
-        <infon key="type">Gene</infon>
-        <location offset="38300" length="101"/>
-        <text>lys2-801  ProA5-4d  MATaNDC1-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  HC26-15a</text>
-      </annotation>
-      <annotation id="G273">
-        <infon key="type">Gene</infon>
-        <location offset="38402" length="8"/>
-        <text>1a  MATa</text>
-      </annotation>
-      <annotation id="G274">
-        <infon key="type">Gene</infon>
-        <location offset="38411" length="28"/>
-        <text>MATalpha NDC1-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="G275">
-        <infon key="type">Gene</infon>
-        <location offset="38440" length="27"/>
-        <text>NDC1-ProA-HIS3-URA3 nup49-1</text>
-      </annotation>
-      <annotation id="G276">
-        <infon key="type">Gene</infon>
-        <location offset="38483" length="19"/>
-        <text>URA3 nup49DeltaGFLG</text>
-      </annotation>
-      <annotation id="G277">
-        <infon key="type">Gene</infon>
-        <location offset="38539" length="110"/>
-        <text>GFP-S65T-TRP1 ura3/ura3 his3/his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112  HC27-16d/16b  MATa/MATalpha nup133Delta</text>
-      </annotation>
-      <annotation id="G278">
-        <infon key="type">Gene</infon>
-        <location offset="38558" length="9"/>
-        <text>ura3 his3</text>
-      </annotation>
-      <annotation id="G279">
-        <infon key="type">Gene</infon>
-        <location offset="38568" length="11"/>
-        <text>his3 trp1-1</text>
-      </annotation>
-      <annotation id="G280">
-        <infon key="type">Gene</infon>
-        <location offset="38580" length="17"/>
-        <text>trp1-1 leu2-3,112</text>
-      </annotation>
-      <annotation id="G281">
-        <infon key="type">Gene</infon>
-        <location offset="38598" length="20"/>
-        <text>leu2-3,112  HC27-16d</text>
-      </annotation>
-      <annotation id="G282">
-        <infon key="type">Gene</infon>
-        <location offset="38619" length="9"/>
-        <text>16b  MATa</text>
-      </annotation>
-      <annotation id="G283">
-        <infon key="type">Gene</infon>
-        <location offset="38629" length="20"/>
-        <text>MATalpha nup133Delta</text>
-      </annotation>
-      <annotation id="G284">
-        <infon key="type">Gene</infon>
-        <location offset="38669" length="37"/>
-        <text>HIS3 NDC1-ProA-HIS3-URA3/NDC1 nup49-1</text>
-      </annotation>
-      <annotation id="G285">
-        <infon key="type">Gene</infon>
-        <location offset="38722" length="23"/>
-        <text>URA3     nup49DeltaGFLG</text>
-      </annotation>
-      <annotation id="G286">
-        <infon key="type">Gene</infon>
-        <location offset="38747" length="28"/>
-        <text>GFP-S65T-TRP1/nup49DeltaGFLG</text>
-      </annotation>
-      <annotation id="G287">
-        <infon key="type">Gene</infon>
-        <location offset="38777" length="54"/>
-        <text>GFP-S65T-TRP1 ura3/ura3 his3/his3 trp1-1/trp1-1 leu2-3</text>
-      </annotation>
-      <annotation id="G288">
-        <infon key="type">Gene</infon>
-        <location offset="38860" length="64"/>
-        <text>MATa/MATalpha NDC1-ProA-HIS3-URA3/NDC1-ProA-HIS3-URA3 spc42Delta</text>
-      </annotation>
-      <annotation id="G289">
-        <infon key="type">Gene</infon>
-        <location offset="38865" length="28"/>
-        <text>MATalpha NDC1-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="G290">
-        <infon key="type">Gene</infon>
-        <location offset="38894" length="30"/>
-        <text>NDC1-ProA-HIS3-URA3 spc42Delta</text>
-      </annotation>
-      <annotation id="G291">
-        <infon key="type">Gene</infon>
-        <location offset="38926" length="15"/>
-        <text>LEU2/spc42Delta</text>
-      </annotation>
-      <annotation id="G292">
-        <infon key="type">Gene</infon>
-        <location offset="38931" length="10"/>
-        <text>spc42Delta</text>
-      </annotation>
-      <annotation id="G293">
-        <infon key="type">Gene</infon>
-        <location offset="38943" length="13"/>
-        <text>LEU2     TRP1</text>
-      </annotation>
-      <annotation id="G294">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="38958" length="9"/>
-        <text>SPC42-GFP</text>
-      </annotation>
-      <annotation id="G295">
-        <infon key="type">Gene</infon>
-        <location offset="38978" length="165"/>
-        <text>SPC42-GFP(3x) ura3/ura3 his3/his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112 ade2-1/ade2-1  HC23-11d/16a  MATa/MATalpha NIC96-ProA-HIS3-URA3/NIC96-ProA-HIS3-URA3 spc42Delta</text>
-      </annotation>
-      <annotation id="G296">
-        <infon key="type">Gene</infon>
-        <location offset="38997" length="9"/>
-        <text>ura3 his3</text>
-      </annotation>
-      <annotation id="G297">
-        <infon key="type">Gene</infon>
-        <location offset="39007" length="11"/>
-        <text>his3 trp1-1</text>
-      </annotation>
-      <annotation id="G298">
-        <infon key="type">Gene</infon>
-        <location offset="39019" length="17"/>
-        <text>trp1-1 leu2-3,112</text>
-      </annotation>
-      <annotation id="G299">
-        <infon key="type">Gene</infon>
-        <location offset="39037" length="17"/>
-        <text>leu2-3,112 ade2-1</text>
-      </annotation>
-      <annotation id="G300">
-        <infon key="type">Gene</infon>
-        <location offset="39055" length="16"/>
-        <text>ade2-1  HC23-11d</text>
-      </annotation>
-      <annotation id="G301">
-        <infon key="type">Gene</infon>
-        <location offset="39072" length="9"/>
-        <text>16a  MATa</text>
-      </annotation>
-      <annotation id="G302">
-        <infon key="type">Gene</infon>
-        <location offset="39082" length="29"/>
-        <text>MATalpha NIC96-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="G303">
-        <infon key="type">Gene</infon>
-        <location offset="39112" length="31"/>
-        <text>NIC96-ProA-HIS3-URA3 spc42Delta</text>
-      </annotation>
-      <annotation id="G304">
-        <infon key="type">Gene</infon>
-        <location offset="39145" length="15"/>
-        <text>LEU2/spc42Delta</text>
-      </annotation>
-      <annotation id="G305">
-        <infon key="type">Gene</infon>
-        <location offset="39150" length="10"/>
-        <text>spc42Delta</text>
-      </annotation>
-      <annotation id="G306">
-        <infon key="type">Gene</infon>
-        <location offset="39162" length="9"/>
-        <text>LEU2 TRP1</text>
-      </annotation>
-      <annotation id="G307">
-        <infon key="type">Gene</infon>
-        <location offset="39173" length="14"/>
-        <text>SPC42-     GFP</text>
-      </annotation>
-      <annotation id="G308">
-        <infon key="type">Gene</infon>
-        <location offset="39198" length="93"/>
-        <text>SPC42-GFP(3x) ura3/ura3 his3/his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112 ade2-1/ade2-1  HC14-10c</text>
-      </annotation>
-      <annotation id="G309">
-        <infon key="type">Gene</infon>
-        <location offset="39307" length="23"/>
-        <text>MATa/MATalpha ndc1Delta</text>
-      </annotation>
-      <annotation id="G310">
-        <infon key="type">Gene</infon>
-        <location offset="39312" length="18"/>
-        <text>MATalpha ndc1Delta</text>
-      </annotation>
-      <annotation id="G311">
-        <infon key="type">Gene</infon>
-        <location offset="39349" length="150"/>
-        <text>HIS3 ura3-52/ura3-52 his3Delta200/his3Delta200 trp1Delta63/TRP1 leu2Delta1/leu2Delta1 LYS2/     lys2-801 ade2Delta426/ade2Delta426 ade3Delta/ade3Delta</text>
-      </annotation>
-      <annotation id="G312">
-        <infon key="type">Gene</infon>
-        <location offset="39362" length="20"/>
-        <text>ura3-52 his3Delta200</text>
-      </annotation>
-      <annotation id="G313">
-        <infon key="type">Gene</infon>
-        <location offset="39383" length="24"/>
-        <text>his3Delta200 trp1Delta63</text>
-      </annotation>
-      <annotation id="G314">
-        <infon key="type">Gene</infon>
-        <location offset="39408" length="15"/>
-        <text>TRP1 leu2Delta1</text>
-      </annotation>
-      <annotation id="G315">
-        <infon key="type">Gene</infon>
-        <location offset="39424" length="15"/>
-        <text>leu2Delta1 LYS2</text>
-      </annotation>
-      <annotation id="G316">
-        <infon key="type">Gene</infon>
-        <location offset="39445" length="21"/>
-        <text>lys2-801 ade2Delta426</text>
-      </annotation>
-      <annotation id="G317">
-        <infon key="type">Gene</infon>
-        <location offset="39467" length="22"/>
-        <text>ade2Delta426 ade3Delta</text>
-      </annotation>
-      <annotation id="G318">
-        <infon key="type">Gene</infon>
-        <location offset="39490" length="9"/>
-        <text>ade3Delta</text>
-      </annotation>
-      <annotation id="G319">
-        <infon key="type">Gene</infon>
-        <location offset="39501" length="15"/>
-        <text>pRS315-NDC1-GFP</text>
-      </annotation>
-      <annotation id="G320">
-        <infon key="type">Gene</infon>
-        <location offset="39533" length="511"/>
-        <text>MATa/MATalpha ura3-52/ura3-52 ade2/ade2 his4-539/HIS4  HC10-42a/42d  MATa/MATalpha ndc1-1/ndc1-1 ura3-52/ura3-52 ade2/ade2 his4-539/HIS4  HC13-1c  MATalpha NIC96-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  Wx340-3c  MATalpha ndc1-1 tub2-403 ura3-52 his4-539 lys2-801  Wx340-3d  MATalpha tub2-403 ura3-52 his4-539  HC14-10c  MATaura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c  MATandc1-1 ura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c</text>
-      </annotation>
-      <annotation id="G321">
-        <infon key="type">Gene</infon>
-        <location offset="39538" length="16"/>
-        <text>MATalpha ura3-52</text>
-      </annotation>
-      <annotation id="G322">
-        <infon key="type">Gene</infon>
-        <location offset="39555" length="12"/>
-        <text>ura3-52 ade2</text>
-      </annotation>
-      <annotation id="G323">
-        <infon key="type">Gene</infon>
-        <location offset="39568" length="13"/>
-        <text>ade2 his4-539</text>
-      </annotation>
-      <annotation id="G324">
-        <infon key="type">Gene</infon>
-        <location offset="39582" length="14"/>
-        <text>HIS4  HC10-42a</text>
-      </annotation>
-      <annotation id="G325">
-        <infon key="type">Gene</infon>
-        <location offset="39597" length="9"/>
-        <text>42d  MATa</text>
-      </annotation>
-      <annotation id="G326">
-        <infon key="type">Gene</infon>
-        <location offset="39607" length="15"/>
-        <text>MATalpha ndc1-1</text>
-      </annotation>
-      <annotation id="G327">
-        <infon key="type">Gene</infon>
-        <location offset="39623" length="14"/>
-        <text>ndc1-1 ura3-52</text>
-      </annotation>
-      <annotation id="G328">
-        <infon key="type">Gene</infon>
-        <location offset="39638" length="12"/>
-        <text>ura3-52 ade2</text>
-      </annotation>
-      <annotation id="G329">
-        <infon key="type">Gene</infon>
-        <location offset="39651" length="13"/>
-        <text>ade2 his4-539</text>
-      </annotation>
-      <annotation id="G330">
-        <infon key="type">Gene</infon>
-        <location offset="39665" length="379"/>
-        <text>HIS4  HC13-1c  MATalpha NIC96-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  Wx340-3c  MATalpha ndc1-1 tub2-403 ura3-52 his4-539 lys2-801  Wx340-3d  MATalpha tub2-403 ura3-52 his4-539  HC14-10c  MATaura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c  MATandc1-1 ura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c</text>
-      </annotation>
-      <annotation id="G331">
-        <infon key="type">Gene</infon>
-        <location offset="40052" length="22"/>
-        <text>MATandc1-1 pom152Delta</text>
-      </annotation>
-      <annotation id="G332">
-        <infon key="type">Gene</infon>
-        <location offset="40076" length="71"/>
-        <text>HIS3 ura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta</text>
-      </annotation>
-      <annotation id="TEAM_277_94">
-        <infon key="type">Gene</infon>
-        <location offset="38160" length="307"/>
-        <text>MATalpha NDC1-ProA-HIS3-URA3/NDC1-ProA-HIS3-URA3 ura3-52/ura3-52 his3Delta200/his3Delta200 trp1-1/trp1-1     leu2-3,112/leu2-3,112 lys2-801/lys2-801  ProA5-4d  MATaNDC1-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  HC26-15a/1a  MATa/MATalpha NDC1-ProA-HIS3-URA3/NDC1-ProA-HIS3-URA3 nup49-1</text>
-      </annotation>
-      <annotation id="TEAM_277_95">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">13745</infon>
-        <location offset="38469" length="4"/>
-        <text>URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_96">
-        <infon key="type">Gene</infon>
-        <location offset="38539" length="28"/>
-        <text>GFP-S65T-TRP1 ura3/ura3 his3</text>
-      </annotation>
-      <annotation id="TEAM_277_97">
-        <infon key="type">Gene</infon>
-        <location offset="38568" length="81"/>
-        <text>his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112  HC27-16d/16b  MATa/MATalpha nup133Delta</text>
-      </annotation>
-      <annotation id="TEAM_277_98">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="38651" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_99">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="38669" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_100">
-        <infon key="type">Gene</infon>
-        <location offset="38694" length="4"/>
-        <text>NDC1</text>
-      </annotation>
-      <annotation id="TEAM_277_101">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">13745</infon>
-        <location offset="38708" length="4"/>
-        <text>URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_102">
-        <infon key="type">Gene</infon>
-        <location offset="38777" length="28"/>
-        <text>GFP-S65T-TRP1 ura3/ura3 his3</text>
-      </annotation>
-      <annotation id="TEAM_277_103">
-        <infon key="type">Gene</infon>
-        <location offset="38806" length="87"/>
-        <text>his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112  HC22-2b/1c  MATa/MATalpha NDC1-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_104">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">9980</infon>
-        <location offset="38926" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="TEAM_277_105">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">9980</infon>
-        <location offset="38943" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="TEAM_277_106">
-        <infon key="type">Gene</infon>
-        <location offset="38952" length="4"/>
-        <text>TRP1</text>
-      </annotation>
-      <annotation id="TEAM_277_107">
-        <infon key="type">Gene</infon>
-        <location offset="38972" length="4"/>
-        <text>TRP1</text>
-      </annotation>
-      <annotation id="TEAM_277_108">
-        <infon key="type">Gene</infon>
-        <location offset="38978" length="28"/>
-        <text>SPC42-GFP(3x) ura3/ura3 his3</text>
-      </annotation>
-      <annotation id="TEAM_277_109">
-        <infon key="type">Gene</infon>
-        <location offset="39007" length="104"/>
-        <text>his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112 ade2-1/ade2-1  HC23-11d/16a  MATa/MATalpha NIC96-ProA-HIS3-URA3</text>
-      </annotation>
-      <annotation id="TEAM_277_110">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">9980</infon>
-        <location offset="39145" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="TEAM_277_111">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">9980</infon>
-        <location offset="39162" length="4"/>
-        <text>LEU2</text>
-      </annotation>
-      <annotation id="TEAM_277_112">
-        <infon key="type">Gene</infon>
-        <location offset="39167" length="4"/>
-        <text>TRP1</text>
-      </annotation>
-      <annotation id="TEAM_277_113">
-        <infon key="type">Gene</infon>
-        <location offset="39173" length="23"/>
-        <text>SPC42-     GFP(3x)/TRP1</text>
-      </annotation>
-      <annotation id="TEAM_277_114">
-        <infon key="type">Gene</infon>
-        <location offset="39198" length="28"/>
-        <text>SPC42-GFP(3x) ura3/ura3 his3</text>
-      </annotation>
-      <annotation id="TEAM_277_115">
-        <infon key="type">Gene</infon>
-        <location offset="39227" length="84"/>
-        <text>his3 trp1-1/trp1-1 leu2-3,112/leu2-3,112 ade2-1/ade2-1  HC14-10c(1198)/HC29-6b  MATa</text>
-      </annotation>
-      <annotation id="TEAM_277_116">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">393202</infon>
-        <location offset="39349" length="4"/>
-        <text>HIS3</text>
-      </annotation>
-      <annotation id="TEAM_277_117">
-        <infon key="type">Gene</infon>
-        <location offset="39408" length="173"/>
-        <text>TRP1 leu2Delta1/leu2Delta1 LYS2/     lys2-801 ade2Delta426/ade2Delta426 ade3Delta/ade3Delta (pRS315-NDC1-GFP)  HC10-42b/42c  MATa/MATalpha ura3-52/ura3-52 ade2/ade2 his4-539</text>
-      </annotation>
-      <annotation id="TEAM_277_118">
-        <infon key="type">Gene</infon>
-        <location offset="39582" length="82"/>
-        <text>HIS4  HC10-42a/42d  MATa/MATalpha ndc1-1/ndc1-1 ura3-52/ura3-52 ade2/ade2 his4-539</text>
-      </annotation>
-      <annotation id="TEAM_277_119">
-        <infon key="type">Gene</infon>
-        <location offset="39665" length="409"/>
-        <text>HIS4  HC13-1c  MATalpha NIC96-ProA-HIS3-URA3 ura3-52 his3Delta200 trp1-1 leu2-3,112 lys2-801  Wx340-3c  MATalpha ndc1-1 tub2-403 ura3-52 his4-539 lys2-801  Wx340-3d  MATalpha tub2-403 ura3-52 his4-539  HC14-10c  MATaura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c  MATandc1-1 ura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta  HC5-31c(1166)  MATandc1-1 pom152Delta</text>
-      </annotation>
-      <annotation id="TEAM_277_120">
-        <infon key="type">Gene</infon>
-        <location offset="40076" length="71"/>
-        <text>HIS3 ura3-52 his3Delta200 trp1Delta63 leu2Delta1 ade2Delta426 ade3Delta</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">table_footnote</infon>
@@ -5655,68 +3005,6 @@
       </annotation>
       <annotation id="C437">
         <infon key="NCBI Gene">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41093" length="3"/>
-        <text>GFP</text>
-      </annotation>
-      <annotation id="G333">
-        <infon key="type">Gene</infon>
-        <location offset="40065" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G334">
-        <infon key="type">Gene</infon>
-        <location offset="40454" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G335">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="40469" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G336">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="40596" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G337">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">7011691</infon>
-        <infon key="type">Gene</infon>
-        <location offset="40710" length="3"/>
-        <text>GFP</text>
-      </annotation>
-      <annotation id="G338">
-        <infon key="type">Gene</infon>
-        <location offset="40795" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G339">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="40823" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G340">
-        <infon key="type">Gene</infon>
-        <location offset="40871" length="18"/>
-        <text>nup133 null allele</text>
-      </annotation>
-      <annotation id="G341">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41007" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G342">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">7011691</infon>
         <infon key="type">Gene</infon>
         <location offset="41093" length="3"/>
         <text>GFP</text>
@@ -5804,79 +3092,6 @@
         <location offset="41579" length="134"/>
         <text>Pom152p is a NPC component (Wozniak et al.,  1994), and Spc110p is a SPB component (Rout and Kilmartin,  1990; Kilmartin et al., 1993)</text>
       </annotation>
-      <annotation id="G343">
-        <infon key="type">Gene</infon>
-        <location offset="41161" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G344">
-        <infon key="type">Gene</infon>
-        <location offset="41297" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G345">
-        <infon key="type">Gene</infon>
-        <location offset="41324" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G346">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41546" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G347">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">851957</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41570" length="7"/>
-        <text>Spc110p</text>
-      </annotation>
-      <annotation id="G348">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41579" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G349">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">851957</infon>
-        <infon key="type">Gene</infon>
-        <location offset="41635" length="7"/>
-        <text>Spc110p</text>
-      </annotation>
-      <annotation id="G350">
-        <infon key="type">Gene</infon>
-        <location offset="41672" length="9"/>
-        <text>Kilmartin</text>
-      </annotation>
-      <annotation id="G351">
-        <infon key="type">Gene</infon>
-        <location offset="42156" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G352">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="42363" length="7"/>
-        <text>Pom152p</text>
-      </annotation>
-      <annotation id="G353">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853016</infon>
-        <infon key="type">Gene</infon>
-        <location offset="42376" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
-      <annotation id="TEAM_277_121">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="42376" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">fig_caption</infon>
@@ -5924,70 +3139,6 @@
         <location offset="43188" length="6"/>
         <text>nup133</text>
       </annotation>
-      <annotation id="G354">
-        <infon key="type">Gene</infon>
-        <location offset="42384" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G355">
-        <infon key="type">Gene</infon>
-        <location offset="42514" length="10"/>
-        <text>Ndc1p-ProA</text>
-      </annotation>
-      <annotation id="G356">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="42530" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
-      <annotation id="G357">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="42622" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
-      <annotation id="G358">
-        <infon key="type">Gene</infon>
-        <location offset="42886" length="11"/>
-        <text>Nic96p-ProA</text>
-      </annotation>
-      <annotation id="G359">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">853824</infon>
-        <infon key="type">Gene</infon>
-        <location offset="42902" length="10"/>
-        <text>Spc42p-GFP</text>
-      </annotation>
-      <annotation id="G360">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43172" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G361">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">406852</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43188" length="6"/>
-        <text>nup133</text>
-      </annotation>
-      <annotation id="G362">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43302" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
-      <annotation id="G363">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">852703</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43571" length="10"/>
-        <text>Nup49p-GFP</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">fig_caption</infon>
@@ -6010,53 +3161,6 @@
         <infon key="type">Gene</infon>
         <location offset="43835" length="3"/>
         <text>GFP</text>
-      </annotation>
-      <annotation id="G364">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43592" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="G365">
-        <infon key="type">Gene</infon>
-        <location offset="43754" length="16"/>
-        <text>ndc1 null allele</text>
-      </annotation>
-      <annotation id="G366">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">335236</infon>
-        <infon key="type">Gene</infon>
-        <location offset="43830" length="8"/>
-        <text>NDC1-GFP</text>
-      </annotation>
-      <annotation id="G367">
-        <infon key="score">0.73</infon>
-        <infon key="GeneID">854977</infon>
-        <infon key="type">Gene</infon>
-        <location offset="44143" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_122">
-        <infon key="type">Gene</infon>
-        <location offset="43667" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_123">
-        <infon key="type">Gene</infon>
-        <location offset="43877" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="TEAM_277_124">
-        <infon key="type">Gene</infon>
-        <location offset="44143" length="9"/>
-        <text>Ndc1p-GFP</text>
-      </annotation>
-      <annotation id="5">
-        <infon key="type">ExperimentalMethod</infon>
-        <infon key="PSIMI">0416</infon>
-        <location offset="43877" length="226"/>
-        <text>Ndc1p-GFP localization was  observed in living cells using  deconvolution fluorescence  microscopy (A). Additionally, this localization was examined using immunoelectron microscopy of whole  cells (see Materials and  Methods).</text>
       </annotation>
     </passage>
     <passage>
@@ -6100,38 +3204,6 @@
         <infon key="type">Chemical</infon>
         <location offset="45043" length="4"/>
         <text>FITC</text>
-      </annotation>
-      <annotation id="G368">
-        <infon key="type">Gene</infon>
-        <location offset="44326" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G369">
-        <infon key="type">Gene</infon>
-        <location offset="44495" length="12"/>
-        <text>HC10-42b/42c</text>
-      </annotation>
-      <annotation id="G370">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">20194</infon>
-        <infon key="type">Gene</infon>
-        <location offset="44504" length="3"/>
-        <text>42c</text>
-      </annotation>
-      <annotation id="G371">
-        <infon key="type">Gene</infon>
-        <location offset="44571" length="10"/>
-        <text>NIC96-ProA</text>
-      </annotation>
-      <annotation id="G372">
-        <infon key="type">Gene</infon>
-        <location offset="44647" length="15"/>
-        <text>pGAL-NIC96-ProA</text>
-      </annotation>
-      <annotation id="G373">
-        <infon key="type">Gene</infon>
-        <location offset="44749" length="14"/>
-        <text>ndc1-1 culture</text>
       </annotation>
     </passage>
     <passage>
@@ -6245,129 +3317,6 @@
         <location offset="45954" length="6"/>
         <text>pom152</text>
       </annotation>
-      <annotation id="G374">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="45121" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="G375">
-        <infon key="type">Gene</infon>
-        <location offset="45143" length="10"/>
-        <text>ndc1-1 SPB</text>
-      </annotation>
-      <annotation id="G376">
-        <infon key="type">Gene</infon>
-        <location offset="45202" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G377">
-        <infon key="type">Gene</infon>
-        <location offset="45212" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G378">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="45220" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="G379">
-        <infon key="type">Gene</infon>
-        <location offset="45317" length="10"/>
-        <text>pURA3-NDC1</text>
-      </annotation>
-      <annotation id="G380">
-        <infon key="type">Gene</infon>
-        <location offset="45381" length="10"/>
-        <text>pURA3-NDC1</text>
-      </annotation>
-      <annotation id="G381">
-        <infon key="type">Gene</infon>
-        <location offset="45429" length="5"/>
-        <text>pLEU2</text>
-      </annotation>
-      <annotation id="G382">
-        <infon key="type">Gene</infon>
-        <location offset="45439" length="7"/>
-        <text>pPM1-HA</text>
-      </annotation>
-      <annotation id="G383">
-        <infon key="type">Gene</infon>
-        <location offset="45593" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G384">
-        <infon key="type">Gene</infon>
-        <location offset="45615" length="10"/>
-        <text>pURA3-NDC1</text>
-      </annotation>
-      <annotation id="G385">
-        <infon key="type">Gene</infon>
-        <location offset="45656" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G386">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">855159</infon>
-        <infon key="type">Gene</infon>
-        <location offset="45664" length="6"/>
-        <text>pom152</text>
-      </annotation>
-      <annotation id="G387">
-        <infon key="type">Gene</infon>
-        <location offset="45860" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G388">
-        <infon key="type">Gene</infon>
-        <location offset="45933" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G389">
-        <infon key="type">Gene</infon>
-        <location offset="45946" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G390">
-        <infon key="type">Gene</infon>
-        <location offset="45981" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="G391">
-        <infon key="type">Gene</infon>
-        <location offset="45989" length="11"/>
-        <text>pom152Delta</text>
-      </annotation>
-      <annotation id="G392">
-        <infon key="type">Gene</infon>
-        <location offset="46385" length="6"/>
-        <text>ndc1-1</text>
-      </annotation>
-      <annotation id="TEAM_277_125">
-        <infon key="type">Gene</infon>
-        <location offset="45121" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_126">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">12205</infon>
-        <location offset="45421" length="6"/>
-        <text>pRS315</text>
-      </annotation>
-      <annotation id="TEAM_277_127">
-        <infon key="type">Gene</infon>
-        <location offset="45781" length="6"/>
-        <text>POM152</text>
-      </annotation>
-      <annotation id="TEAM_277_128">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">200184</infon>
-        <location offset="45789" length="12"/>
-        <text>pLEU2-POM152</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">title</infon>
@@ -6434,13 +3383,6 @@
       <infon key="type">paragraph</infon>
       <offset>46575</offset>
       <text>ProA</text>
-      <annotation id="G393">
-        <infon key="score">0.70</infon>
-        <infon key="GeneID">7502638</infon>
-        <infon key="type">Gene</infon>
-        <location offset="46575" length="4"/>
-        <text>ProA</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="type">paragraph</infon>
@@ -6542,12 +3484,6 @@
         <infon key="type">Gene</infon>
         <location offset="46887" length="7"/>
         <text>Pom152p</text>
-      </annotation>
-      <annotation id="TEAM_277_129">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="46751" length="7"/>
-        <text>Nup157p</text>
       </annotation>
     </passage>
     <passage>
@@ -6683,12 +3619,6 @@
       <infon key="lpage">709</infon>
       <offset>47346</offset>
       <text>Identification and characterization of a nuclear pore complex protein</text>
-      <annotation id="TEAM_277_130">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">156510</infon>
-        <location offset="47387" length="28"/>
-        <text>nuclear pore complex protein</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">Proc Natl Acad Sci USA</infon>
@@ -6853,12 +3783,6 @@
         <location offset="48396" length="5"/>
         <text>NIC96</text>
       </annotation>
-      <annotation id="TEAM_277_131">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">795388</infon>
-        <location offset="48307" length="4"/>
-        <text>NSP1</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">EMBO (Eur Mol Biol Organ) J</infon>
@@ -6898,12 +3822,6 @@
         <location offset="48519" length="6"/>
         <text>Nup57p</text>
       </annotation>
-      <annotation id="TEAM_277_132">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">461059</infon>
-        <location offset="48485" length="5"/>
-        <text>Nsp1p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">Mol Biol Cell</infon>
@@ -6940,12 +3858,6 @@
         <location offset="48565" length="6"/>
         <text>Nic96p</text>
       </annotation>
-      <annotation id="TEAM_277_133">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="48526" length="5"/>
-        <text>Nup93</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">J Cell Biol</infon>
@@ -6972,12 +3884,6 @@
       <annotation id="C492">
         <infon key="NCBI Gene">853808</infon>
         <infon key="type">Gene</infon>
-        <location offset="48799" length="4"/>
-        <text>RAT2</text>
-      </annotation>
-      <annotation id="TEAM_277_134">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">10114</infon>
         <location offset="48799" length="4"/>
         <text>RAT2</text>
       </annotation>
@@ -7022,12 +3928,6 @@
       <infon key="lpage">2010</infon>
       <offset>48912</offset>
       <text>Diverse effects of beta-tubulin mutations on microtubule formation and function</text>
-      <annotation id="TEAM_277_135">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">130530</infon>
-        <location offset="48931" length="12"/>
-        <text>beta-tubulin</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">J Gen Microbiol</infon>
@@ -7262,24 +4162,6 @@
         <location offset="49827" length="6"/>
         <text>Nup57p</text>
       </annotation>
-      <annotation id="TEAM_277_136">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">461059</infon>
-        <location offset="49808" length="5"/>
-        <text>Nsp1p</text>
-      </annotation>
-      <annotation id="TEAM_277_137">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="49815" length="6"/>
-        <text>Nup49p</text>
-      </annotation>
-      <annotation id="TEAM_277_138">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
-        <location offset="49827" length="6"/>
-        <text>Nup57p</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">Proc Natl  Acad Sci USA</infon>
@@ -7307,12 +4189,6 @@
         <infon key="NCBI Taxonomy">4932</infon>
         <location offset="49860" length="5"/>
         <text>yeast</text>
-      </annotation>
-      <annotation id="TEAM_277_139">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">11988</infon>
-        <location offset="49870" length="3"/>
-        <text>TC4</text>
       </annotation>
     </passage>
     <passage>
@@ -7445,11 +4321,6 @@
         <location offset="50444" length="5"/>
         <text>yeast</text>
       </annotation>
-      <annotation id="TEAM_277_140">
-        <infon key="type">Gene</infon>
-        <location offset="50450" length="21"/>
-        <text>ribosomal protein L29</text>
-      </annotation>
     </passage>
     <passage>
       <infon key="source">Yeast</infon>
@@ -7559,11 +4430,6 @@
         <infon key="NCBI Taxonomy">4932</infon>
         <location offset="50904" length="5"/>
         <text>yeast</text>
-      </annotation>
-      <annotation id="TEAM_277_141">
-        <infon key="type">Gene</infon>
-        <location offset="50855" length="4"/>
-        <text>NDC1</text>
       </annotation>
     </passage>
     <passage>
@@ -7700,12 +4566,6 @@
       <annotation id="C528">
         <infon key="NCBI Gene">854868</infon>
         <infon key="type">Gene</infon>
-        <location offset="51607" length="7"/>
-        <text>Nup188p</text>
-      </annotation>
-      <annotation id="TEAM_277_142">
-        <infon key="type">Gene</infon>
-        <infon key="GeneID">4415</infon>
         <location offset="51607" length="7"/>
         <text>Nup188p</text>
       </annotation>
