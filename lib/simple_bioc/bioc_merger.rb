@@ -128,32 +128,78 @@ module BioCMerger
     end
   end
   def copy_relation(doc, dest, relation, id_map)
-    new_r = SimpleBioC::Relation.new(dest)
-    new_r.id = choose_id(doc, relation.id, id_map)
+    new_r = nil
+    need_add = true
+    dest.relations.each do |r|
+      if r.id == relation.id
+        new_r = r
+        need_add = false
+        break
+      end
+    end
+    if new_r.nil?
+      new_r = SimpleBioC::Relation.new(dest)
+      new_r.id = choose_id(doc, relation.id, id_map)
+      new_r.original = relation
+    end
+
     relation.nodes.each do |n|
-      node = SimpleBioC::Node.new(new_r)
-      node.refid = n.refid
-      node.role = n.role
-      new_r.nodes << node
+      found = false
+      new_r.nodes.each do |old_n|
+        if n.refid == old_n.refid && n.role == old_n.role
+          found = true
+          break
+        end
+      end
+      unless found
+        node = SimpleBioC::Node.new(new_r)
+        node.refid = n.refid
+        node.role = n.role
+        new_r.nodes << node
+      end
     end
     copy_infons(new_r, relation)
-    new_r.original = relation
-    dest.relations << new_r
+    if need_add 
+      dest.relations << new_r
+    end
   end
 
   def copy_annotation(doc, dest, annotation, id_map)
-    new_a = SimpleBioC::Annotation.new(dest)
-    new_a.id = choose_id(doc, annotation.id, id_map)
-    new_a.text = annotation.text
-    new_a.locations = []
+    new_a = nil
+    need_add = true
+    dest.annotations.each do |a|
+      if a.id == annotation.id && a.text == annotation.text
+        new_a = a
+        need_add = false
+        break
+      end
+    end
+    if new_a.nil?
+      new_a = SimpleBioC::Annotation.new(dest)
+      new_a.id = choose_id(doc, annotation.id, id_map)
+      new_a.text = annotation.text
+      new_a.locations = []
+    end
+
     annotation.locations.each do |l|
-      new_l = SimpleBioC::Location.new(new_a)
-      new_l.offset = l.offset
-      new_l.length = l.length 
-      new_a.locations << new_l
+      found = false
+      new_a.locations.each do |old_l|
+        if l.offset == old_l.offset && l.length == old_l.length
+          found = true
+          break
+        end
+      end
+      unless found
+        new_l = SimpleBioC::Location.new(new_a)
+        new_l.offset = l.offset
+        new_l.length = l.length 
+        new_a.locations << new_l
+      end
     end
     copy_infons(new_a, annotation)
-    dest.annotations << new_a
+    if need_add
+      dest.annotations << new_a
+    end
   end
 
   def choose_id(doc, id, id_map) 
