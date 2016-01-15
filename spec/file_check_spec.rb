@@ -26,6 +26,17 @@ describe "File Check" do
     col5 = SimpleBioC.from_xml("./xml/merge/output.xml")
   end 
 
+  it "should merge same documents successfully" do
+    col1 = SimpleBioC.from_xml("./xml/10330397_gene.xml")
+    col2 = SimpleBioC.from_xml("./xml/10330397_ppimention.xml")
+
+    SimpleBioC.merge(col1, col2)
+    output = SimpleBioC.to_xml(col1)
+    File.write("./xml/merge/output.xml", output)
+    puts "merge2"
+    col5 = SimpleBioC.from_xml("./xml/merge/output.xml")
+  end 
+
   it "should merge documents successfully with different order" do
     col4 = SimpleBioC.from_xml("./xml/merge/9864355.xml")
     col3 = SimpleBioC.from_xml("./xml/merge/9864355_1.xml")

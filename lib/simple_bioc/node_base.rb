@@ -13,5 +13,9 @@ module SimpleBioC
       @passage  = @sentence.passage unless @sentence.nil?
       @document = @passage.document unless @passage.nil?
     end
+
+    def clear_sentence
+      @sentence = nil
+    end
   end
 end

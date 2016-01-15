@@ -63,11 +63,11 @@ module BioCMerger
           p_d.text = p_d.sentences.map{|s| s.text}.join(" ") if blank?(p_d.text)
           p_d.sentences.each do |s|
             s.annotations.each do |a|
-              a.sentence = nil
+              a.clear_sentence
               p_d.annotations << a
             end
             s.relations.each do |r|
-              r.sentence = nil
+              r.clear_sentence
               p_d.relations << r
             end
           end
