@@ -32,10 +32,18 @@ describe "File Check" do
 
     SimpleBioC.merge(col1, col2)
     output = SimpleBioC.to_xml(col1)
-    File.write("./xml/merge/output.xml", output)
+    File.write("./xml/merge/output_10330397.xml", output)
     puts "merge2"
-    col5 = SimpleBioC.from_xml("./xml/merge/output.xml")
+    col5 = SimpleBioC.from_xml("./xml/merge/output_10330397.xml")
   end 
+
+  it "should fix location problem" do
+    col1 = SimpleBioC.from_xml("./xml/merge/10366597_error.xml")
+    output = SimpleBioC.to_xml(col1)
+    File.write("./xml/merge/output_10366597.xml", output)
+    col5 = SimpleBioC.from_xml("./xml/merge/output_10366597.xml")
+  end 
+
 
   it "should merge documents successfully with different order" do
     col4 = SimpleBioC.from_xml("./xml/merge/9864355.xml")

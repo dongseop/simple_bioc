@@ -1,5 +1,7 @@
 module SimpleBioC
   class Passage
+    include LocationAdjuster
+
     attr_accessor :offset, :text, :infons, :sentences, :annotations, :relations
     attr_reader :document
 

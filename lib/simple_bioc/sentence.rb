@@ -1,5 +1,7 @@
 module SimpleBioC
   class Sentence
+    include LocationAdjuster
+
     attr_accessor :offset, :text, :infons, :annotations, :relations
     attr_reader :passage
 

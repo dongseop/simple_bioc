@@ -49,7 +49,7 @@ module BioCMerger
           copy_text(s_d, s_s)
           copy_relations(doc_d, s_d, s_s, id_map)
           copy_annotations(doc_d, s_d, s_s, id_map)
-          adjust_annotation_offset(s_d)
+          s_d.adjust_annotation_offsets
         end
       elsif p_d.sentences.size == 0
         p_d.text = p_s.sentences.map{|s| s.text}.join(" ") if blank?(p_d.text)
@@ -77,19 +77,9 @@ module BioCMerger
         end
       end
       copy_annotations(doc_d, p_d, p_s, id_map)
-      adjust_annotation_offset(p_d)
+      p_d.adjust_annotation_offsets
     end
     puts warnings
-  end
-
-  def adjust_annotation_offset(obj)
-    return if obj.nil?
-    obj.annotations.each do |a|
-      positions = find_all_locations(obj, a.text)
-      a.locations.each do |l|
-        l.offset = choose_offset_candidate(l.offset, positions)
-      end
-    end
   end
 
   def adjust_relation_refids(doc, id_map)
@@ -235,30 +225,5 @@ module BioCMerger
         
       end
     end
-  end
-
-  def find_all_locations(obj, text)
-    positions = []
-    return positions if obj.nil? || obj.text.nil?
-    pos = obj.text.index(text)
-    until pos.nil? 
-      positions << (pos + obj.offset)
-      pos = obj.text.index(text, pos + 1)
-    end
-    return positions
-  end
-
-  def choose_offset_candidate(offset, positions)
-    min_diff = 99999
-    ret = offset
-    offset = offset.to_i
-    positions.each do |p|
-      diff = (offset - p).abs
-      if diff < min_diff
-        offset = p 
-        min_diff = diff
-      end
-    end
-    return ret
   end
 end
