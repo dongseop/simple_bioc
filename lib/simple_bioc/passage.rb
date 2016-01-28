@@ -1,3 +1,4 @@
+require 'simple_bioc/location_adjuster'
 module SimpleBioC
   class Passage
     include LocationAdjuster
