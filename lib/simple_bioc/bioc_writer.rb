@@ -88,7 +88,11 @@ module BioCWriter
   end
 
   def write_location(xml, location) 
-    xml.location(:offset => location.offset, :length => location.length)
+    if location.original_offset.nil? || location.original_offset == location.offset
+      xml.location(:offset => location.offset, :length => location.length)
+    else
+      xml.location(:offset => location.offset, :length => location.length, :original_offset => location.original_offset)
+    end
   end
 
   def write_node(xml, node)

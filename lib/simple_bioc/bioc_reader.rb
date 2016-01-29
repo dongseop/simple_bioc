@@ -111,6 +111,7 @@ module BioCReader
   def read_location(xml, location, options = {}) 
     location.offset = xml["offset"]
     location.length = xml["length"]
+    location.original_offset = xml["original_offset"]
     true
   end
 
