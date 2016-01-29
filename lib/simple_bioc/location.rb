@@ -1,6 +1,6 @@
 module SimpleBioC
   class Location
-    attr_accessor :offset, :length
+    attr_accessor :offset, :original_offset, :length
     attr_reader :annotation
 
     def initialize(parent)
