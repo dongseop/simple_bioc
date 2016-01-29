@@ -6,7 +6,7 @@ module SimpleBioC
       obj.annotations.each do |a|
         positions = find_all_locations(obj, a.text)
         a.locations.each do |l|
-          l.original_offset = l.offset
+          l.original_offset = l.offset.to_i
           l.offset = choose_offset_candidate(l.offset, positions)
         end
       end

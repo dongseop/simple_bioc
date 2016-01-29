@@ -4,8 +4,9 @@ module SimpleBioC
     attr_reader :annotation
 
     def initialize(parent)
-      @infons = {}
-      @locations = []
+      @offset = 0
+      @original_offset = 0
+      @length = 0
       @annotation = parent
     end
 
