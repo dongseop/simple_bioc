@@ -89,7 +89,7 @@ module BioCWriter
   end
 
   def write_location(xml, location) 
-    next if location.nil?
+    return if location.nil?
     if location.original_offset.nil? || location.original_offset == location.offset
       xml.location(:offset => location.offset, :length => location.length)
     else
