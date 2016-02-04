@@ -15,12 +15,12 @@ module SimpleBioC
     end
 
     def to_s
-      "Passage @#{offset}: #{text}"  
+      "Passage @#{@offset}: #{@text}"  
     end
 
     def find_node(id)
-      (relations+annotations).each{|n| return n if n.id == id}
-      sentences.each do |s|
+      (@relations+@annotations).each{|n| return n if n.id == id}
+      @sentences.each do |s|
         ret = s.find_node(id)
         return ret unless ret.nil?
       end
@@ -28,8 +28,8 @@ module SimpleBioC
     end
 
     def each_relation
-      relations.each{|r| yield r}
-      sentences.each{|s| s.each_relation{|r| yield r}}
+      @relations.each{|r| yield r}
+      @sentences.each{|s| s.each_relation{|r| yield r}}
     end
   end
 end

@@ -14,16 +14,16 @@ module SimpleBioC
     end
 
     def find_node(id)
-      (relations+annotations).each{|n| return n if n.id == id}
+      (@relations+@annotations).each{|n| return n if n.id == id}
       nil
     end
 
     def each_relation
-      relations.each{|r| yield r}
+      @relations.each{|r| yield r}
     end
 
     def to_c
-      "Sentence @#{offset}: #{text}"
+      "Sentence @#{@offset}: #{@text}"
     end
   end
 end

@@ -2,9 +2,10 @@ module SimpleBioC
   module LocationAdjuster
     def adjust_annotation_offsets
       obj = self
-      return if obj.nil?
+      return if obj.nil? || obj.annotations.nil?
       obj.annotations.each do |a|
         positions = find_all_locations(obj, a.text)
+        next a.locations.nil?
         a.locations.each do |l|
           l.original_offset = l.offset.to_i if l.original_offset.nil?
           l.offset = choose_offset_candidate(l.offset, positions)
@@ -26,6 +27,7 @@ module SimpleBioC
     end
 
     def choose_offset_candidate(offset, positions)
+      return offset if positions.nil?
       min_diff = 99999
       offset = offset.to_i
       ret = offset

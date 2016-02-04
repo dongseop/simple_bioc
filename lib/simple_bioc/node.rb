@@ -8,11 +8,11 @@ module SimpleBioC
     end
 
     def adjust_ref
-      @ref = relation.document.find_node(refid)
+      @ref = @relation.document.find_node(@refid)
     end
 
     def to_c
-      "Node @#{refid}: #{role})"
+      "Node @#{@refid}: #{@role})"
     end
   end
 end

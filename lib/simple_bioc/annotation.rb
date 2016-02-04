@@ -9,7 +9,7 @@ module SimpleBioC
     end
 
     def to_s
-      "Annotation:#{id} #{text}"
+      "Annotation:#{@id} #{@text}"
     end
   end
 end

@@ -96,57 +96,57 @@
       </annotation>
       <annotation id="Team286_A14">
         <infon key="type">Gene</infon>
-        <location offset="727" length="4"/>
+        <location offset="728" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A15">
         <infon key="type">Gene</infon>
-        <location offset="778" length="29"/>
+        <location offset="779" length="29"/>
         <text>plasma membrane proton-ATPase</text>
       </annotation>
       <annotation id="Team286_A16">
         <infon key="type">Gene</infon>
-        <location offset="810" length="5"/>
+        <location offset="811" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A17">
         <infon key="type">Gene</infon>
-        <location offset="979" length="5"/>
+        <location offset="980" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A18">
         <infon key="type">Gene</infon>
-        <location offset="1012" length="17"/>
+        <location offset="1013" length="17"/>
         <text>lst1Delta mutants</text>
       </annotation>
       <annotation id="Team286_A19">
         <infon key="type">Gene</infon>
-        <location offset="1110" length="15"/>
+        <location offset="1112" length="15"/>
         <text>Pma1p transport</text>
       </annotation>
       <annotation id="Team286_A20">
         <infon key="type">Gene</infon>
-        <location offset="1252" length="18"/>
+        <location offset="1254" length="18"/>
         <text>COPII coat subunit</text>
       </annotation>
       <annotation id="Team286_A21">
         <infon key="type">Gene</infon>
-        <location offset="1277" length="5"/>
+        <location offset="1279" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A22">
         <infon key="type">Gene</infon>
-        <location offset="1295" length="6"/>
+        <location offset="1297" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A23">
         <infon key="type">Gene</infon>
-        <location offset="1343" length="5"/>
+        <location offset="1345" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="TEAM_336_PPI0">
         <infon key="type">PPImention</infon>
-        <location offset="608" length="94"/>
+        <location offset="608" length="94" original_offset="0"/>
         <text>Like Sec24p, Lst1p is a peripheral ER membrane protein that binds to the COPII subunit Sec23p.</text>
       </annotation>
     </passage>
@@ -326,12 +326,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI1">
         <infon key="type">PPImention</infon>
-        <location offset="3406" length="348"/>
+        <location offset="3406" length="348" original_offset="0"/>
         <text>Membrane-associated Sar1p, in turn, recruits the soluble Sec23p/Sec24p and Sec13p/Sec31p complexes (Matsuoka et al., 1998). Sec16p resides on the ER  membrane and binds to both the Sec23p/Sec24p and  Sec13p/Sec31p complexes, likely organizing their assembly  onto the membrane (Espenshade et al., 1995; Gimeno et al.,  1996; Shaywitz et al., 1997).</text>
       </annotation>
       <annotation id="TEAM_336_PPI2">
         <infon key="type">PPImention</infon>
-        <location offset="3963" length="291"/>
+        <location offset="3963" length="291" original_offset="0"/>
         <text>Association of a membrane-bound complex of Sar1p and  Sec23p/Sec24p with integral membrane proteins indicates  that cargo proteins may laterally partition into the vesicle  membrane by virtue of their affinity for the Sec23p/Sec24p  protein complex (Aridor et al., 1998; Kuehn et al., 1998).</text>
       </annotation>
     </passage>
@@ -356,7 +356,7 @@
       </annotation>
       <annotation id="Team286_A60">
         <infon key="type">Gene</infon>
-        <location offset="5068" length="10"/>
+        <location offset="5069" length="10"/>
         <text>COPII coat</text>
       </annotation>
     </passage>
@@ -401,62 +401,62 @@
       </annotation>
       <annotation id="Team286_A68">
         <infon key="type">Gene</infon>
-        <location offset="5564" length="4"/>
+        <location offset="5565" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A69">
         <infon key="type">Gene</infon>
-        <location offset="5718" length="4"/>
+        <location offset="5719" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A70">
         <infon key="type">Gene</infon>
-        <location offset="5789" length="4"/>
+        <location offset="5790" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A71">
         <infon key="type">Gene</infon>
-        <location offset="5822" length="13"/>
+        <location offset="5823" length="13"/>
         <text>COPII subunit</text>
       </annotation>
       <annotation id="Team286_A72">
         <infon key="type">Gene</infon>
-        <location offset="5837" length="6"/>
+        <location offset="5838" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A73">
         <infon key="type">Gene</infon>
-        <location offset="5854" length="5"/>
+        <location offset="5855" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A74">
         <infon key="type">Gene</infon>
-        <location offset="5943" length="6"/>
+        <location offset="5944" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A75">
         <infon key="type">Gene</infon>
-        <location offset="5955" length="9"/>
+        <location offset="5956" length="9"/>
         <text>LST1 gene</text>
       </annotation>
       <annotation id="Team286_A76">
         <infon key="type">Gene</infon>
-        <location offset="6024" length="17"/>
+        <location offset="6025" length="17"/>
         <text>lst1Delta mutants</text>
       </annotation>
       <annotation id="Team286_A77">
         <infon key="type">Gene</infon>
-        <location offset="6056" length="4"/>
+        <location offset="6057" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A78">
         <infon key="type">Gene</infon>
-        <location offset="6101" length="5"/>
+        <location offset="6102" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A79">
         <infon key="type">Gene</infon>
-        <location offset="6246" length="5"/>
+        <location offset="6247" length="5"/>
         <text>Pma1p</text>
       </annotation>
     </passage>
@@ -711,42 +711,42 @@
       </annotation>
       <annotation id="Team286_A126">
         <infon key="type">Gene</infon>
-        <location offset="8575" length="11"/>
+        <location offset="8576" length="11"/>
         <text>HA epitopes</text>
       </annotation>
       <annotation id="Team286_A127">
         <infon key="type">Gene</infon>
-        <location offset="8604" length="7"/>
+        <location offset="8605" length="7"/>
         <text>pKR17HA</text>
       </annotation>
       <annotation id="Team286_A128">
         <infon key="type">Gene</infon>
-        <location offset="8613" length="7"/>
+        <location offset="8615" length="7"/>
         <text>pKR17HA</text>
       </annotation>
       <annotation id="Team286_A129">
         <infon key="type">Gene</infon>
-        <location offset="8642" length="6"/>
+        <location offset="8644" length="6"/>
         <text>CKY536</text>
       </annotation>
       <annotation id="Team286_A130">
         <infon key="type">Gene</infon>
-        <location offset="8657" length="6"/>
+        <location offset="8659" length="6"/>
         <text>CKY535</text>
       </annotation>
       <annotation id="Team286_A131">
         <infon key="type">Gene</infon>
-        <location offset="8665" length="14"/>
+        <location offset="8667" length="14"/>
         <text>MATa lst1Delta</text>
       </annotation>
       <annotation id="Team286_A132">
         <infon key="type">Gene</infon>
-        <location offset="8683" length="24"/>
+        <location offset="8685" length="24"/>
         <text>LEU2 leu2-3, 112 ura3-52</text>
       </annotation>
       <annotation id="Team286_A133">
         <infon key="type">Gene</infon>
-        <location offset="8709" length="7"/>
+        <location offset="8711" length="7"/>
         <text>pKR17HA</text>
       </annotation>
     </passage>
@@ -886,22 +886,22 @@
       </annotation>
       <annotation id="Team286_A158">
         <infon key="type">Gene</infon>
-        <location offset="9815" length="7"/>
+        <location offset="9816" length="7"/>
         <text>sec13-1</text>
       </annotation>
       <annotation id="Team286_A159">
         <infon key="type">Gene</infon>
-        <location offset="9954" length="4"/>
+        <location offset="9955" length="4"/>
         <text>pKR1</text>
       </annotation>
       <annotation id="Team286_A160">
         <infon key="type">Gene</infon>
-        <location offset="9994" length="6"/>
+        <location offset="9995" length="6"/>
         <text>pRS316</text>
       </annotation>
       <annotation id="Team286_A161">
         <infon key="type">Gene</infon>
-        <location offset="10018" length="7"/>
+        <location offset="10019" length="7"/>
         <text>sec13-1</text>
       </annotation>
     </passage>
@@ -1186,82 +1186,82 @@
       </annotation>
       <annotation id="Team286_A213">
         <infon key="type">Gene</infon>
-        <location offset="12374" length="4"/>
+        <location offset="12375" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A214">
         <infon key="type">Gene</infon>
-        <location offset="12437" length="8"/>
+        <location offset="12438" length="8"/>
         <text>Eco47III</text>
       </annotation>
       <annotation id="Team286_A215">
         <infon key="type">Gene</infon>
-        <location offset="12446" length="4"/>
+        <location offset="12447" length="4"/>
         <text>MscI</text>
       </annotation>
       <annotation id="Team286_A216">
         <infon key="type">Gene</infon>
-        <location offset="12465" length="5"/>
+        <location offset="12466" length="5"/>
         <text>pKR28</text>
       </annotation>
       <annotation id="Team286_A217">
         <infon key="type">Gene</infon>
-        <location offset="12483" length="10"/>
+        <location offset="12484" length="10"/>
         <text>pKR28Delta</text>
       </annotation>
       <annotation id="Team286_A218">
         <infon key="type">Gene</infon>
-        <location offset="12510" length="14"/>
+        <location offset="12511" length="14"/>
         <text>LEU2 construct</text>
       </annotation>
       <annotation id="Team286_A219">
         <infon key="type">Gene</infon>
-        <location offset="12541" length="10"/>
+        <location offset="12542" length="10"/>
         <text>pKR28Delta</text>
       </annotation>
       <annotation id="Team286_A220">
         <infon key="type">Gene</infon>
-        <location offset="12570" length="4"/>
+        <location offset="12571" length="4"/>
         <text>XhoI</text>
       </annotation>
       <annotation id="Team286_A221">
         <infon key="type">Gene</infon>
-        <location offset="12627" length="6"/>
+        <location offset="12628" length="6"/>
         <text>CKY348</text>
       </annotation>
       <annotation id="Team286_A222">
         <infon key="type">Gene</infon>
-        <location offset="12635" length="28"/>
+        <location offset="12636" length="28"/>
         <text>MATa/alpha leu2-3,112/leu2-3</text>
       </annotation>
       <annotation id="Team286_A223">
         <infon key="type">Gene</infon>
-        <location offset="12664" length="3"/>
+        <location offset="12665" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A224">
         <infon key="type">Gene</infon>
-        <location offset="12668" length="7"/>
+        <location offset="12669" length="7"/>
         <text>ura3-52</text>
       </annotation>
       <annotation id="Team286_A225">
         <infon key="type">Gene</infon>
-        <location offset="12676" length="7"/>
+        <location offset="12677" length="7"/>
         <text>ura3-52</text>
       </annotation>
       <annotation id="Team286_A226">
         <infon key="type">Gene</infon>
-        <location offset="12794" length="9"/>
+        <location offset="12795" length="9"/>
         <text>lst1Delta</text>
       </annotation>
       <annotation id="Team286_A227">
         <infon key="type">Gene</infon>
-        <location offset="12805" length="4"/>
+        <location offset="12806" length="4"/>
         <text>LEU2</text>
       </annotation>
       <annotation id="Team286_A228">
         <infon key="type">Gene</infon>
-        <location offset="12951" length="6"/>
+        <location offset="12952" length="6"/>
         <text>CKY542</text>
       </annotation>
     </passage>
@@ -1666,7 +1666,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI3">
         <infon key="type">PPImention</infon>
-        <location offset="21609" length="26"/>
+        <location offset="21609" length="26" original_offset="0"/>
         <text>Binding of Lst1p to Sec23p</text>
       </annotation>
     </passage>
@@ -1766,32 +1766,32 @@
       </annotation>
       <annotation id="Team286_A310">
         <infon key="type">Gene</infon>
-        <location offset="22102" length="6"/>
+        <location offset="22103" length="6"/>
         <text>CKY473</text>
       </annotation>
       <annotation id="Team286_A311">
         <infon key="type">Gene</infon>
-        <location offset="22127" length="6"/>
+        <location offset="22128" length="6"/>
         <text>pRH254</text>
       </annotation>
       <annotation id="Team286_A312">
         <infon key="type">Gene</infon>
-        <location offset="22135" length="3"/>
+        <location offset="22136" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A313">
         <infon key="type">Gene</infon>
-        <location offset="22139" length="5"/>
+        <location offset="22140" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A314">
         <infon key="type">Gene</infon>
-        <location offset="22178" length="6"/>
+        <location offset="22179" length="6"/>
         <text>pPE123</text>
       </annotation>
       <annotation id="Team286_A315">
         <infon key="type">Gene</infon>
-        <location offset="22186" length="6"/>
+        <location offset="22187" length="6"/>
         <text>Sec23p</text>
       </annotation>
     </passage>
@@ -2186,182 +2186,182 @@
       </annotation>
       <annotation id="Team286_A384">
         <infon key="type">Gene</infon>
-        <location offset="27979" length="6"/>
+        <location offset="27980" length="6"/>
         <text>CKY426</text>
       </annotation>
       <annotation id="Team286_A385">
         <infon key="type">Gene</infon>
-        <location offset="28201" length="5"/>
+        <location offset="28202" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A386">
         <infon key="type">Gene</infon>
-        <location offset="28211" length="4"/>
+        <location offset="28212" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A387">
         <infon key="type">Gene</infon>
-        <location offset="28279" length="5"/>
+        <location offset="28280" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A388">
         <infon key="type">Gene</infon>
-        <location offset="28379" length="7"/>
+        <location offset="28380" length="7"/>
         <text>sec13-1</text>
       </annotation>
       <annotation id="Team286_A389">
         <infon key="type">Gene</infon>
-        <location offset="28516" length="6"/>
+        <location offset="28517" length="6"/>
         <text>p21-31</text>
       </annotation>
       <annotation id="Team286_A390">
         <infon key="type">Gene</infon>
-        <location offset="28527" length="5"/>
+        <location offset="28528" length="5"/>
         <text>p77-2</text>
       </annotation>
       <annotation id="Team286_A391">
         <infon key="type">Gene</infon>
-        <location offset="28610" length="5"/>
+        <location offset="28611" length="5"/>
         <text>p77-2</text>
       </annotation>
       <annotation id="Team286_A392">
         <infon key="type">Gene</infon>
-        <location offset="28693" length="4"/>
+        <location offset="28694" length="4"/>
         <text>XhoI</text>
       </annotation>
       <annotation id="Team286_A393">
         <infon key="type">Gene</infon>
-        <location offset="28753" length="5"/>
+        <location offset="28754" length="5"/>
         <text>pKR20</text>
       </annotation>
       <annotation id="Team286_A394">
         <infon key="type">Gene</infon>
-        <location offset="28790" length="5"/>
+        <location offset="28791" length="5"/>
         <text>pKR20</text>
       </annotation>
       <annotation id="Team286_A395">
         <infon key="type">Gene</infon>
-        <location offset="28829" length="4"/>
+        <location offset="28830" length="4"/>
         <text>HpaI</text>
       </annotation>
       <annotation id="Team286_A396">
         <infon key="type">Gene</infon>
-        <location offset="28856" length="6"/>
+        <location offset="28857" length="6"/>
         <text>CUY564</text>
       </annotation>
       <annotation id="Team286_A397">
         <infon key="type">Gene</infon>
-        <location offset="28864" length="29"/>
+        <location offset="28865" length="29"/>
         <text>MATalpha ade2 ade3 leu2  ura3</text>
       </annotation>
       <annotation id="Team286_A398">
         <infon key="type">Gene</infon>
-        <location offset="28936" length="21"/>
+        <location offset="28937" length="21"/>
         <text>lst1-1 mutant  CKY426</text>
       </annotation>
       <annotation id="Team286_A399">
         <infon key="type">Gene</infon>
-        <location offset="28959" length="4"/>
+        <location offset="28960" length="4"/>
         <text>MATa</text>
       </annotation>
       <annotation id="Team286_A400">
         <infon key="type">Gene</infon>
-        <location offset="28964" length="19"/>
+        <location offset="28965" length="19"/>
         <text>lst1-1 sec13-1 ade2</text>
       </annotation>
       <annotation id="Team286_A401">
         <infon key="type">Gene</infon>
-        <location offset="28984" length="14"/>
+        <location offset="28985" length="14"/>
         <text>ade3 leu2 ura3</text>
       </annotation>
       <annotation id="Team286_A402">
         <infon key="type">Gene</infon>
-        <location offset="29001" length="4"/>
+        <location offset="29002" length="4"/>
         <text>pKR4</text>
       </annotation>
       <annotation id="Team286_A403">
         <infon key="type">Gene</infon>
-        <location offset="29059" length="5"/>
+        <location offset="29060" length="5"/>
         <text>pKR20</text>
       </annotation>
       <annotation id="Team286_A404">
         <infon key="type">Gene</infon>
-        <location offset="29106" length="10"/>
+        <location offset="29107" length="10"/>
         <text>LST1 locus</text>
       </annotation>
       <annotation id="Team286_A405">
         <infon key="type">Gene</infon>
-        <location offset="29175" length="4"/>
+        <location offset="29176" length="4"/>
         <text>Ura+</text>
       </annotation>
       <annotation id="Team286_A406">
         <infon key="type">Gene</infon>
-        <location offset="29219" length="3"/>
+        <location offset="29220" length="3"/>
         <text>Ura</text>
       </annotation>
       <annotation id="Team286_A407">
         <infon key="type">Gene</infon>
-        <location offset="29231" length="5"/>
+        <location offset="29233" length="5"/>
         <text>p77-2</text>
       </annotation>
       <annotation id="Team286_A408">
         <infon key="type">Gene</infon>
-        <location offset="29249" length="9"/>
+        <location offset="29251" length="9"/>
         <text>LST1 gene</text>
       </annotation>
       <annotation id="Team286_A409">
         <infon key="type">Gene</infon>
-        <location offset="29299" length="6"/>
+        <location offset="29301" length="6"/>
         <text>p21-31</text>
       </annotation>
       <annotation id="Team286_A410">
         <infon key="type">Gene</infon>
-        <location offset="29378" length="5"/>
+        <location offset="29380" length="5"/>
         <text>EcoRI</text>
       </annotation>
       <annotation id="Team286_A411">
         <infon key="type">Gene</infon>
-        <location offset="29384" length="7"/>
+        <location offset="29386" length="7"/>
         <text>HindIII</text>
       </annotation>
       <annotation id="Team286_A412">
         <infon key="type">Gene</infon>
-        <location offset="29407" length="6"/>
+        <location offset="29409" length="6"/>
         <text>pRS306</text>
       </annotation>
       <annotation id="Team286_A413">
         <infon key="type">Gene</infon>
-        <location offset="29425" length="4"/>
+        <location offset="29427" length="4"/>
         <text>pKR7</text>
       </annotation>
       <annotation id="Team286_A414">
         <infon key="type">Gene</infon>
-        <location offset="29431" length="4"/>
+        <location offset="29433" length="4"/>
         <text>pKR7</text>
       </annotation>
       <annotation id="Team286_A415">
         <infon key="type">Gene</infon>
-        <location offset="29502" length="4"/>
+        <location offset="29504" length="4"/>
         <text>MscI</text>
       </annotation>
       <annotation id="Team286_A416">
         <infon key="type">Gene</infon>
-        <location offset="29543" length="6"/>
+        <location offset="29545" length="6"/>
         <text>lst1-1</text>
       </annotation>
       <annotation id="Team286_A417">
         <infon key="type">Gene</infon>
-        <location offset="29580" length="4"/>
+        <location offset="29582" length="4"/>
         <text>pKR7</text>
       </annotation>
       <annotation id="Team286_A418">
         <infon key="type">Gene</infon>
-        <location offset="29603" length="4"/>
+        <location offset="29605" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A419">
         <infon key="type">Gene</infon>
-        <location offset="29631" length="4"/>
+        <location offset="29633" length="4"/>
         <text>pKR7</text>
       </annotation>
     </passage>
@@ -2381,32 +2381,32 @@
       </annotation>
       <annotation id="Team286_A422">
         <infon key="type">Gene</infon>
-        <location offset="30102" length="4"/>
+        <location offset="30103" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A423">
         <infon key="type">Gene</infon>
-        <location offset="30140" length="5"/>
+        <location offset="30141" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A424">
         <infon key="type">Gene</infon>
-        <location offset="30147" length="7"/>
+        <location offset="30148" length="7"/>
         <text>YIL109C</text>
       </annotation>
       <annotation id="Team286_A425">
         <infon key="type">Gene</infon>
-        <location offset="30268" length="5"/>
+        <location offset="30269" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A426">
         <infon key="type">Gene</infon>
-        <location offset="30314" length="6"/>
+        <location offset="30315" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A427">
         <infon key="type">Gene</infon>
-        <location offset="30342" length="18"/>
+        <location offset="30343" length="18"/>
         <text>COPII vesicle coat</text>
       </annotation>
     </passage>
@@ -2766,87 +2766,87 @@
       </annotation>
       <annotation id="Team286_A494">
         <infon key="type">Gene</infon>
-        <location offset="34578" length="18"/>
+        <location offset="34579" length="18"/>
         <text>pGAL1-LST1 plasmid</text>
       </annotation>
       <annotation id="Team286_A495">
         <infon key="type">Gene</infon>
-        <location offset="34598" length="5"/>
+        <location offset="34599" length="5"/>
         <text>pKR35</text>
       </annotation>
       <annotation id="Team286_A496">
         <infon key="type">Gene</infon>
-        <location offset="34614" length="10"/>
+        <location offset="34615" length="10"/>
         <text>SEC24 gene</text>
       </annotation>
       <annotation id="Team286_A497">
         <infon key="type">Gene</infon>
-        <location offset="34643" length="5"/>
+        <location offset="34644" length="5"/>
         <text>pKR41</text>
       </annotation>
       <annotation id="Team286_A498">
         <infon key="type">Gene</infon>
-        <location offset="34777" length="5"/>
+        <location offset="34778" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A499">
         <infon key="type">Gene</infon>
-        <location offset="34856" length="5"/>
+        <location offset="34857" length="5"/>
         <text>SEC12</text>
       </annotation>
       <annotation id="Team286_A500">
         <infon key="type">Gene</infon>
-        <location offset="34863" length="5"/>
+        <location offset="34864" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A501">
         <infon key="type">Gene</infon>
-        <location offset="34870" length="5"/>
+        <location offset="34871" length="5"/>
         <text>SEC31</text>
       </annotation>
       <annotation id="Team286_A502">
         <infon key="type">Gene</infon>
-        <location offset="34880" length="5"/>
+        <location offset="34881" length="5"/>
         <text>SEC23</text>
       </annotation>
       <annotation id="Team286_A503">
         <infon key="type">Gene</infon>
-        <location offset="34939" length="5"/>
+        <location offset="34940" length="5"/>
         <text>SEC23</text>
       </annotation>
       <annotation id="Team286_A504">
         <infon key="type">Gene</infon>
-        <location offset="35076" length="5"/>
+        <location offset="35077" length="5"/>
         <text>SEC23</text>
       </annotation>
       <annotation id="Team286_A505">
         <infon key="type">Gene</infon>
-        <location offset="35134" length="5"/>
+        <location offset="35135" length="5"/>
         <text>SEC23</text>
       </annotation>
       <annotation id="Team286_A506">
         <infon key="type">Gene</infon>
-        <location offset="35263" length="5"/>
+        <location offset="35264" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A507">
         <infon key="type">Gene</infon>
-        <location offset="35330" length="5"/>
+        <location offset="35331" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A508">
         <infon key="type">Gene</infon>
-        <location offset="35340" length="6"/>
+        <location offset="35341" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A509">
         <infon key="type">Gene</infon>
-        <location offset="35391" length="22"/>
+        <location offset="35392" length="22"/>
         <text>vesicle coat complexes</text>
       </annotation>
       <annotation id="Team286_A510">
         <infon key="type">Gene</infon>
-        <location offset="35431" length="5"/>
+        <location offset="35432" length="5"/>
         <text>Lst1p</text>
       </annotation>
     </passage>
@@ -2946,12 +2946,12 @@
       </annotation>
       <annotation id="Team286_A527">
         <infon key="type">Gene</infon>
-        <location offset="37960" length="16"/>
+        <location offset="37961" length="16"/>
         <text>lst1Delta mutant</text>
       </annotation>
       <annotation id="Team286_A528">
         <infon key="type">Gene</infon>
-        <location offset="38014" length="5"/>
+        <location offset="38015" length="5"/>
         <text>Pma1p</text>
       </annotation>
     </passage>
@@ -3051,37 +3051,37 @@
       </annotation>
       <annotation id="Team286_A545">
         <infon key="type">Gene</infon>
-        <location offset="39526" length="25"/>
+        <location offset="39527" length="25"/>
         <text>ER from lst1Delta mutants</text>
       </annotation>
       <annotation id="Team286_A546">
         <infon key="type">Gene</infon>
-        <location offset="39564" length="6"/>
+        <location offset="39565" length="6"/>
         <text>Sec61p</text>
       </annotation>
       <annotation id="Team286_A547">
         <infon key="type">Gene</infon>
-        <location offset="39664" length="5"/>
+        <location offset="39665" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A548">
         <infon key="type">Gene</infon>
-        <location offset="39771" length="5"/>
+        <location offset="39772" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A549">
         <infon key="type">Gene</infon>
-        <location offset="39918" length="5"/>
+        <location offset="39919" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A550">
         <infon key="type">Gene</infon>
-        <location offset="39976" length="2"/>
+        <location offset="39977" length="2"/>
         <text>ER</text>
       </annotation>
       <annotation id="Team286_A551">
         <infon key="type">Gene</infon>
-        <location offset="40013" length="4"/>
+        <location offset="40014" length="4"/>
         <text>PMA1</text>
       </annotation>
     </passage>
@@ -3116,32 +3116,32 @@
       </annotation>
       <annotation id="Team286_A557">
         <infon key="type">Gene</infon>
-        <location offset="40289" length="18"/>
+        <location offset="40290" length="18"/>
         <text>lst1Delta  mutants</text>
       </annotation>
       <annotation id="Team286_A558">
         <infon key="type">Gene</infon>
-        <location offset="40344" length="17"/>
+        <location offset="40345" length="17"/>
         <text>lst1Delta mutants</text>
       </annotation>
       <annotation id="Team286_A559">
         <infon key="type">Gene</infon>
-        <location offset="40418" length="9"/>
+        <location offset="40419" length="9"/>
         <text>lst1Delta</text>
       </annotation>
       <annotation id="Team286_A560">
         <infon key="type">Gene</infon>
-        <location offset="40661" length="9"/>
+        <location offset="40662" length="9"/>
         <text>invertase</text>
       </annotation>
       <annotation id="Team286_A561">
         <infon key="type">Gene</infon>
-        <location offset="40752" length="9"/>
+        <location offset="40753" length="9"/>
         <text>invertase</text>
       </annotation>
       <annotation id="Team286_A562">
         <infon key="type">Gene</infon>
-        <location offset="40945" length="18"/>
+        <location offset="40946" length="18"/>
         <text>carboxypeptidase Y</text>
       </annotation>
     </passage>
@@ -3186,17 +3186,17 @@
       </annotation>
       <annotation id="Team286_A570">
         <infon key="type">Gene</infon>
-        <location offset="41863" length="10"/>
+        <location offset="41864" length="10"/>
         <text>COPII gene</text>
       </annotation>
       <annotation id="Team286_A571">
         <infon key="type">Gene</infon>
-        <location offset="41902" length="9"/>
+        <location offset="41903" length="9"/>
         <text>lst1Delta</text>
       </annotation>
       <annotation id="Team286_A572">
         <infon key="type">Gene</infon>
-        <location offset="41958" length="5"/>
+        <location offset="41959" length="5"/>
         <text>Pma1p</text>
       </annotation>
     </passage>
@@ -3301,32 +3301,32 @@
       </annotation>
       <annotation id="Team286_A590">
         <infon key="type">Gene</infon>
-        <location offset="43452" length="8"/>
+        <location offset="43453" length="8"/>
         <text>Lst1p-HA</text>
       </annotation>
       <annotation id="Team286_A591">
         <infon key="type">Gene</infon>
-        <location offset="43714" length="13"/>
+        <location offset="43715" length="13"/>
         <text>Lst1p protein</text>
       </annotation>
       <annotation id="Team286_A592">
         <infon key="type">Gene</infon>
-        <location offset="44000" length="8"/>
+        <location offset="44002" length="8"/>
         <text>Lst1p-HA</text>
       </annotation>
       <annotation id="Team286_A593">
         <infon key="type">Gene</infon>
-        <location offset="44037" length="8"/>
+        <location offset="44039" length="8"/>
         <text>Fig. 9 B</text>
       </annotation>
       <annotation id="Team286_A594">
         <infon key="type">Gene</infon>
-        <location offset="44077" length="8"/>
+        <location offset="44079" length="8"/>
         <text>Lst1p-HA</text>
       </annotation>
       <annotation id="Team286_A595">
         <infon key="type">Gene</infon>
-        <location offset="44148" length="5"/>
+        <location offset="44150" length="5"/>
         <text>Lst1p</text>
       </annotation>
     </passage>
@@ -3346,7 +3346,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI4">
         <infon key="type">PPImention</infon>
-        <location offset="44229" length="18"/>
+        <location offset="44229" length="18" original_offset="0"/>
         <text>Lst1p Binds Sec23p</text>
       </annotation>
     </passage>
@@ -3556,12 +3556,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI5">
         <infon key="type">PPImention</infon>
-        <location offset="45031" length="120"/>
+        <location offset="45031" length="120" original_offset="0"/>
         <text>To confirm the interaction between Lst1p and Sec23p,  association of these proteins was examined in yeast cell extracts.</text>
       </annotation>
       <annotation id="TEAM_336_PPI6">
         <infon key="type">PPImention</infon>
-        <location offset="45913" length="90"/>
+        <location offset="45913" length="90" original_offset="0"/>
         <text>Together, these experiments show that Lst1p, like Sec24p,  can form a complex with Sec23p.</text>
       </annotation>
     </passage>
@@ -3581,232 +3581,232 @@
       </annotation>
       <annotation id="Team286_A639">
         <infon key="type">Gene</infon>
-        <location offset="46173" length="6"/>
+        <location offset="46174" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A640">
         <infon key="type">Gene</infon>
-        <location offset="46189" length="3"/>
+        <location offset="46190" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A641">
         <infon key="type">Gene</infon>
-        <location offset="46193" length="5"/>
+        <location offset="46194" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A642">
         <infon key="type">Gene</infon>
-        <location offset="46199" length="2"/>
+        <location offset="46200" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A643">
         <infon key="type">Gene</infon>
-        <location offset="46237" length="5"/>
+        <location offset="46238" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A644">
         <infon key="type">Gene</infon>
-        <location offset="46243" length="6"/>
+        <location offset="46244" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A645">
         <infon key="type">Gene</infon>
-        <location offset="46343" length="3"/>
+        <location offset="46345" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A646">
         <infon key="type">Gene</infon>
-        <location offset="46347" length="5"/>
+        <location offset="46349" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A647">
         <infon key="type">Gene</infon>
-        <location offset="46353" length="2"/>
+        <location offset="46355" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A648">
         <infon key="type">Gene</infon>
-        <location offset="46360" length="6"/>
+        <location offset="46362" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A649">
         <infon key="type">Gene</infon>
-        <location offset="46416" length="6"/>
+        <location offset="46418" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A650">
         <infon key="type">Gene</infon>
-        <location offset="46440" length="3"/>
+        <location offset="46442" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A651">
         <infon key="type">Gene</infon>
-        <location offset="46444" length="5"/>
+        <location offset="46446" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A652">
         <infon key="type">Gene</infon>
-        <location offset="46450" length="2"/>
+        <location offset="46452" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A653">
         <infon key="type">Gene</infon>
-        <location offset="46573" length="27"/>
+        <location offset="46575" length="27"/>
         <text>ER membrane protein  Sec61p</text>
       </annotation>
       <annotation id="Team286_A654">
         <infon key="type">Gene</infon>
-        <location offset="46759" length="3"/>
+        <location offset="46761" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A655">
         <infon key="type">Gene</infon>
-        <location offset="46764" length="5"/>
+        <location offset="46766" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A656">
         <infon key="type">Gene</infon>
-        <location offset="46770" length="2"/>
+        <location offset="46772" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A657">
         <infon key="type">Gene</infon>
-        <location offset="46777" length="6"/>
+        <location offset="46779" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A658">
         <infon key="type">Gene</infon>
-        <location offset="46808" length="29"/>
+        <location offset="46810" length="29"/>
         <text>ER resident  membrane protein</text>
       </annotation>
       <annotation id="Team286_A659">
         <infon key="type">Gene</infon>
-        <location offset="46839" length="6"/>
+        <location offset="46841" length="6"/>
         <text>Sec61p</text>
       </annotation>
       <annotation id="Team286_A660">
         <infon key="type">Gene</infon>
-        <location offset="46904" length="3"/>
+        <location offset="46906" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A661">
         <infon key="type">Gene</infon>
-        <location offset="46908" length="5"/>
+        <location offset="46910" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A662">
         <infon key="type">Gene</infon>
-        <location offset="46914" length="2"/>
+        <location offset="46916" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A663">
         <infon key="type">Gene</infon>
-        <location offset="46921" length="6"/>
+        <location offset="46923" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A664">
         <infon key="type">Gene</infon>
-        <location offset="47007" length="6"/>
+        <location offset="47009" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A665">
         <infon key="type">Gene</infon>
-        <location offset="47018" length="3"/>
+        <location offset="47020" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A666">
         <infon key="type">Gene</infon>
-        <location offset="47022" length="5"/>
+        <location offset="47024" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A667">
         <infon key="type">Gene</infon>
-        <location offset="47028" length="2"/>
+        <location offset="47030" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A668">
         <infon key="type">Gene</infon>
-        <location offset="47069" length="6"/>
+        <location offset="47071" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A669">
         <infon key="type">Gene</infon>
-        <location offset="47138" length="6"/>
+        <location offset="47140" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A670">
         <infon key="type">Gene</infon>
-        <location offset="47175" length="3"/>
+        <location offset="47177" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A671">
         <infon key="type">Gene</infon>
-        <location offset="47179" length="5"/>
+        <location offset="47181" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A672">
         <infon key="type">Gene</infon>
-        <location offset="47185" length="2"/>
+        <location offset="47187" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A673">
         <infon key="type">Gene</infon>
-        <location offset="47246" length="3"/>
+        <location offset="47248" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A674">
         <infon key="type">Gene</infon>
-        <location offset="47250" length="5"/>
+        <location offset="47252" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A675">
         <infon key="type">Gene</infon>
-        <location offset="47297" length="6"/>
+        <location offset="47299" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A676">
         <infon key="type">Gene</infon>
-        <location offset="47307" length="3"/>
+        <location offset="47309" length="3"/>
         <text>GST</text>
       </annotation>
       <annotation id="Team286_A677">
         <infon key="type">Gene</infon>
-        <location offset="47311" length="5"/>
+        <location offset="47313" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A678">
         <infon key="type">Gene</infon>
-        <location offset="47317" length="2"/>
+        <location offset="47319" length="2"/>
         <text>HA</text>
       </annotation>
       <annotation id="Team286_A679">
         <infon key="type">Gene</infon>
-        <location offset="47541" length="5"/>
+        <location offset="47543" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A680">
         <infon key="type">Gene</infon>
-        <location offset="47572" length="6"/>
+        <location offset="47574" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A681">
         <infon key="type">Gene</infon>
-        <location offset="47593" length="5"/>
+        <location offset="47595" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A682">
         <infon key="type">Gene</infon>
-        <location offset="47600" length="6"/>
+        <location offset="47602" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="TEAM_336_PPI7">
         <infon key="type">PPImention</infon>
-        <location offset="46119" length="213"/>
+        <location offset="46120" length="213" original_offset="0"/>
         <text>While working out conditions to optimize recovery of  Sec23p bound to GST-Lst1p-HA, we discovered that assembly of an Lst1p/Sec23p complex appears to enhance  the association of both proteins with the ER membrane.</text>
       </annotation>
       <annotation id="TEAM_336_PPI8">
         <infon key="type">PPImention</infon>
-        <location offset="47501" length="144"/>
+        <location offset="47503" length="144" original_offset="0"/>
         <text>These data support the observation that Lst1p  can form a complex with Sec23p, and that the Lst1p/ Sec23p complex has affinity for ER membranes.</text>
       </annotation>
     </passage>
@@ -3946,62 +3946,62 @@
       </annotation>
       <annotation id="Team286_A708">
         <infon key="type">Gene</infon>
-        <location offset="48914" length="6"/>
+        <location offset="48915" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A709">
         <infon key="type">Gene</infon>
-        <location offset="48921" length="5"/>
+        <location offset="48922" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A710">
         <infon key="type">Gene</infon>
-        <location offset="48988" length="5"/>
+        <location offset="48989" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A711">
         <infon key="type">Gene</infon>
-        <location offset="48999" length="6"/>
+        <location offset="49000" length="6"/>
         <text>Sec23p</text>
       </annotation>
       <annotation id="Team286_A712">
         <infon key="type">Gene</infon>
-        <location offset="49202" length="4"/>
+        <location offset="49203" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A713">
         <infon key="type">Gene</infon>
-        <location offset="49319" length="5"/>
+        <location offset="49320" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A714">
         <infon key="type">Gene</infon>
-        <location offset="49333" length="2"/>
+        <location offset="49334" length="2"/>
         <text>ER</text>
       </annotation>
       <annotation id="Team286_A715">
         <infon key="type">Gene</infon>
-        <location offset="49432" length="5"/>
+        <location offset="49434" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A716">
         <infon key="type">Gene</infon>
-        <location offset="49458" length="6"/>
+        <location offset="49460" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A717">
         <infon key="type">Gene</infon>
-        <location offset="49482" length="18"/>
+        <location offset="49484" length="18"/>
         <text>COPII coat complex</text>
       </annotation>
       <annotation id="Team286_A718">
         <infon key="type">Gene</infon>
-        <location offset="49538" length="5"/>
+        <location offset="49540" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="TEAM_336_PPI9">
         <infon key="type">PPImention</infon>
-        <location offset="48738" length="154"/>
+        <location offset="48738" length="154" original_offset="0"/>
         <text>(III) Lst1p, like Sec24p, can bind to Sec23p  as shown by tests for two-hybrid interaction and affinity purification of a complex of GST-Lst1p and Sec23p.</text>
       </annotation>
     </passage>
@@ -4426,32 +4426,32 @@
       </annotation>
       <annotation id="Team286_A796">
         <infon key="type">Gene</infon>
-        <location offset="55725" length="5"/>
+        <location offset="55726" length="5"/>
         <text>Lst1p</text>
       </annotation>
       <annotation id="Team286_A797">
         <infon key="type">Gene</infon>
-        <location offset="55760" length="6"/>
+        <location offset="55761" length="6"/>
         <text>Sec24p</text>
       </annotation>
       <annotation id="Team286_A798">
         <infon key="type">Gene</infon>
-        <location offset="55800" length="5"/>
+        <location offset="55801" length="5"/>
         <text>Pma1p</text>
       </annotation>
       <annotation id="Team286_A799">
         <infon key="type">Gene</infon>
-        <location offset="55845" length="12"/>
+        <location offset="55847" length="12"/>
         <text>Sec24 family</text>
       </annotation>
       <annotation id="TEAM_336_PPI10">
         <infon key="type">PPImention</infon>
-        <location offset="55027" length="257"/>
+        <location offset="55027" length="257" original_offset="0"/>
         <text>Using  ER-derived microsomes and purified COPII components,  Kuehn et al. (1998) have shown that the Sec23p/Sec24p  complex, along with Sar1p, associate with amino acid permeases and other integral membrane protein that are destined for the plasma membrane.</text>
       </annotation>
       <annotation id="TEAM_336_PPI11">
         <infon key="type">PPImention</infon>
-        <location offset="55498" length="192"/>
+        <location offset="55498" length="192" original_offset="0"/>
         <text>The conclusion from both experimental systems is that the Sec23p/Sec24p complex contains specific binding sites for the capture of membrane  cargo proteins within the plane of the ER membrane.</text>
       </annotation>
     </passage>
@@ -4531,7 +4531,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI12">
         <infon key="type">PPImention</infon>
-        <location offset="56337" length="495"/>
+        <location offset="56337" length="495" original_offset="0"/>
         <text>In future experiments, it  may be possible to isolate vesicles coated with Lst1p by  performing an in vitro budding reaction using purified cytosolic components, including a purified complex of Lst1p  and Sec23p. It may also be possible to determine whether  vesicles that are formed using a Sec23p/Lst1p complex  more efficiently incorporate Pma1p than vesicles formed  using the Sec23p/Sec24p complex. Finally, it will be of interest to determine if there is direct binding of Lst1p to  Pma1p.</text>
       </annotation>
     </passage>
@@ -4626,12 +4626,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI13">
         <infon key="type">PPImention</infon>
-        <location offset="56999" length="139"/>
+        <location offset="56999" length="139" original_offset="0"/>
         <text>It is  possible that Sec23p/Lst1p complexes act to form a class of  vesicle that is distinct from those formed by Sec23p/ Sec24p complexes.</text>
       </annotation>
       <annotation id="TEAM_336_PPI14">
         <infon key="type">PPImention</infon>
-        <location offset="57403" length="208"/>
+        <location offset="57403" length="208" original_offset="0"/>
         <text>We  have identified a third Sec24p family member, which we  call Iss1p, as a protein that binds to Sec16p. Iss1p  (YNL049c) also binds Sec23p and appears to be associated  with the ER membrane (Gimeno, 1996).</text>
       </annotation>
     </passage>
@@ -4651,297 +4651,297 @@
       <text>Strain  Genotype  Source or reference   CUY563  MATaade2-101 ade3-24 leu2-3,112 ura3-52  T. Huffaker (Cornell University)  CUY564  MATalpha ade2-101 ade3-2 leu2-3,112 ura3-52  T. Huffaker (Cornell University)  EGY40  MATalpha ura3-52 leu2 his3 trp1  Golemis and Brent, 1992  CKY45  MATalpha sec13-1 his4-619 ura3-52  Kaiser Lab Collection  CKY50  MATalpha sec16-2 his4-619 ura3-52  Kaiser Lab Collection  CKY54  MATalpha sec17-1 his4-619 ura3-52  Kaiser Lab Collection  CKY58  MATalpha sec18-1 his4-619 ura3-52  Kaiser Lab Collection  CKY78  MATalpha sec23-1 his4-619 ura3-52  Kaiser Lab Collection  CKY348  MATa/alpha leu2-3/leu2-3 ura3-52/ura3-52  Kaiser Lab Collection  CKY423  MATalpha sec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52 [pKR4]    CKY424  MATasec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52 [pKR4]    CKY426  MATalst1-1sec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52 [pKR4]    CKY435  MATalst1-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY436  MATalst2-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY437  MATalst3-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY438  MATalst4-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY439  MATalst5-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY440  MATalst6-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY441  MATalst7-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY442  MATalst8-1 sec13-1::[SEC13, URA3] ade2-101 ade3-24 leu2-3,112 ura3-52    CKY443  MATa prototroph  Kaiser Lab Collection  CKY473  MATaleu2-3,112 ura3-52 Gal+  Kaiser Lab Collection  CKY534  MATalpha lst1Delta::LEU2 leu2-3,112 ura3-52 [pKR17HA]    CKY535  MATalst1Delta::LEU2 leu2-3,112 ura3-52 [pKR17HA]    CKY536  MATalst1Delta::LEU2 ura3-52 leu2-3,112    CKY540  MATaleu2-3,112 ura3-52 [pNV31]    CKY541  MATasec12-4 ura3-52 [pNV31]    CKY542  MATalst1Delta::LEU2 leu2-3,112 ura3-52 [pNV31]    CKY552  MATalpha lst1Delta::LEU2 leu2-3,112 ura3-52</text>
       <annotation id="Team286_A831">
         <infon key="type">Gene</infon>
-        <location offset="58193" length="35"/>
+        <location offset="58196" length="35"/>
         <text>CUY563  MATaade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A832">
         <infon key="type">Gene</infon>
-        <location offset="58284" length="31"/>
+        <location offset="58287" length="31"/>
         <text>MATalpha ade2-101 ade3-2 leu2-3</text>
       </annotation>
       <annotation id="Team286_A833">
         <infon key="type">Gene</infon>
-        <location offset="58370" length="175"/>
+        <location offset="58373" length="175"/>
         <text>MATalpha ura3-52 leu2 his3 trp1  Golemis and Brent, 1992  CKY45  MATalpha sec13-1 his4-619 ura3-52  Kaiser Lab Collection  CKY50  MATalpha sec16-2 his4-619 ura3-52  Kaiser Lab</text>
       </annotation>
       <annotation id="Team286_A834">
         <infon key="type">Gene</infon>
-        <location offset="58558" length="52"/>
+        <location offset="58561" length="52"/>
         <text>CKY54  MATalpha sec17-1 his4-619 ura3-52  Kaiser Lab</text>
       </annotation>
       <annotation id="Team286_A835">
         <infon key="type">Gene</infon>
-        <location offset="58623" length="117"/>
+        <location offset="58626" length="117"/>
         <text>CKY58  MATalpha sec18-1 his4-619 ura3-52  Kaiser Lab Collection  CKY78  MATalpha sec23-1 his4-619 ura3-52  Kaiser Lab</text>
       </annotation>
       <annotation id="Team286_A836">
         <infon key="type">Gene</infon>
-        <location offset="58753" length="25"/>
+        <location offset="58756" length="25"/>
         <text>CKY348  MATa/alpha leu2-3</text>
       </annotation>
       <annotation id="Team286_A837">
         <infon key="type">Gene</infon>
-        <location offset="58779" length="14"/>
+        <location offset="58782" length="14"/>
         <text>leu2-3 ura3-52</text>
       </annotation>
       <annotation id="Team286_A838">
         <infon key="type">Gene</infon>
-        <location offset="58794" length="158"/>
+        <location offset="58797" length="158"/>
         <text>ura3-52  Kaiser Lab Collection  CKY423  MATalpha sec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52 [pKR4]    CKY424  MATasec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52</text>
       </annotation>
       <annotation id="Team286_A839">
         <infon key="type">Gene</infon>
-        <location offset="58954" length="4"/>
+        <location offset="58957" length="4"/>
         <text>pKR4</text>
       </annotation>
       <annotation id="Team286_A840">
         <infon key="type">Gene</infon>
-        <location offset="58963" length="61"/>
+        <location offset="58966" length="61"/>
         <text>CKY426  MATalst1-1sec13-1 ade2-101 ade3-24 leu2-3,112 ura3-52</text>
       </annotation>
       <annotation id="Team286_A841">
         <infon key="type">Gene</infon>
-        <location offset="59026" length="4"/>
+        <location offset="59029" length="4"/>
         <text>pKR4</text>
       </annotation>
       <annotation id="Team286_A842">
         <infon key="type">Gene</infon>
-        <location offset="59035" length="26"/>
+        <location offset="59038" length="26"/>
         <text>CKY435  MATalst1-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A843">
         <infon key="type">Gene</infon>
-        <location offset="59064" length="5"/>
+        <location offset="59067" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A844">
         <infon key="type">Gene</infon>
-        <location offset="59071" length="4"/>
+        <location offset="59074" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A845">
         <infon key="type">Gene</infon>
-        <location offset="59077" length="23"/>
+        <location offset="59080" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A846">
         <infon key="type">Gene</infon>
-        <location offset="59101" length="3"/>
+        <location offset="59104" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A847">
         <infon key="type">Gene</infon>
-        <location offset="59105" length="37"/>
+        <location offset="59108" length="37"/>
         <text>ura3-52    CKY436  MATalst2-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A848">
         <infon key="type">Gene</infon>
-        <location offset="59145" length="5"/>
+        <location offset="59148" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A849">
         <infon key="type">Gene</infon>
-        <location offset="59152" length="4"/>
+        <location offset="59155" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A850">
         <infon key="type">Gene</infon>
-        <location offset="59158" length="23"/>
+        <location offset="59161" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A851">
         <infon key="type">Gene</infon>
-        <location offset="59182" length="3"/>
+        <location offset="59185" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A852">
         <infon key="type">Gene</infon>
-        <location offset="59186" length="37"/>
+        <location offset="59189" length="37"/>
         <text>ura3-52    CKY437  MATalst3-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A853">
         <infon key="type">Gene</infon>
-        <location offset="59226" length="5"/>
+        <location offset="59229" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A854">
         <infon key="type">Gene</infon>
-        <location offset="59233" length="4"/>
+        <location offset="59236" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A855">
         <infon key="type">Gene</infon>
-        <location offset="59239" length="23"/>
+        <location offset="59242" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A856">
         <infon key="type">Gene</infon>
-        <location offset="59263" length="3"/>
+        <location offset="59266" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A857">
         <infon key="type">Gene</infon>
-        <location offset="59267" length="37"/>
+        <location offset="59270" length="37"/>
         <text>ura3-52    CKY438  MATalst4-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A858">
         <infon key="type">Gene</infon>
-        <location offset="59307" length="5"/>
+        <location offset="59310" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A859">
         <infon key="type">Gene</infon>
-        <location offset="59314" length="4"/>
+        <location offset="59317" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A860">
         <infon key="type">Gene</infon>
-        <location offset="59320" length="23"/>
+        <location offset="59323" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A861">
         <infon key="type">Gene</infon>
-        <location offset="59344" length="3"/>
+        <location offset="59347" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A862">
         <infon key="type">Gene</infon>
-        <location offset="59348" length="37"/>
+        <location offset="59351" length="37"/>
         <text>ura3-52    CKY439  MATalst5-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A863">
         <infon key="type">Gene</infon>
-        <location offset="59388" length="5"/>
+        <location offset="59391" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A864">
         <infon key="type">Gene</infon>
-        <location offset="59395" length="4"/>
+        <location offset="59398" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A865">
         <infon key="type">Gene</infon>
-        <location offset="59401" length="23"/>
+        <location offset="59404" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A866">
         <infon key="type">Gene</infon>
-        <location offset="59425" length="3"/>
+        <location offset="59428" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A867">
         <infon key="type">Gene</infon>
-        <location offset="59429" length="37"/>
+        <location offset="59432" length="37"/>
         <text>ura3-52    CKY440  MATalst6-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A868">
         <infon key="type">Gene</infon>
-        <location offset="59469" length="5"/>
+        <location offset="59472" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A869">
         <infon key="type">Gene</infon>
-        <location offset="59476" length="4"/>
+        <location offset="59479" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A870">
         <infon key="type">Gene</infon>
-        <location offset="59482" length="23"/>
+        <location offset="59485" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A871">
         <infon key="type">Gene</infon>
-        <location offset="59506" length="3"/>
+        <location offset="59509" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A872">
         <infon key="type">Gene</infon>
-        <location offset="59510" length="37"/>
+        <location offset="59513" length="37"/>
         <text>ura3-52    CKY441  MATalst7-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A873">
         <infon key="type">Gene</infon>
-        <location offset="59550" length="5"/>
+        <location offset="59553" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A874">
         <infon key="type">Gene</infon>
-        <location offset="59557" length="4"/>
+        <location offset="59560" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A875">
         <infon key="type">Gene</infon>
-        <location offset="59563" length="23"/>
+        <location offset="59566" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A876">
         <infon key="type">Gene</infon>
-        <location offset="59587" length="3"/>
+        <location offset="59590" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A877">
         <infon key="type">Gene</infon>
-        <location offset="59591" length="37"/>
+        <location offset="59594" length="37"/>
         <text>ura3-52    CKY442  MATalst8-1 sec13-1</text>
       </annotation>
       <annotation id="Team286_A878">
         <infon key="type">Gene</infon>
-        <location offset="59631" length="5"/>
+        <location offset="59634" length="5"/>
         <text>SEC13</text>
       </annotation>
       <annotation id="Team286_A879">
         <infon key="type">Gene</infon>
-        <location offset="59638" length="4"/>
+        <location offset="59641" length="4"/>
         <text>URA3</text>
       </annotation>
       <annotation id="Team286_A880">
         <infon key="type">Gene</infon>
-        <location offset="59644" length="23"/>
+        <location offset="59647" length="23"/>
         <text>ade2-101 ade3-24 leu2-3</text>
       </annotation>
       <annotation id="Team286_A881">
         <infon key="type">Gene</infon>
-        <location offset="59668" length="3"/>
+        <location offset="59671" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A882">
         <infon key="type">Gene</infon>
-        <location offset="59672" length="145"/>
+        <location offset="59675" length="145"/>
         <text>ura3-52    CKY443  MATa prototroph  Kaiser Lab Collection  CKY473  MATaleu2-3,112 ura3-52 Gal+  Kaiser Lab Collection  CKY534  MATalpha lst1Delta</text>
       </annotation>
       <annotation id="Team286_A883">
         <infon key="type">Gene</infon>
-        <location offset="59819" length="58"/>
+        <location offset="59822" length="58"/>
         <text>LEU2 leu2-3,112 ura3-52 [pKR17HA]    CKY535  MATalst1Delta</text>
       </annotation>
       <annotation id="Team286_A884">
         <infon key="type">Gene</infon>
-        <location offset="59879" length="58"/>
+        <location offset="59882" length="58"/>
         <text>LEU2 leu2-3,112 ura3-52 [pKR17HA]    CKY536  MATalst1Delta</text>
       </annotation>
       <annotation id="Team286_A885">
         <infon key="type">Gene</infon>
-        <location offset="59939" length="129"/>
+        <location offset="59942" length="129"/>
         <text>LEU2 ura3-52 leu2-3,112    CKY540  MATaleu2-3,112 ura3-52 [pNV31]    CKY541  MATasec12-4 ura3-52 [pNV31]    CKY542  MATalst1Delta</text>
       </annotation>
       <annotation id="Team286_A886">
         <infon key="type">Gene</infon>
-        <location offset="60070" length="61"/>
+        <location offset="60073" length="61"/>
         <text>LEU2 leu2-3,112 ura3-52 [pNV31]    CKY552  MATalpha lst1Delta</text>
       </annotation>
       <annotation id="Team286_A887">
         <infon key="type">Gene</infon>
-        <location offset="60133" length="11"/>
+        <location offset="60136" length="11"/>
         <text>LEU2 leu2-3</text>
       </annotation>
       <annotation id="Team286_A888">
         <infon key="type">Gene</infon>
-        <location offset="60145" length="3"/>
+        <location offset="60148" length="3"/>
         <text>112</text>
       </annotation>
       <annotation id="Team286_A889">
         <infon key="type">Gene</infon>
-        <location offset="60149" length="7"/>
+        <location offset="60152" length="7"/>
         <text>ura3-52</text>
       </annotation>
     </passage>
@@ -5016,17 +5016,17 @@
       <text>Gene  Number of alleles   LST1  11  LST2   6  LST3   4  LST4   5  LST5   5  LST6   1  LST7   1  LST8   1  LST9   1  LST10 (SEC16)   2</text>
       <annotation id="Team286_A900">
         <infon key="type">Gene</infon>
-        <location offset="60755" length="14"/>
+        <location offset="60758" length="14"/>
         <text>LST1  11  LST2</text>
       </annotation>
       <annotation id="Team286_A901">
         <infon key="type">Gene</infon>
-        <location offset="60775" length="75"/>
+        <location offset="60778" length="75"/>
         <text>LST3   4  LST4   5  LST5   5  LST6   1  LST7   1  LST8   1  LST9   1  LST10</text>
       </annotation>
       <annotation id="Team286_A902">
         <infon key="type">Gene</infon>
-        <location offset="60852" length="5"/>
+        <location offset="60855" length="5"/>
         <text>SEC16</text>
       </annotation>
     </passage>
@@ -5041,27 +5041,27 @@
       <text>sec13-1  sec16-2  sec23-1  sec31-1  sec17-1  sec18-1   lst1-1  -  -  -  -  +  +  lst2-1  -  +  +  +  ND  ND  lst3-1  -  +  +  +  ND  ND  lst4-1  +/-  +  +  +  ND  ND  lst5-1  -  +  +  +  ND  ND  lst6-1  -  +/- -  +  -  +  +  lst7-1  -  +  +  +  ND  ND  lst8-1  -  +  +  +  ND  ND</text>
       <annotation id="Team286_A903">
         <infon key="type">Gene</infon>
-        <location offset="60918" length="76"/>
+        <location offset="60923" length="76"/>
         <text>sec13-1  sec16-2  sec23-1  sec31-1  sec17-1  sec18-1   lst1-1  -  -  -  -  +</text>
       </annotation>
       <annotation id="Team286_A904">
         <infon key="type">Gene</infon>
-        <location offset="60999" length="22"/>
+        <location offset="61004" length="22"/>
         <text>lst2-1  -  +  +  +  ND</text>
       </annotation>
       <annotation id="Team286_A905">
         <infon key="type">Gene</infon>
-        <location offset="61027" length="52"/>
+        <location offset="61032" length="52"/>
         <text>lst3-1  -  +  +  +  ND  ND  lst4-1  +/-  +  +  +  ND</text>
       </annotation>
       <annotation id="Team286_A906">
         <infon key="type">Gene</infon>
-        <location offset="61085" length="53"/>
+        <location offset="61090" length="53"/>
         <text>lst5-1  -  +  +  +  ND  ND  lst6-1  -  +/- -  +  -  +</text>
       </annotation>
       <annotation id="Team286_A907">
         <infon key="type">Gene</infon>
-        <location offset="61143" length="54"/>
+        <location offset="61148" length="54"/>
         <text>lst7-1  -  +  +  +  ND  ND  lst8-1  -  +  +  +  ND  ND</text>
       </annotation>
     </passage>
@@ -5101,87 +5101,87 @@
       </annotation>
       <annotation id="Team286_A912">
         <infon key="type">Gene</infon>
-        <location offset="61575" length="17"/>
+        <location offset="61576" length="17"/>
         <text>lst1Delta mutants</text>
       </annotation>
       <annotation id="Team286_A913">
         <infon key="type">Gene</infon>
-        <location offset="61661" length="4"/>
+        <location offset="61662" length="4"/>
         <text>LEU2</text>
       </annotation>
       <annotation id="Team286_A914">
         <infon key="type">Gene</infon>
-        <location offset="61667" length="6"/>
+        <location offset="61668" length="6"/>
         <text>CKY534</text>
       </annotation>
       <annotation id="Team286_A915">
         <infon key="type">Gene</infon>
-        <location offset="61862" length="4"/>
+        <location offset="61863" length="4"/>
         <text>LEU2</text>
       </annotation>
       <annotation id="Team286_A916">
         <infon key="type">Gene</infon>
-        <location offset="61919" length="6"/>
+        <location offset="61920" length="6"/>
         <text>pRS316</text>
       </annotation>
       <annotation id="Team286_A917">
         <infon key="type">Gene</infon>
-        <location offset="61928" length="4"/>
+        <location offset="61929" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A918">
         <infon key="type">Gene</infon>
-        <location offset="61959" length="5"/>
+        <location offset="61960" length="5"/>
         <text>pKR17</text>
       </annotation>
       <annotation id="Team286_A919">
         <infon key="type">Gene</infon>
-        <location offset="61966" length="5"/>
+        <location offset="61967" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A920">
         <infon key="type">Gene</infon>
-        <location offset="61999" length="5"/>
+        <location offset="62000" length="5"/>
         <text>pAF70</text>
       </annotation>
       <annotation id="Team286_A921">
         <infon key="type">Gene</infon>
-        <location offset="62009" length="5"/>
+        <location offset="62010" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A922">
         <infon key="type">Gene</infon>
-        <location offset="62033" length="5"/>
+        <location offset="62034" length="5"/>
         <text>pKR34</text>
       </annotation>
       <annotation id="Team286_A923">
         <infon key="type">Gene</infon>
-        <location offset="62217" length="5"/>
+        <location offset="62218" length="5"/>
         <text>pGAL1</text>
       </annotation>
       <annotation id="Team286_A924">
         <infon key="type">Gene</infon>
-        <location offset="62223" length="4"/>
+        <location offset="62224" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A925">
         <infon key="type">Gene</infon>
-        <location offset="62229" length="5"/>
+        <location offset="62230" length="5"/>
         <text>pKR35</text>
       </annotation>
       <annotation id="Team286_A926">
         <infon key="type">Gene</infon>
-        <location offset="62274" length="5"/>
+        <location offset="62275" length="5"/>
         <text>pKR35</text>
       </annotation>
       <annotation id="Team286_A927">
         <infon key="type">Gene</infon>
-        <location offset="62284" length="5"/>
+        <location offset="62285" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A928">
         <infon key="type">Gene</infon>
-        <location offset="62308" length="5"/>
+        <location offset="62309" length="5"/>
         <text>pKR41</text>
       </annotation>
     </passage>
@@ -5201,32 +5201,32 @@
       </annotation>
       <annotation id="Team286_A931">
         <infon key="type">Gene</infon>
-        <location offset="62800" length="19"/>
+        <location offset="62801" length="19"/>
         <text>anti-Pma1p antibody</text>
       </annotation>
       <annotation id="Team286_A932">
         <infon key="type">Gene</infon>
-        <location offset="62989" length="6"/>
+        <location offset="62990" length="6"/>
         <text>CKY536</text>
       </annotation>
       <annotation id="Team286_A933">
         <infon key="type">Gene</infon>
-        <location offset="63100" length="18"/>
+        <location offset="63101" length="18"/>
         <text>LST1 plasmid pKR17</text>
       </annotation>
       <annotation id="Team286_A934">
         <infon key="type">Gene</infon>
-        <location offset="63167" length="5"/>
+        <location offset="63168" length="5"/>
         <text>SEC24</text>
       </annotation>
       <annotation id="Team286_A935">
         <infon key="type">Gene</infon>
-        <location offset="63174" length="6"/>
+        <location offset="63175" length="6"/>
         <text>CKY536</text>
       </annotation>
       <annotation id="Team286_A936">
         <infon key="type">Gene</infon>
-        <location offset="63194" length="24"/>
+        <location offset="63195" length="24"/>
         <text>2mu SEC24  plasmid pKR34</text>
       </annotation>
     </passage>
@@ -5246,12 +5246,12 @@
       </annotation>
       <annotation id="Team286_A939">
         <infon key="type">Gene</infon>
-        <location offset="63664" length="9"/>
+        <location offset="63665" length="9"/>
         <text>lst1Delta</text>
       </annotation>
       <annotation id="Team286_A940">
         <infon key="type">Gene</infon>
-        <location offset="63676" length="6"/>
+        <location offset="63677" length="6"/>
         <text>CKY536</text>
       </annotation>
     </passage>
@@ -5441,12 +5441,12 @@
       </annotation>
       <annotation id="Team286_A974">
         <infon key="type">Gene</infon>
-        <location offset="66327" length="8"/>
+        <location offset="66328" length="8"/>
         <text>Lst1p-HA</text>
       </annotation>
       <annotation id="Team286_A975">
         <infon key="type">Gene</infon>
-        <location offset="66386" length="16"/>
+        <location offset="66387" length="16"/>
         <text>anti-HA antibody</text>
       </annotation>
     </passage>
@@ -5466,7 +5466,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI15">
         <infon key="type">PPImention</infon>
-        <location offset="66406" length="45"/>
+        <location offset="66406" length="45" original_offset="0"/>
         <text>Two-Hybrid Interaction between LST1 and SEC23</text>
       </annotation>
     </passage>
@@ -5476,17 +5476,17 @@
       <text>beta-galactosidase activity  LST1  SEC24  No fusion   SEC23  395 +- 8  629 +- 1  24.4 +- 0.1  No fusion  30.4 +- 4.0  25.3 +- 1.4  44.8 +- 5.3</text>
       <annotation id="Team286_A978">
         <infon key="type">Gene</infon>
-        <location offset="66453" length="18"/>
+        <location offset="66458" length="18"/>
         <text>beta-galactosidase</text>
       </annotation>
       <annotation id="Team286_A979">
         <infon key="type">Gene</infon>
-        <location offset="66482" length="4"/>
+        <location offset="66487" length="4"/>
         <text>LST1</text>
       </annotation>
       <annotation id="Team286_A980">
         <infon key="type">Gene</infon>
-        <location offset="66488" length="5"/>
+        <location offset="66493" length="5"/>
         <text>SEC24</text>
       </annotation>
     </passage>
@@ -5601,7 +5601,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI16">
         <infon key="type">PPImention</infon>
-        <location offset="66859" length="97"/>
+        <location offset="66859" length="97" original_offset="0"/>
         <text>Lst1p/-Sec23p complex is membrane associated. (A)  Affinity isolation of Lst1p/-Sec23p complexes.</text>
       </annotation>
     </passage>
@@ -5883,7 +5883,7 @@
       <text>Yeast SEC16gene encodes a multidomain vesicle coat protein that interacts with Sec23p</text>
       <annotation id="TEAM_336_PPI17">
         <infon key="type">PPImention</infon>
-        <location offset="69406" length="85"/>
+        <location offset="69406" length="85" original_offset="0"/>
         <text>Yeast SEC16gene encodes a multidomain vesicle coat protein that interacts with Sec23p</text>
       </annotation>
     </passage>
@@ -5907,7 +5907,7 @@
       <text>SED4encodes a yeast endoplasmic reticulum protein that binds Sec16p and participates in vesicle formation</text>
       <annotation id="TEAM_336_PPI18">
         <infon key="type">PPImention</infon>
-        <location offset="69493" length="105"/>
+        <location offset="69493" length="105" original_offset="0"/>
         <text>SED4encodes a yeast endoplasmic reticulum protein that binds Sec16p and participates in vesicle formation</text>
       </annotation>
     </passage>
@@ -5925,7 +5925,7 @@
       <text>COPII coat subunit interactions: Sec24p and Sec23p bind to adjacent regions of Sec16p</text>
       <annotation id="TEAM_336_PPI19">
         <infon key="type">PPImention</infon>
-        <location offset="69599" length="85"/>
+        <location offset="69599" length="85" original_offset="0"/>
         <text>COPII coat subunit interactions: Sec24p and Sec23p bind to adjacent regions of Sec16p</text>
       </annotation>
     </passage>
@@ -5958,7 +5958,7 @@
       <text>Cdi1, a human G1 and S phase protein phosphatase that associates with Cdk2</text>
       <annotation id="TEAM_336_PPI20">
         <infon key="type">PPImention</infon>
-        <location offset="69735" length="74"/>
+        <location offset="69735" length="74" original_offset="0"/>
         <text>Cdi1, a human G1 and S phase protein phosphatase that associates with Cdk2</text>
       </annotation>
     </passage>

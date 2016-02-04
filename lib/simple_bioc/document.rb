@@ -14,8 +14,8 @@ module SimpleBioC
     end
 
     def find_node(id)
-      relations.each{|r| return r if r.id == id}
-      passages.each do |p|
+      @relations.each{|r| return r if r.id == id}
+      @passages.each do |p|
         ret = p.find_node(id)
         return ret unless ret.nil?
       end
@@ -27,12 +27,12 @@ module SimpleBioC
     end
 
     def each_relation
-      relations.each{|r| yield r}
-      passages.each{|p| p.each_relation{|r| yield r}}
+      @relations.each{|r| yield r}
+      @passages.each{|p| p.each_relation{|r| yield r}}
     end
 
     def to_s
-      "Document:#{id}"
+      "Document:#{@id}"
     end
   end
 end

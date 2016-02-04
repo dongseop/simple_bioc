@@ -15,6 +15,7 @@ module BioCWriter
   end
 
   def write_infon(xml, obj)
+    return if obj.infons.nil?
     obj.infons.each do |k, v| 
       xml.infon(:key => k) {
         xml.text v
@@ -28,7 +29,7 @@ module BioCWriter
       xml.date collection.date
       xml.key collection.key
       write_infon(xml, collection)
-      collection.documents.each{|d| write_document(xml, d)}
+      collection.documents.each{|d| write_document(xml, d)} unless collection.documents.nil?
     }
   end
 
@@ -36,8 +37,8 @@ module BioCWriter
     xml.document {
       xml.id_ document.id
       write_infon(xml, document)
-      document.passages.each{|p| write_passage(xml, p)}
-      document.relations.each{|r| write_relation(xml, r)}
+      document.passages.each{|p| write_passage(xml, p)} unless document.passages.nil?
+      document.relations.each{|r| write_relation(xml, r)} unless document.relations.nil?
     }
   end
 
@@ -46,9 +47,9 @@ module BioCWriter
       write_infon(xml, passage)
       xml.offset passage.offset
       xml.text_ passage.text unless passage.text.nil?
-      passage.annotations.each{|a| write_annotation(xml, a)}
-      passage.sentences.each{|s| write_sentence(xml, s)}
-      passage.relations.each{|r| write_relation(xml, r)}
+      passage.annotations.each{|a| write_annotation(xml, a)} unless passage.annotations.nil?
+      passage.sentences.each{|s| write_sentence(xml, s)} unless passage.sentences.nil?
+      passage.relations.each{|r| write_relation(xml, r)} unless passage.relations.nil?
     }
   end
 
@@ -57,8 +58,8 @@ module BioCWriter
       write_infon(xml, sentence)
       xml.offset sentence.offset
       xml.text_ sentence.text unless sentence.text.nil?
-      sentence.annotations.each{|a| write_annotation(xml, a)}
-      sentence.relations.each{|r| write_relation(xml, r)}
+      sentence.annotations.each{|a| write_annotation(xml, a)} unless sentence.annotations.nil?
+      sentence.relations.each{|r| write_relation(xml, r)} unless sentence.relations.nil?
     }
   end
 
@@ -70,7 +71,7 @@ module BioCWriter
     end
     xml.annotation(attribute) {
       write_infon(xml, annotation)
-      annotation.locations.each{|l| write_location(xml, l)}
+      annotation.locations.each{|l| write_location(xml, l)} unless annotation.locations.nil?
       xml.text_ annotation.text
     }
   end
@@ -83,7 +84,7 @@ module BioCWriter
     end
     xml.relation(attribute) {
       write_infon(xml, relation)
-      relation.nodes.each{|n| write_node(xml, n)}
+      relation.nodes.each{|n| write_node(xml, n)} unless relation.nodes.nil?
     }
   end
 

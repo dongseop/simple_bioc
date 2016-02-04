@@ -6,10 +6,10 @@ module SimpleBioC
 
     def initialize(parent)
       @infons = {}
+      @id = nil
       @document = parent if parent.is_a? Document
       @passage  = parent if parent.is_a? Passage
       @sentence = parent if parent.is_a? Sentence 
-
       @passage  = @sentence.passage unless @sentence.nil?
       @document = @passage.document unless @passage.nil?
     end

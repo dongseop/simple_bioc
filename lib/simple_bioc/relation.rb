@@ -9,7 +9,7 @@ module SimpleBioC
     end
 
     def adjust_ref
-      nodes.each{|n| n.adjust_ref}
+      @nodes.each{|n| n.adjust_ref}
     end
 
     def to_c

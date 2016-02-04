@@ -40,12 +40,16 @@ module BioCReader
   end
 
   def read_infon(xml, obj)
-    xml.xpath("infon").each{ |i| obj.infons[i["key"]] = i.content}
+    ret = xml.xpath("infon")
+    return if ret.nil?
+    ret.each{ |i| obj.infons[i["key"]] = i.content}
   end
 
   def read_recursive(xml, obj, name, options = {})
     target_class = SimpleBioC.const_get(name.capitalize)
-    xml.xpath(name).each do |node|
+    ret = xml.xpath(name)
+    return if ret.nil?
+    ret.each do |node|
       instance = target_class.new(obj)
       ret = send(:"read_#{name}", node, instance, options)
       obj.instance_variable_get(:"@#{name}s")  << instance if ret
