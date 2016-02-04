@@ -7,6 +7,7 @@ module SimpleBioC
         positions = find_all_locations(obj, a.text)
         next a.locations.nil?
         a.locations.each do |l|
+          next if l.nil?
           l.original_offset = l.offset.to_i if l.original_offset.nil?
           l.offset = choose_offset_candidate(l.offset, positions)
         end

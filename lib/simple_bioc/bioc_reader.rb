@@ -52,7 +52,8 @@ module BioCReader
     ret.each do |node|
       instance = target_class.new(obj)
       ret = send(:"read_#{name}", node, instance, options)
-      obj.instance_variable_get(:"@#{name}s")  << instance if ret
+      arr = obj.instance_variable_get(:"@#{name}s")
+      arr  << instance if ret && !arr.nil?
     end
   end
 
