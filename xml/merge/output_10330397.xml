@@ -146,7 +146,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI0">
         <infon key="type">PPImention</infon>
-        <location offset="608" length="94" original_offset="0"/>
+        <location offset="608" length="94"/>
         <text>Like Sec24p, Lst1p is a peripheral ER membrane protein that binds to the COPII subunit Sec23p.</text>
       </annotation>
     </passage>
@@ -326,12 +326,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI1">
         <infon key="type">PPImention</infon>
-        <location offset="3406" length="348" original_offset="0"/>
+        <location offset="3406" length="348"/>
         <text>Membrane-associated Sar1p, in turn, recruits the soluble Sec23p/Sec24p and Sec13p/Sec31p complexes (Matsuoka et al., 1998). Sec16p resides on the ER  membrane and binds to both the Sec23p/Sec24p and  Sec13p/Sec31p complexes, likely organizing their assembly  onto the membrane (Espenshade et al., 1995; Gimeno et al.,  1996; Shaywitz et al., 1997).</text>
       </annotation>
       <annotation id="TEAM_336_PPI2">
         <infon key="type">PPImention</infon>
-        <location offset="3963" length="291" original_offset="0"/>
+        <location offset="3963" length="291"/>
         <text>Association of a membrane-bound complex of Sar1p and  Sec23p/Sec24p with integral membrane proteins indicates  that cargo proteins may laterally partition into the vesicle  membrane by virtue of their affinity for the Sec23p/Sec24p  protein complex (Aridor et al., 1998; Kuehn et al., 1998).</text>
       </annotation>
     </passage>
@@ -1666,7 +1666,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI3">
         <infon key="type">PPImention</infon>
-        <location offset="21609" length="26" original_offset="0"/>
+        <location offset="21609" length="26"/>
         <text>Binding of Lst1p to Sec23p</text>
       </annotation>
     </passage>
@@ -3346,7 +3346,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI4">
         <infon key="type">PPImention</infon>
-        <location offset="44229" length="18" original_offset="0"/>
+        <location offset="44229" length="18"/>
         <text>Lst1p Binds Sec23p</text>
       </annotation>
     </passage>
@@ -3556,12 +3556,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI5">
         <infon key="type">PPImention</infon>
-        <location offset="45031" length="120" original_offset="0"/>
+        <location offset="45031" length="120"/>
         <text>To confirm the interaction between Lst1p and Sec23p,  association of these proteins was examined in yeast cell extracts.</text>
       </annotation>
       <annotation id="TEAM_336_PPI6">
         <infon key="type">PPImention</infon>
-        <location offset="45913" length="90" original_offset="0"/>
+        <location offset="45913" length="90"/>
         <text>Together, these experiments show that Lst1p, like Sec24p,  can form a complex with Sec23p.</text>
       </annotation>
     </passage>
@@ -3801,12 +3801,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI7">
         <infon key="type">PPImention</infon>
-        <location offset="46120" length="213" original_offset="0"/>
+        <location offset="46120" length="213"/>
         <text>While working out conditions to optimize recovery of  Sec23p bound to GST-Lst1p-HA, we discovered that assembly of an Lst1p/Sec23p complex appears to enhance  the association of both proteins with the ER membrane.</text>
       </annotation>
       <annotation id="TEAM_336_PPI8">
         <infon key="type">PPImention</infon>
-        <location offset="47503" length="144" original_offset="0"/>
+        <location offset="47503" length="144"/>
         <text>These data support the observation that Lst1p  can form a complex with Sec23p, and that the Lst1p/ Sec23p complex has affinity for ER membranes.</text>
       </annotation>
     </passage>
@@ -4001,7 +4001,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI9">
         <infon key="type">PPImention</infon>
-        <location offset="48738" length="154" original_offset="0"/>
+        <location offset="48738" length="154"/>
         <text>(III) Lst1p, like Sec24p, can bind to Sec23p  as shown by tests for two-hybrid interaction and affinity purification of a complex of GST-Lst1p and Sec23p.</text>
       </annotation>
     </passage>
@@ -4446,12 +4446,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI10">
         <infon key="type">PPImention</infon>
-        <location offset="55027" length="257" original_offset="0"/>
+        <location offset="55027" length="257"/>
         <text>Using  ER-derived microsomes and purified COPII components,  Kuehn et al. (1998) have shown that the Sec23p/Sec24p  complex, along with Sar1p, associate with amino acid permeases and other integral membrane protein that are destined for the plasma membrane.</text>
       </annotation>
       <annotation id="TEAM_336_PPI11">
         <infon key="type">PPImention</infon>
-        <location offset="55498" length="192" original_offset="0"/>
+        <location offset="55498" length="192"/>
         <text>The conclusion from both experimental systems is that the Sec23p/Sec24p complex contains specific binding sites for the capture of membrane  cargo proteins within the plane of the ER membrane.</text>
       </annotation>
     </passage>
@@ -4531,7 +4531,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI12">
         <infon key="type">PPImention</infon>
-        <location offset="56337" length="495" original_offset="0"/>
+        <location offset="56337" length="495"/>
         <text>In future experiments, it  may be possible to isolate vesicles coated with Lst1p by  performing an in vitro budding reaction using purified cytosolic components, including a purified complex of Lst1p  and Sec23p. It may also be possible to determine whether  vesicles that are formed using a Sec23p/Lst1p complex  more efficiently incorporate Pma1p than vesicles formed  using the Sec23p/Sec24p complex. Finally, it will be of interest to determine if there is direct binding of Lst1p to  Pma1p.</text>
       </annotation>
     </passage>
@@ -4626,12 +4626,12 @@
       </annotation>
       <annotation id="TEAM_336_PPI13">
         <infon key="type">PPImention</infon>
-        <location offset="56999" length="139" original_offset="0"/>
+        <location offset="56999" length="139"/>
         <text>It is  possible that Sec23p/Lst1p complexes act to form a class of  vesicle that is distinct from those formed by Sec23p/ Sec24p complexes.</text>
       </annotation>
       <annotation id="TEAM_336_PPI14">
         <infon key="type">PPImention</infon>
-        <location offset="57403" length="208" original_offset="0"/>
+        <location offset="57403" length="208"/>
         <text>We  have identified a third Sec24p family member, which we  call Iss1p, as a protein that binds to Sec16p. Iss1p  (YNL049c) also binds Sec23p and appears to be associated  with the ER membrane (Gimeno, 1996).</text>
       </annotation>
     </passage>
@@ -5466,7 +5466,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI15">
         <infon key="type">PPImention</infon>
-        <location offset="66406" length="45" original_offset="0"/>
+        <location offset="66406" length="45"/>
         <text>Two-Hybrid Interaction between LST1 and SEC23</text>
       </annotation>
     </passage>
@@ -5601,7 +5601,7 @@
       </annotation>
       <annotation id="TEAM_336_PPI16">
         <infon key="type">PPImention</infon>
-        <location offset="66859" length="97" original_offset="0"/>
+        <location offset="66859" length="97"/>
         <text>Lst1p/-Sec23p complex is membrane associated. (A)  Affinity isolation of Lst1p/-Sec23p complexes.</text>
       </annotation>
     </passage>
@@ -5883,7 +5883,7 @@
       <text>Yeast SEC16gene encodes a multidomain vesicle coat protein that interacts with Sec23p</text>
       <annotation id="TEAM_336_PPI17">
         <infon key="type">PPImention</infon>
-        <location offset="69406" length="85" original_offset="0"/>
+        <location offset="69406" length="85"/>
         <text>Yeast SEC16gene encodes a multidomain vesicle coat protein that interacts with Sec23p</text>
       </annotation>
     </passage>
@@ -5907,7 +5907,7 @@
       <text>SED4encodes a yeast endoplasmic reticulum protein that binds Sec16p and participates in vesicle formation</text>
       <annotation id="TEAM_336_PPI18">
         <infon key="type">PPImention</infon>
-        <location offset="69493" length="105" original_offset="0"/>
+        <location offset="69493" length="105"/>
         <text>SED4encodes a yeast endoplasmic reticulum protein that binds Sec16p and participates in vesicle formation</text>
       </annotation>
     </passage>
@@ -5925,7 +5925,7 @@
       <text>COPII coat subunit interactions: Sec24p and Sec23p bind to adjacent regions of Sec16p</text>
       <annotation id="TEAM_336_PPI19">
         <infon key="type">PPImention</infon>
-        <location offset="69599" length="85" original_offset="0"/>
+        <location offset="69599" length="85"/>
         <text>COPII coat subunit interactions: Sec24p and Sec23p bind to adjacent regions of Sec16p</text>
       </annotation>
     </passage>
@@ -5958,7 +5958,7 @@
       <text>Cdi1, a human G1 and S phase protein phosphatase that associates with Cdk2</text>
       <annotation id="TEAM_336_PPI20">
         <infon key="type">PPImention</infon>
-        <location offset="69735" length="74" original_offset="0"/>
+        <location offset="69735" length="74"/>
         <text>Cdi1, a human G1 and S phase protein phosphatase that associates with Cdk2</text>
       </annotation>
     </passage>
