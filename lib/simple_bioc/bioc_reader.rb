@@ -84,7 +84,6 @@ module BioCReader
     read_recursive(xml, passage, "sentence")
     read_recursive(xml, passage, "annotation")
     read_recursive(xml, passage, "relation")
-    passage.adjust_annotation_offsets
     true
   end
 
@@ -94,7 +93,6 @@ module BioCReader
     read_infon(xml, sentence)
     read_recursive(xml, sentence, "annotation")
     read_recursive(xml, sentence, "relation")
-    sentence.adjust_annotation_offsets
     true
   end
 

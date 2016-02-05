@@ -42,10 +42,6 @@ module SimpleBioC
     BioCReader.read_from_file_or_string(file, options)
   end
 
-  def merge(dest_bioc, src_bioc)
-    return BioCMerger.merge(dest_bioc, src_bioc)
-  end
-
   # parse a BioC XML string and convert it into a collection instance
   # 
   # ==== Arguments

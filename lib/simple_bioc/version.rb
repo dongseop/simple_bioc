@@ -1,3 +1,3 @@
 module SimpleBioC
-  VERSION = "0.0.20"
+  VERSION = "0.0.21"
 end
