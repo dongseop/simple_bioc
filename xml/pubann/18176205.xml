@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>Ab3P gold standard</source>
+  <date>20080529</date>
+  <key>Ab3P_gold.key</key>
+  <document>
+    <id>18176205</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>Improved Viability of Random Pattern Skin Flaps through the Use of Adipose-Derived Stem Cells.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>95</offset>
+      <text>BACKGROUND:: Flap necrosis caused by inadequate blood supply is a common postoperative complication in reconstructive surgery. Because a putative stem cell population within the adipose tissue has been found to possess angiogenic potential, the authors sought to determine whether these cells might selectively induce neovascularization and increase the viability of random pattern skin flaps. METHODS:: Adipose-derived stem cells were isolated from the inguinal fat pads of ICR mice and expanded ex vivo for three passages. After the elevation of cranially based random pattern skin flaps (3 cm long and 1 cm wide), 1,1'-dioctadecyl-3,3,3',3'-tetramethylindocarbocyanine (DiI)-labeled adipose-derived stem cells were then injected into the pedicle base (group A) or 1.5 cm distal to the pedicle (group B). Medium containing no adipose-derived stem cells, mature adipocytes, or basic fibroblast growth factor were injected in three other control groups separately. (n = 10 for each group). Millimetric measurements were taken at postoperative day 7 for evaluation of flap viability. Specimens were harvested for histologic analyses. RESULTS:: Adipose-derived stem cells led to a statistically significant increase in flap viability in both group A and group B compared with the control and the adipocyte groups. Histologic examination also demonstrated a statistically significant increase in capillary density in both group A and group B. Moreover, some of the endothelial cells were stained positively for DiI. CONCLUSIONS:: These findings suggest that adipose-derived stem cells have a potential for enhancing the blood supply of random pattern skin flaps. This mechanism might be both the direct differentiation of adipose-derived stem cells into endothelial cells and the indirect effect of angiogenic growth factor released from adipose-derived stem cells.</text>
+      <annotation id="SF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="768" length="3"/>
+        <text>DiI</text>
+      </annotation>
+      <annotation id="LF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="712" length="54"/>
+        <text>1,1'-dioctadecyl-3,3,3',3'-tetramethylindocarbocyanine</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>

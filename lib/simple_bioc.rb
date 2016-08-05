@@ -2,6 +2,7 @@
 require "simple_bioc/version"
 require "simple_bioc/bioc_reader"
 require "simple_bioc/bioc_writer"
+require "simple_bioc/pub_ann_writer"
 
 # SimpleBioC main library
 module SimpleBioC
@@ -79,5 +80,9 @@ module SimpleBioC
   #    output = SimpleBioC.to_xml(collection, {save_with: 0})
   def to_xml(collection, options = {})
     BioCWriter.write(collection, options)
+  end
+
+  def to_pubann(collection, options = {})
+    PubAnnWriter.write(collection, options)
   end
 end

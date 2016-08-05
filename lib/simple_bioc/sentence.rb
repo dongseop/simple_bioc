@@ -19,6 +19,14 @@ module SimpleBioC
       @relations.each{|r| yield r}
     end
 
+    def all_annotations(ret)
+      @annotations.each{|a| ret << a}
+    end
+
+    def all_relations(ret)
+      @relations.each{|r| ret << r}
+    end
+
     def to_c
       "Sentence @#{@offset}: #{@text}"
     end

@@ -42,7 +42,15 @@ Traverse & Manipulate Data. Data structure are almost the same as the DTD. Pleas
 Build XML text from data
 
     puts SimpleBioC::to_xml(collection)
-  
+
+Convert PubAnnotation JSON from data
+
+    puts SimpleBioC::to_pubann(collection, {
+      sourcedb: 'PubMed', 
+      target: 'http://pubannotation.org/docs/sourcedb/PubMed/sourceid/18034444', 
+      project: 'Ab3P-abbreviations'
+    }))
+
 ## Options
 
 ### Specify set of &lt;document&gt;s to parse

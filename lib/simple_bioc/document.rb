@@ -34,5 +34,22 @@ module SimpleBioC
     def to_s
       "Document:#{@id}"
     end
+
+    def all_texts
+      @passages.map{|p| p.all_texts}.join(" ")
+    end
+
+    def all_annotations
+      ret = []
+      @passages.each{|p| p.all_annotations(ret)}
+      ret
+    end
+
+    def all_relations
+      ret = []
+      @relations.each{|r| ret << r}
+      @passages.each{|p| p.all_relations(ret)}
+      ret
+    end
   end
 end

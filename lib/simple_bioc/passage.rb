@@ -28,5 +28,20 @@ module SimpleBioC
       @relations.each{|r| yield r}
       @sentences.each{|s| s.each_relation{|r| yield r}}
     end
+
+    def all_texts
+      return text unless self.text.nil?
+      @sentences.map{|s| s.text}.join(" ")
+    end
+
+    def all_annotations(ret)
+      @annotations.each{|a| ret << a}
+      @sentences.each{|s| s.all_annotations(ret)}
+    end
+
+    def all_relations(ret)
+      @relations.each{|r| ret << r}
+      @sentences.each{|s| s.all_relations(ret)}
+    end
   end
 end

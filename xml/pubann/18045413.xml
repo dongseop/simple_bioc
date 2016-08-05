@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>Ab3P gold standard</source>
+  <date>20080529</date>
+  <key>Ab3P_gold.key</key>
+  <document>
+    <id>18045413</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>New water disinfection system using UVA light-emitting diodes.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>63</offset>
+      <text>Aim: To evaluate the ability of high-energy ultraviolet A (UVA) light-emitting diode (LED) to inactivate bacteria in water and investigate the inactivating mechanism of UVA irradiation. Methods and Results: We developed a new disinfection device equipped with high-energy UVA-LED. Inactivation of bacteria was determined by colony-forming assay. Vibrio parahaemolyticus, enteropathogenic Escherichia coli, Staphylococcus aureus and Escherichia coli DH5alpha were reduced by greater than 5-log(10) stages within 75 min at 315 J cm(-2) of UVA. Salmonella enteritidis was reduced greater than 4-log(10) stages within 160 min at 672 J cm(-2) of UVA. The formation of 8-hydroxy-2'-deoxyguanosine in UVA-LED irradiated bacteria was 2.6-fold higher than that of UVC-irradiated bacteria at the same inactivation level. Addition of mannitol, a scavenger of hydroxyl radicals (OH( )), or catalase, an enzyme scavenging hydrogen peroxide (H(2)O(2)) to bacterial suspensions significantly suppressed disinfection effect of UVA-LED. Conclusion: This disinfection system has enough ability to inactivate bacteria and OH( ) and H(2)O(2) participates in the disinfection mechanism of UVA irradiation. Significance and Impact of the Study: We newly developed UVA irradiation system and found that UVA alone was able to disinfect the water efficiently. This will become a useful disinfection system.</text>
+      <annotation id="SF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="122" length="3"/>
+        <text>UVA</text>
+      </annotation>
+      <annotation id="LF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="107" length="13"/>
+        <text>ultraviolet A</text>
+      </annotation>
+      <annotation id="SF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="149" length="3"/>
+        <text>LED</text>
+      </annotation>
+      <annotation id="LF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="127" length="20"/>
+        <text>light-emitting diode</text>
+      </annotation>
+      <annotation id="SF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="930" length="5"/>
+        <text>OH( )</text>
+      </annotation>
+      <annotation id="LF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="911" length="17"/>
+        <text>hydroxyl radicals</text>
+      </annotation>
+      <annotation id="SF3">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="991" length="8"/>
+        <text>H(2)O(2)</text>
+      </annotation>
+      <annotation id="LF3">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="972" length="17"/>
+        <text>hydrogen peroxide</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+      <relation id="R1">
+        <infon key="type">ABBR</infon>
+        <node refid="LF1" role="LongForm"/>
+        <node refid="SF1" role="ShortForm"/>
+      </relation>
+      <relation id="R2">
+        <infon key="type">ABBR</infon>
+        <node refid="LF2" role="LongForm"/>
+        <node refid="SF2" role="ShortForm"/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">ABBR</infon>
+        <node refid="LF3" role="LongForm"/>
+        <node refid="SF3" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>

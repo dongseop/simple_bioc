@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>Ab3P gold standard</source>
+  <date>20080529</date>
+  <key>Ab3P_gold.key</key>
+  <document>
+    <id>18077952</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>Microvascular decompression for primary trigeminal neuralgia: long-term effectiveness and prognostic factors in a series of 362 consecutive patients with clear-cut neurovascular conflicts who underwent pure decompression.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>222</offset>
+      <text>OBJECT: The purpose of this study was to evaluate the long-term efficacy of microvascular decompression (MVD) and to identify the factors affecting outcome in patients treated for primary trigeminal neuralgia (TN). Only the cases with a clear-cut neurovascular conflict (vascular contact and/or compression of the root entry zone of the trigeminal nerve) found at surgery and treated with "pure" MVD (decompression of the root without any additional lesioning or cutting of the adjacent rootlets) were retained. METHODS: The study included 362 patients who were followed up over a period of 1 to 18 years (median follow-up 7.2 years). A Kaplan-Meier survival analysis was generated at 1 and 15 years of follow-up for all of the considered factors. According to Kaplan-Meier analysis, the success rate (defined as pain-free patients without any medication) was 91% at 1 year and estimated to be 73.38% after 15 years of follow-up. RESULTS: None of the following patient-related factors played any significant role in prognosis: sex, patient age at surgery, history of systemic hypertension, duration of neuralgia before surgery, or history of failed trigeminal surgery. Patients with atypical neuralgia (a baseline of permanent pain) had the same outcome as those with a typical (purely spasmodic) presentation. In addition, the side and topography of the trigeminal nerve did not play a role, whereas involvement of all three divisions of the nerve had a negative effect on outcome. Concerning anatomical factors, neither the type of the compressive vessel nor its location along or around the root was found to be significant. However, the severity of compression was important-the more severe the degree of compression, the better the outcome (p = 0.002). The authors also found that presence of focal arachnoiditis had a negative influence on outcome (p = 0.002). CONCLUSIONS: Pure MVD can offer patients affected by a primary TN a 73.38% probability of long-term (15 years) cure of neuralgia. The presence of a clear-cut and marked vascular compression at surgery (and possibly-although not yet reliably--on preoperative magnetic resonance imaging) is the guarantee of a higher than 90% success rate.</text>
+      <annotation id="SF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="327" length="3"/>
+        <text>MVD</text>
+      </annotation>
+      <annotation id="LF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="298" length="27"/>
+        <text>microvascular decompression</text>
+      </annotation>
+      <annotation id="SF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="432" length="2"/>
+        <text>TN</text>
+      </annotation>
+      <annotation id="LF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="410" length="20"/>
+        <text>trigeminal neuralgia</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+      <relation id="R1">
+        <infon key="type">ABBR</infon>
+        <node refid="LF1" role="LongForm"/>
+        <node refid="SF1" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>

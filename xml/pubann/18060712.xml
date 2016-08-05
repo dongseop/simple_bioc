@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>Ab3P gold standard</source>
+  <date>20080529</date>
+  <key>Ab3P_gold.key</key>
+  <document>
+    <id>18060712</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>Enhanced resting-state brain activities in ADHD patients: A fMRI study.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>72</offset>
+      <text>Resting-state functional MRI (fMRI) could be an advantageous choice for clinical applications by virtue of its clinical convenience and non-invasiveness. Without explicit stimulus, resting-state brain activity patterns cannot be obtained using any model-driven method. In this study, we advanced a measure named resting-state activity index (RSAI) to evaluate the resting-state brain activities. Using RSAI, we first investigated the resting-state brain activity patterns in normal adolescents to test the validity of this RSAI measure. Then we compared the resting-state brain activity patterns of Attention deficit hyperactivity disorder (ADHD) patients to those of their matched controls. According to the resultant brain activity patterns, we suggest that RSAI could be an applicable measure to evaluate resting-state brain activities. As compared to the controls, the ADHD patients exhibited more significant resting-state activities in basic sensory and sensory-related cortices. This finding was in accordance with ADHD symptoms of inattention.</text>
+      <annotation id="SF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="102" length="4"/>
+        <text>fMRI</text>
+      </annotation>
+      <annotation id="LF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="86" length="14"/>
+        <text>functional MRI</text>
+      </annotation>
+      <annotation id="SF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="414" length="4"/>
+        <text>RSAI</text>
+      </annotation>
+      <annotation id="LF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="384" length="28"/>
+        <text>resting-state activity index</text>
+      </annotation>
+      <annotation id="SF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="713" length="4"/>
+        <text>ADHD</text>
+      </annotation>
+      <annotation id="LF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="671" length="40"/>
+        <text>Attention deficit hyperactivity disorder</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+      <relation id="R1">
+        <infon key="type">ABBR</infon>
+        <node refid="LF1" role="LongForm"/>
+        <node refid="SF1" role="ShortForm"/>
+      </relation>
+      <relation id="R2">
+        <infon key="type">ABBR</infon>
+        <node refid="LF2" role="LongForm"/>
+        <node refid="SF2" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>

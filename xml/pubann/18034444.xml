@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE collection SYSTEM 'BioC.dtd'>
+<collection>
+  <source>Ab3P gold standard</source>
+  <date>20080529</date>
+  <key>Ab3P_gold.key</key>
+  <document>
+    <id>18034444</id>
+    <passage>
+      <infon key="type">title</infon>
+      <offset>0</offset>
+      <text>Rhodium-Complex-Catalyzed Asymmetric Hydrogenation: Transformation of Precatalysts into Active Species.</text>
+    </passage>
+    <passage>
+      <infon key="type">abstract</infon>
+      <offset>104</offset>
+      <text>The use of diolefin-containing rhodium precatalysts leads to induction periods in asymmetric hydrogenation of prochiral olefins. Consequently, the reaction rate increases in the beginning. The induction period is caused by the fact that some of the catalyst is blocked by the diolefin and thus not available for hydrogenation of the prochiral olefin. Therefore, the maximum reaction rate cannot be reached initially. Due to the relatively slow hydrogenation of cyclooctadiene (cod) the share of active catalysts increases at first, and this leads to typical induction periods. The aim of this work is to quantify the hydrogenation of the diolefins cyclooctadiene (cod) and norborna-2,5-diene (nbd) for cationic complexes of the type [Rh(ligand)(diolefin)]BF(4) for the ligands Binap (1,1'-binaphthalene-2,2'-diylbis(phenylphosphine)), Me-Duphos (1,2-bis(2,5-dimethylphospholano)benzene, and Catasium in the solvents methanol, THF, and propylene carbonate. Furthermore, an approach is presented to determine the desired rate constant and the resulting respective pre-hydrogenation time from stoichiometric hydrogenations of the diolefin complexes via UV/Vis spectroscopy. This method is especially useful for very slow diolefin hydrogenations (e.g., cod hydrogenation with the ligands Me-Duphos, Et-Duphos (1,2-bis(2,5-diethylphospholano)benzene), and dppe (1,2-bis(diphenylphosphino)ethane).</text>
+      <annotation id="SF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="581" length="3"/>
+        <text>cod</text>
+      </annotation>
+      <annotation id="LF0">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="565" length="14"/>
+        <text>cyclooctadiene</text>
+      </annotation>
+      <annotation id="SF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="768" length="3"/>
+        <text>cod</text>
+      </annotation>
+      <annotation id="LF1">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="752" length="14"/>
+        <text>cyclooctadiene</text>
+      </annotation>
+      <annotation id="SF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="797" length="3"/>
+        <text>nbd</text>
+      </annotation>
+      <annotation id="LF2">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="777" length="18"/>
+        <text>norborna-2,5-diene</text>
+      </annotation>
+      <annotation id="SF3">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="881" length="5"/>
+        <text>Binap</text>
+      </annotation>
+      <annotation id="LF3">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="888" length="48"/>
+        <text>1,1'-binaphthalene-2,2'-diylbis(phenylphosphine)</text>
+      </annotation>
+      <annotation id="SF4">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">ShortForm</infon>
+        <location offset="1455" length="4"/>
+        <text>dppe</text>
+      </annotation>
+      <annotation id="LF4">
+        <infon key="type">ABBR</infon>
+        <infon key="ABBR">LongForm</infon>
+        <location offset="1461" length="32"/>
+        <text>1,2-bis(diphenylphosphino)ethane</text>
+      </annotation>
+      <relation id="R0">
+        <infon key="type">ABBR</infon>
+        <node refid="LF0" role="LongForm"/>
+        <node refid="SF0" role="ShortForm"/>
+      </relation>
+      <relation id="R1">
+        <infon key="type">ABBR</infon>
+        <node refid="LF1" role="LongForm"/>
+        <node refid="SF1" role="ShortForm"/>
+      </relation>
+      <relation id="R2">
+        <infon key="type">ABBR</infon>
+        <node refid="LF2" role="LongForm"/>
+        <node refid="SF2" role="ShortForm"/>
+      </relation>
+      <relation id="R3">
+        <infon key="type">ABBR</infon>
+        <node refid="LF3" role="LongForm"/>
+        <node refid="SF3" role="ShortForm"/>
+      </relation>
+      <relation id="R4">
+        <infon key="type">ABBR</infon>
+        <node refid="LF4" role="LongForm"/>
+        <node refid="SF4" role="ShortForm"/>
+      </relation>
+    </passage>
+  </document>
+</collection>
