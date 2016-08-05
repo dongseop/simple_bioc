@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_development_dependency("test_xml", ["~> 0.1"])
   spec.add_development_dependency "json-compare", "~> 0.1"
-  spec.add_development_dependency 'yajl-ruby'
+  spec.add_development_dependency "yajl-ruby", "~> 1.2"
 end
