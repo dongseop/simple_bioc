@@ -37,40 +37,41 @@ Parse with a file name (path)
     collection = SimpleBioC::from_xml(filename)
   
 Traverse & Manipulate Data. Data structure are almost the same as the DTD. Please refer [library documents](http://rubydoc.info/gems/simple_bioc/0.0.2/frames) and [the BioC DTD](http://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/BioC/BioCDTD.html).
-
+```ruby
     puts collection.documents[2].passages[0].text
-  
+```
 Build XML text from data
-
+```ruby
     puts SimpleBioC::to_xml(collection)
-
+```
 Convert PubAnnotation JSON from data
 
+```ruby
     puts SimpleBioC::to_pubann(collection, {
       sourcedb: 'PubMed', 
       target: 'http://pubannotation.org/docs/sourcedb/PubMed/sourceid/18034444', 
       project: 'Ab3P-abbreviations'
     }))
-
+```
 ## Options
 
 ### Specify set of &lt;document&gt;s to parse
 
 You can parse only a set of document elements in a large xml document instead of parsing all the document elements. It may decrease the processing time. For example, the following code will return a collection with two documents ("1234", "4567").
-    
+```ruby   
     collection = SimpleBioc::from_xml(filename, {documents: ["1234", "4567"]})
-
+```
 ### No whitespace in output
 
 By default, outputs of SimpleBioC::to_xml() will be formatted with whitespace. If you do not want this whitespace, you should pass 'save_with' option with 0 to the to_xml() function.
-
+```ruby
     puts SimpleBioC::to_xml(collection, {save_with:0})
-
+```
 
 ## Sample
 
 More samples can be found in Samples directory
-
+```ruby
     require 'simple_bioc'
 
     # Sample1: parse, traverse, manipulate, and build BioC data
@@ -104,7 +105,25 @@ More samples can be found in Samples directory
     # build BioC document from data
     xml = SimpleBioC.to_xml(collection)
     puts xml
+```
 
+## Sample2: PubAnnotation Converter (convert_pubann.rb)
+```ruby
+# convert document to PubAnnotation JSON
+require 'simple_bioc'
+
+if ARGF.argv.size < 1
+  puts "usage: ruby convert_pubann.rb {filepath}"
+  exit
+end
+
+collection = SimpleBioC::from_xml(ARGF.argv[0])
+puts SimpleBioC::to_pubann(collection, {
+  sourcedb: 'PubMed', 
+  target: 'http://pubannotation.org/docs/sourcedb/PubMed/sourceid/18034444', 
+  project: 'Ab3P-abbreviations'
+})
+```
 
 ## Contributing
 
