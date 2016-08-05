@@ -7,6 +7,7 @@ SimpleBioC is a simple parser / builder for BioC data format. BioC is a simple X
  * Parse & convert a BioC document to an object instance compatible to BioC DTD
  * Use plain ruby objects for simplicity
  * Build a BioC document from an object instance
+ * Convert BioC to PubAnnotation JSON
  
 
 ## Installation
