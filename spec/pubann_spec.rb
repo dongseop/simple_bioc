@@ -1,5 +1,4 @@
 require 'simple_bioc'
-require 'yajl'
 require 'json-compare'
 require 'test_xml/spec'
 

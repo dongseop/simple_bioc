@@ -22,10 +22,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "jbuilder", "~> 2.3"
 
   spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake", "~> 10.3"
-  spec.add_development_dependency "yard", "~> 0.8"
+  spec.add_development_dependency "rake", ">= 12.3.3"
+  spec.add_development_dependency "yard", ">= 0.9.20"
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_development_dependency("test_xml", ["~> 0.1"])
   spec.add_development_dependency "json-compare", "~> 0.1"
-  spec.add_development_dependency "yajl-ruby", "~> 1.2"
 end

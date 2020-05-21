@@ -25,8 +25,8 @@ module PubAnnWriter
     json.denotations document.all_annotations do |a|
       a.locations.each do |l|
         json.span do 
-          json.begin l.offset
-          json.end l.offset + l.length
+          json.begin l.offset.to_i
+          json.end l.offset.to_i + l.length.to_i
         end
         json.obj a.infons.map{|k,v| v}.join(",")
         json.id a.id unless a.id.nil?
